@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pose_id": "USDG-PULL-V00",
+  "status": "proposal",
+  "batch_id": "WORKSPACE-USDG-V00-PASS02",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Rear-assisted hands-back standing hinge",
+  "source_gate": "REVIEW",
+  "source_complexity_pose": "4",
+  "specification": "GEOMETRY ROOT — [ACTOR_1] is positioned immediately behind [ACTOR_2] in a close rear-aligned standing hinge. [ACTOR_2] bends forward through the hip joints with mild anterior pelvic tilt, a gentle inward lumbar line, and softly flexed knees; avoid a rounded upper/lower-back silhouette. Both actors retain their assigned body and furniture support contacts.\n\nBASE SUPPORT GEOMETRY — USER-SUPPLIED DESIGN CONSTRAINTS, not image-observed: [ACTOR_2] forward-hinges with both arms directed backward rather than reaching forward to a surface. The knees soften and the feet maintain a standing base; the rear partner may maintain an accompanying gentle elbow/waist support, but must not suspend the front participant by the arms. This higher-demand silhouette keeps mild pelvic tilt and lumbar lordosis, not a forced shoulder extension or exaggerated backbend. FRONT SUPPORT: Both feet on [FLOOR]; no front hand, elbow, chest, or wall support; front body weight must be independently borne by the legs, with rear contact only supplementary. REAR SUPPORT: Both feet of [ACTOR_1] supported by [FLOOR]; knees softly flexed.\n\nSTRUCTURAL VARIATION — Baseline support geometry remains unchanged.\n\nV00 REAR ARM DEFAULT — The front partner directs both arms rearward past the outer hip line toward the rear partner's flanks/back, rather than leaving them loosely behind the front torso. The rear partner reaches forward with an upper-arm/shoulder receiving hold. Baseline rear-arm placement; no additional variation angle.\n\nHANDS-BACK PATH — Both front arms continue rearward past the front lateral hip line toward the rear participant's flanks/back. The front remains independently foot-supported.\n\nINHERITANCE AND SUPPORT — Preserve the exact named leg/surface support topology and independent balance anchors from the base. Parent: USDG-PULL-V00. No paired inheritance change.\n\nSOURCE BOUNDARY — User-designed text geometry, no source photograph or demonstrated physical pose; geometry and model fidelity remain untested.\n\n((USDG-PULL-V00))",
+  "approach": "Workspace experimental Pass 02 calibrated from USDG Pass 01 blind QA (6.3/10).",
+  "expected_support": {
+    "A": "both feet flat on floor (soft knees ~150 deg); closer torso alignment without pelvis clipping; tucked elbows; palms at B outer shoulders",
+    "B": "both feet flat on floor (independent weight bearing, NO front support); BOTH arms angle naturally down-back past outer hips onto A's lower outer flanks/hips"
+  },
+  "pass_label": "pass-02",
+  "workspace_experimental": true
+}

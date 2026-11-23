@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "USDG-SURF-V00",
+  "package_timestamp_utc": "20261123T171544Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "9971032c59d142614599b75ab0279c87673c9d804598755ba8190284bed66b81",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "e54b82af40b100aa45712afba60778ab6053b9dff65e81e3cf1e6fa173016597",
+    "pose.json": "0ee714e9ca4fc2d60d00559ca87e95cf5267455a64200ae5f28be561e76665f5",
+    "rig-targets.json": "308dcd9b66e9efe67abffe3cb2e1fbd07c13b0d5653fcd11174112bd4bdec8a7"
+  }
+}

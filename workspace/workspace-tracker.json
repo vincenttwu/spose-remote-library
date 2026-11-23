@@ -13,7 +13,7 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T17:12:01Z",
+  "updated_utc": "2026-11-23T17:22:03Z",
   "families": {
     "UFDG": {
       "passes": {
@@ -500,6 +500,90 @@
           "audit_completed": true,
           "audit_score": 6.3,
           "audit_notes": "USDG Pass 01 blind QA: 6.3/10 (WALL 7.5, SURF 6.5, EDGE 6.0, PULL 6.0, LOW 5.5). Strongest Pass 01 start yet; zero shoulder bleed-through and clean 5-pose differentiation. Pass 02 targets pelvis-to-buttocks clip, LOW deep fold with high hips, EDGE deeper hinge, and PULL lower arm path.",
+          "promoted": false,
+          "promotion_ref": null
+        },
+        "pass-02": {
+          "pass_dir": "batches/USDG/pass-02",
+          "status": "audited",
+          "plan_file": "batches/USDG/pass-02/plan.json",
+          "audit_md": "batches/USDG/pass-02/AUDIT.md",
+          "pass_summary": "batches/USDG/pass-02/pass-summary.json",
+          "audit_bundle_zip": "batches/USDG/pass-02/audit-bundle.zip",
+          "package_count": 5,
+          "packages": [
+            {
+              "file": "batches/USDG/pass-02/packages/USDG-EDGE-V00_20261123T171544Z.zip",
+              "pose_id": "USDG-EDGE-V00",
+              "sha256": "7bb65786424b69cd198ca0f8521b8250feb6d39fb319d6f6f1368edfafcf1da8",
+              "bytes": 3755
+            },
+            {
+              "file": "batches/USDG/pass-02/packages/USDG-LOW-V00_20261123T171544Z.zip",
+              "pose_id": "USDG-LOW-V00",
+              "sha256": "8f47b28613a3f9167dd822f273d712cec0cbcb77ce18199701fb1197f15d8e88",
+              "bytes": 3848
+            },
+            {
+              "file": "batches/USDG/pass-02/packages/USDG-PULL-V00_20261123T171544Z.zip",
+              "pose_id": "USDG-PULL-V00",
+              "sha256": "663457a5a90e1a6f0028e32d88d39547286e6cd93be2347d3455eb872c465a8c",
+              "bytes": 3845
+            },
+            {
+              "file": "batches/USDG/pass-02/packages/USDG-SURF-V00_20261123T171544Z.zip",
+              "pose_id": "USDG-SURF-V00",
+              "sha256": "4847edfa11d1904fd6d1cc353a1264c349a5a0a3a5e23de98f9fda87e51f4296",
+              "bytes": 3787
+            },
+            {
+              "file": "batches/USDG/pass-02/packages/USDG-WALL-V00_20261123T171544Z.zip",
+              "pose_id": "USDG-WALL-V00",
+              "sha256": "cf373269f412d55b6bbd7ca3be2f8fc0f664fc1432b2142976dcfad22c576b01",
+              "bytes": 3778
+            }
+          ],
+          "rendered_count": 5,
+          "renders": {
+            "USDG-EDGE-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/USDG/pass-02/renders/USDG-EDGE-V00/blender-result.json"
+            },
+            "USDG-LOW-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/USDG/pass-02/renders/USDG-LOW-V00/blender-result.json"
+            },
+            "USDG-PULL-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/USDG/pass-02/renders/USDG-PULL-V00/blender-result.json"
+            },
+            "USDG-SURF-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/USDG/pass-02/renders/USDG-SURF-V00/blender-result.json"
+            },
+            "USDG-WALL-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/USDG/pass-02/renders/USDG-WALL-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 6.88,
+          "audit_notes": "Blind QA 6.88/10 (+0.58 vs Pass 01): PULL 8.0 (+2.0), WALL 7.9 (+0.4), EDGE 6.8 (+0.8), SURF 6.3 (-0.2), LOW 5.4 (-0.1, 1 P0). Needs Pass 03 for A-chest-to-B-buttocks clip, locked 179.7 deg B knees, and A-fingertip deltoid clip.",
           "promoted": false,
           "promotion_ref": null
         }

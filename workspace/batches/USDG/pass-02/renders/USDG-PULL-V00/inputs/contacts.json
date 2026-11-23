@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "anchors": [
+    {
+      "id": "pelvis_proximity",
+      "actor": "A",
+      "bone": "hips",
+      "target_actor": "B",
+      "target_bone": "hips",
+      "tolerance_m": 0.45
+    },
+    {
+      "id": "left_rear_palm_to_front_outer_shoulder",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.L",
+      "tolerance_m": 0.24
+    },
+    {
+      "id": "right_rear_palm_to_front_outer_shoulder",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.R",
+      "tolerance_m": 0.24
+    },
+    {
+      "id": "front_left_hand_to_rear_flank",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "target_actor": "A",
+      "target_bone": "hips",
+      "tolerance_m": 0.34
+    },
+    {
+      "id": "front_right_hand_to_rear_flank",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "target_actor": "A",
+      "target_bone": "hips",
+      "tolerance_m": 0.34
+    }
+  ],
+  "note": "USDG-PULL-V00 Pass 02: lowered B rearward arm path cleanly past outer hips (zero hyperextension), zero pelvis clip."
+}

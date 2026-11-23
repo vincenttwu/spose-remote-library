@@ -1,0 +1,370 @@
+{
+  "rendered": true,
+  "template": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "checks": {
+    "pair_objects_present": true,
+    "rig_runtime_version": "5.2.2 LTS",
+    "engine": "rigify_floor_v2",
+    "applied_control_count": 26,
+    "floor_calibration": [
+      {
+        "actor": "B",
+        "region": "feet",
+        "side": "L",
+        "adjust_bone": "foot_ik.L",
+        "before_z_m": 0.000136,
+        "after_z_m": 0.003986,
+        "shift_m": 0.003864,
+        "tolerance_m": 0.025,
+        "in_tolerance": true
+      },
+      {
+        "actor": "B",
+        "region": "feet",
+        "side": "R",
+        "adjust_bone": "foot_ik.R",
+        "before_z_m": 0.000135,
+        "after_z_m": 0.003986,
+        "shift_m": 0.003865,
+        "tolerance_m": 0.025,
+        "in_tolerance": true
+      },
+      {
+        "actor": "A",
+        "region": "feet",
+        "side": "L",
+        "adjust_bone": "foot_ik.L",
+        "before_z_m": 2.8e-05,
+        "after_z_m": 0.003986,
+        "shift_m": 0.003972,
+        "tolerance_m": 0.025,
+        "in_tolerance": true
+      },
+      {
+        "actor": "A",
+        "region": "feet",
+        "side": "R",
+        "adjust_bone": "foot_ik.R",
+        "before_z_m": 2.8e-05,
+        "after_z_m": 0.003986,
+        "shift_m": 0.003972,
+        "tolerance_m": 0.025,
+        "in_tolerance": true
+      }
+    ],
+    "posture_heights": {
+      "A": {
+        "hip_z_m": 1.12786,
+        "knee_L_z_m": 0.55735,
+        "knee_R_z_m": 0.55735,
+        "knee_L_angle_deg": 151.65,
+        "knee_R_angle_deg": 151.65,
+        "head_z_m": 1.44202
+      },
+      "B": {
+        "hip_z_m": 1.04461,
+        "knee_L_z_m": 0.53658,
+        "knee_R_z_m": 0.53658,
+        "knee_L_angle_deg": 151.64,
+        "knee_R_angle_deg": 151.64,
+        "head_z_m": 1.29454
+      }
+    },
+    "geometry": {
+      "supports": {
+        "B/feet/L": {
+          "measured_z_m": 0.00399,
+          "target_z_m": 0.004,
+          "tolerance_m": 0.028,
+          "pass": true
+        },
+        "B/feet/R": {
+          "measured_z_m": 0.00399,
+          "target_z_m": 0.004,
+          "tolerance_m": 0.028,
+          "pass": true
+        },
+        "A/feet/L": {
+          "measured_z_m": 0.00399,
+          "target_z_m": 0.004,
+          "tolerance_m": 0.028,
+          "pass": true
+        },
+        "A/feet/R": {
+          "measured_z_m": 0.00399,
+          "target_z_m": 0.004,
+          "tolerance_m": 0.028,
+          "pass": true
+        }
+      },
+      "postures": {
+        "A": {
+          "kind": "standing",
+          "legs": {
+            "L": {
+              "knee_z_m": 0.5574,
+              "angle_deg": 151.65
+            },
+            "R": {
+              "knee_z_m": 0.5574,
+              "angle_deg": 151.65
+            }
+          },
+          "hip_z_m": 1.12786,
+          "head_z_m": 1.44202
+        },
+        "B": {
+          "kind": "standing",
+          "legs": {
+            "L": {
+              "knee_z_m": 0.5366,
+              "angle_deg": 151.64
+            },
+            "R": {
+              "knee_z_m": 0.5366,
+              "angle_deg": 151.64
+            }
+          },
+          "hip_z_m": 1.04461,
+          "head_z_m": 1.29454
+        }
+      },
+      "body_min_z_m": {
+        "A": 0.00399,
+        "B": 0.00399
+      },
+      "limits": {},
+      "contact_proxies": [
+        {
+          "id": "pelvis_proximity",
+          "distance_m": 0.36711,
+          "tolerance_m": 0.45,
+          "proxy_in_tolerance": true
+        },
+        {
+          "id": "left_rear_palm_to_front_outer_shoulder",
+          "distance_m": 0.15108,
+          "tolerance_m": 0.24,
+          "proxy_in_tolerance": true
+        },
+        {
+          "id": "right_rear_palm_to_front_outer_shoulder",
+          "distance_m": 0.15108,
+          "tolerance_m": 0.24,
+          "proxy_in_tolerance": true
+        },
+        {
+          "id": "front_left_hand_to_rear_flank",
+          "distance_m": 0.28496,
+          "tolerance_m": 0.34,
+          "proxy_in_tolerance": true
+        },
+        {
+          "id": "front_right_hand_to_rear_flank",
+          "distance_m": 0.28496,
+          "tolerance_m": 0.34,
+          "proxy_in_tolerance": true
+        }
+      ],
+      "calibration": [
+        {
+          "actor": "B",
+          "region": "feet",
+          "side": "L",
+          "adjust_bone": "foot_ik.L",
+          "before_z_m": 0.000136,
+          "after_z_m": 0.003986,
+          "shift_m": 0.003864,
+          "tolerance_m": 0.025,
+          "in_tolerance": true
+        },
+        {
+          "actor": "B",
+          "region": "feet",
+          "side": "R",
+          "adjust_bone": "foot_ik.R",
+          "before_z_m": 0.000135,
+          "after_z_m": 0.003986,
+          "shift_m": 0.003865,
+          "tolerance_m": 0.025,
+          "in_tolerance": true
+        },
+        {
+          "actor": "A",
+          "region": "feet",
+          "side": "L",
+          "adjust_bone": "foot_ik.L",
+          "before_z_m": 2.8e-05,
+          "after_z_m": 0.003986,
+          "shift_m": 0.003972,
+          "tolerance_m": 0.025,
+          "in_tolerance": true
+        },
+        {
+          "actor": "A",
+          "region": "feet",
+          "side": "R",
+          "adjust_bone": "foot_ik.R",
+          "before_z_m": 2.8e-05,
+          "after_z_m": 0.003986,
+          "shift_m": 0.003972,
+          "tolerance_m": 0.025,
+          "in_tolerance": true
+        }
+      ],
+      "head_aim": {
+        "enabled": true,
+        "actor": "B",
+        "requested_elevation_deg": 6.0,
+        "neck_assist_enabled": false,
+        "sampled_delta_neck_x_deg": 0.0,
+        "sampled_delta_x_deg": -41.25,
+        "before": {
+          "vector_world": [
+            0.0,
+            -0.766044,
+            -0.642788
+          ],
+          "elevation_deg": -40.0,
+          "forward_dot_minus_y": 0.76604,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        },
+        "after": {
+          "vector_world": [
+            0.0,
+            -0.999762,
+            0.021815
+          ],
+          "elevation_deg": 1.25,
+          "forward_dot_minus_y": 0.99976,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        },
+        "candidate_count": 9,
+        "achieved": true,
+        "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+      },
+      "head_gaze_measured": {
+        "vector_world": [
+          0.0,
+          -0.999762,
+          0.021815
+        ],
+        "elevation_deg": 1.25,
+        "forward_dot_minus_y": 0.99976,
+        "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+      },
+      "pelvic_alignment": {
+        "applied": true,
+        "actor": "A",
+        "target_actor": "B",
+        "distance_history_m": [
+          0.079776
+        ],
+        "rear_forward_shift_m": 0.0,
+        "closest_pelvis_distance_m": 0.079776,
+        "target_distance_m": 0.085,
+        "diagnostic_only": true
+      },
+      "palm_surface_contact": {
+        "enabled": false,
+        "reason": "No palm surface plan"
+      },
+      "final_support_calibration": []
+    },
+    "hard_gate_pass": true,
+    "approval": "NOT_REVIEWED"
+  },
+  "contact_checks": {
+    "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+    "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+    "mesh_sample": {
+      "min_distance_m": 0.004443,
+      "p01_distance_m": 0.015723,
+      "samples_under_1cm": 20
+    },
+    "anchors": [
+      {
+        "id": "pelvis_proximity",
+        "distance_m": 0.36711,
+        "tolerance_m": 0.45,
+        "proxy_in_tolerance": true
+      },
+      {
+        "id": "left_rear_palm_to_front_outer_shoulder",
+        "distance_m": 0.15108,
+        "tolerance_m": 0.24,
+        "proxy_in_tolerance": true
+      },
+      {
+        "id": "right_rear_palm_to_front_outer_shoulder",
+        "distance_m": 0.15108,
+        "tolerance_m": 0.24,
+        "proxy_in_tolerance": true
+      },
+      {
+        "id": "front_left_hand_to_rear_flank",
+        "distance_m": 0.28496,
+        "tolerance_m": 0.34,
+        "proxy_in_tolerance": true
+      },
+      {
+        "id": "front_right_hand_to_rear_flank",
+        "distance_m": 0.28496,
+        "tolerance_m": 0.34,
+        "proxy_in_tolerance": true
+      }
+    ],
+    "palm_surface_contact": {
+      "enabled": false,
+      "reason": "No palm surface plan"
+    },
+    "head_aim": {
+      "enabled": true,
+      "actor": "B",
+      "requested_elevation_deg": 6.0,
+      "neck_assist_enabled": false,
+      "sampled_delta_neck_x_deg": 0.0,
+      "sampled_delta_x_deg": -41.25,
+      "before": {
+        "vector_world": [
+          0.0,
+          -0.766044,
+          -0.642788
+        ],
+        "elevation_deg": -40.0,
+        "forward_dot_minus_y": 0.76604,
+        "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+      },
+      "after": {
+        "vector_world": [
+          0.0,
+          -0.999762,
+          0.021815
+        ],
+        "elevation_deg": 1.25,
+        "forward_dot_minus_y": 0.99976,
+        "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+      },
+      "candidate_count": 9,
+      "achieved": true,
+      "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+    },
+    "head_gaze": {
+      "vector_world": [
+        0.0,
+        -0.999762,
+        0.021815
+      ],
+      "elevation_deg": 1.25,
+      "forward_dot_minus_y": 0.99976,
+      "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+    }
+  },
+  "previews": [
+    "front",
+    "qa-regions",
+    "side",
+    "three-quarter"
+  ],
+  "issues": []
+}

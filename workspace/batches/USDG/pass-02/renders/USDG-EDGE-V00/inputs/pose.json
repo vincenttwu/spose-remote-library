@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pose_id": "USDG-EDGE-V00",
+  "status": "proposal",
+  "batch_id": "WORKSPACE-USDG-V00-PASS02",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Edge-supported standing hinge",
+  "source_gate": "PASS",
+  "source_complexity_pose": "3",
+  "specification": "GEOMETRY ROOT — [ACTOR_1] is positioned immediately behind [ACTOR_2] in a close rear-aligned standing hinge. [ACTOR_2] bends forward through the hip joints with mild anterior pelvic tilt, a gentle inward lumbar line, and softly flexed knees; avoid a rounded upper/lower-back silhouette. Both actors retain their assigned body and furniture support contacts.\n\nBASE SUPPORT GEOMETRY — USER-SUPPLIED DESIGN CONSTRAINTS, not image-observed: [ACTOR_2] hinges forward with arms reaching to a waist-height horizontal edge; palms brace the edge, elbows soft, shoulders forward. The trunk angles diagonally down while the hips remain higher than the chest. [ACTOR_1] stands close behind with soft knees. The surface bears hand loading, not the entire chest. FRONT SUPPORT: Both feet on [FLOOR]; both palms on a stable waist-height [HORIZONTAL_EDGE_SURFACE] to share forward torso load. REAR SUPPORT: Both feet of [ACTOR_1] supported by [FLOOR]; knees softly flexed.\n\nSTRUCTURAL VARIATION — Baseline support geometry remains unchanged.\n\nV00 REAR ARM DEFAULT — Both rear forearms travel forward outside the front upper arms; the palms settle near the outer shoulders/upper arms and turn inward, keeping the two upper torsos closely aligned. Baseline rear-arm placement; no additional variation angle.\n\nCONTACT ARRANGEMENT — Two rear arms may be used for shoulder, underarm or chest-level routes; at forehead, mouth-line or neck-side destinations, one rear hand takes the upper destination and the other makes a single opposite-side hip cup.\n\nINHERITANCE AND SUPPORT — Preserve the exact named leg/surface support topology and independent balance anchors from the base. Parent: USDG-EDGE-V00. No paired inheritance change.\n\nSOURCE BOUNDARY — User-designed text geometry, no source photograph or demonstrated physical pose; geometry and model fidelity remain untested.\n\n((USDG-EDGE-V00))",
+  "approach": "Workspace experimental Pass 02 calibrated from USDG Pass 01 blind QA (6.3/10).",
+  "expected_support": {
+    "A": "both feet flat on floor (soft knees ~150 deg); close torso alignment without pelvis clipping; tucked elbows; palms at B outer shoulders",
+    "B": "both feet flat on floor (soft knees ~155 deg); hips clearly higher than chest with gentle lumbar arch; soft-elbow palm brace on ~0.80m horizontal edge"
+  },
+  "pass_label": "pass-02",
+  "workspace_experimental": true
+}
