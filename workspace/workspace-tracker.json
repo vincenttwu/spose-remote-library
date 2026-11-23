@@ -13,7 +13,7 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T15:33:12Z",
+  "updated_utc": "2026-11-23T15:43:18Z",
   "families": {
     "UFDG": {
       "passes": {
@@ -98,6 +98,90 @@
           "audit_completed": true,
           "audit_score": 4.7,
           "audit_notes": "Independent blind QA audit: 5/5 rendered; P0 fixes needed on WCHD (hand-arm clip + face floor clip), ELBW (floating elbows), FFRG (forearm-knee clip); deepen A squat and refine palms in Pass 02.",
+          "promoted": false,
+          "promotion_ref": null
+        },
+        "pass-02": {
+          "pass_dir": "batches/UFDG/pass-02",
+          "status": "audited",
+          "plan_file": "batches/UFDG/pass-02/plan.json",
+          "audit_md": "batches/UFDG/pass-02/AUDIT.md",
+          "pass_summary": "batches/UFDG/pass-02/pass-summary.json",
+          "audit_bundle_zip": "batches/UFDG/pass-02/audit-bundle.zip",
+          "package_count": 5,
+          "packages": [
+            {
+              "file": "batches/UFDG/pass-02/packages/UFDG-ELBW-V00_20261123T153745Z.zip",
+              "pose_id": "UFDG-ELBW-V00",
+              "sha256": "a6d56eb5e0715d88101161ebdad080320a703598e099200472ea26b691a640df",
+              "bytes": 3786
+            },
+            {
+              "file": "batches/UFDG/pass-02/packages/UFDG-FFRG-V00_20261123T153745Z.zip",
+              "pose_id": "UFDG-FFRG-V00",
+              "sha256": "b14cccb439e5b279b8fc18b8462e130a0b1929e53ad43228774ca7f15f01415a",
+              "bytes": 3711
+            },
+            {
+              "file": "batches/UFDG/pass-02/packages/UFDG-FWCH-V00_20261123T153745Z.zip",
+              "pose_id": "UFDG-FWCH-V00",
+              "sha256": "86dc0c017434914fa51c9a56071b44a9a712abb3892769ecbcb8150e5dc5333e",
+              "bytes": 3753
+            },
+            {
+              "file": "batches/UFDG/pass-02/packages/UFDG-QUAD-V00_20261123T153745Z.zip",
+              "pose_id": "UFDG-QUAD-V00",
+              "sha256": "305e9ba7f426d45a5c746f7625f2f2a9370f8e21a4f527e97841793218de2d98",
+              "bytes": 3746
+            },
+            {
+              "file": "batches/UFDG/pass-02/packages/UFDG-WCHD-V00_20261123T153745Z.zip",
+              "pose_id": "UFDG-WCHD-V00",
+              "sha256": "4395f0596b6bf0b0326dc2e04a9b5a29443b86c04f67821b45cd91b5a8e0c4ef",
+              "bytes": 3787
+            }
+          ],
+          "rendered_count": 5,
+          "renders": {
+            "UFDG-ELBW-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-02/renders/UFDG-ELBW-V00/blender-result.json"
+            },
+            "UFDG-FFRG-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-02/renders/UFDG-FFRG-V00/blender-result.json"
+            },
+            "UFDG-FWCH-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-02/renders/UFDG-FWCH-V00/blender-result.json"
+            },
+            "UFDG-QUAD-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-02/renders/UFDG-QUAD-V00/blender-result.json"
+            },
+            "UFDG-WCHD-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-02/renders/UFDG-WCHD-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 6.7,
+          "audit_notes": "Pass 02 blind QA: 6.7/10 (+2.0 vs Pass 01). All Pass 01 P0s solved (ELBW 7.5, WCHD 6.8, FWCH 6.8, FFRG 6.8); targeted Pass 03 needed for A face-to-back clip (severe in QUAD 5.5) and B flat floor palms.",
           "promoted": false,
           "promotion_ref": null
         }

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UFDG-ELBW-V00",
+  "package_timestamp_utc": "20261123T153745Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "87f8a2f07dc9ba7f1ccc5052f89e3feb862760a949f8e26fc848cb351e7cc598",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "9eff5c9b4d1bfc600dc4f39136440df8ed473da3e9cf4240edd4a00473d04769",
+    "pose.json": "ae71c4f6aa87ffab1bcd68502d1148e601ecc901c479a3593b56204af8282d97",
+    "rig-targets.json": "106eb4d871821f7108c73060327995c3ff8bcde8263812270ded09ccde784de6"
+  }
+}
