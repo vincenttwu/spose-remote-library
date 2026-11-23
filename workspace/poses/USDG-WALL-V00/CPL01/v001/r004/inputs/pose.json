@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pose_id": "USDG-WALL-V00",
+  "status": "proposal",
+  "batch_id": "WORKSPACE-BATCH-0003-PASS-04",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Wall-supported standing hinge",
+  "source_gate": "PASS",
+  "source_complexity_pose": "3",
+  "specification": "GEOMETRY ROOT — [ACTOR_1] is positioned immediately behind [ACTOR_2] in a close rear-aligned standing hinge. [ACTOR_2] bends forward through the hip joints with mild anterior pelvic tilt, a gentle inward lumbar line, and softly flexed knees; avoid a rounded upper/lower-back silhouette. Both actors retain their assigned body and furniture support contacts.\n\nBASE SUPPORT GEOMETRY — USER-SUPPLIED DESIGN CONSTRAINTS, not image-observed: [ACTOR_2] leans forward from the hips and braces both palms on a vertical wall, arms approximately level/parallel to the floor in V00. The wall supplies forward hand resistance while the front feet remain on the floor. Variations may raise the arm direction around 30 degrees above level without moving the hands onto a horizontal surface. [ACTOR_1] stays close behind. FRONT SUPPORT: Both feet on [FLOOR]; both palms on [VERTICAL_SURFACE] at roughly shoulder height, with front arms approximately parallel to [FLOOR]. REAR SUPPORT: Both feet of [ACTOR_1] supported by [FLOOR]; knees softly flexed.\n\nSTRUCTURAL VARIATION — Baseline support geometry remains unchanged.\n\nV00 REAR ARM DEFAULT — Both rear forearms travel forward outside the front upper arms; the palms settle near the outer shoulders/upper arms and turn inward, keeping the two upper torsos closely aligned. Baseline rear-arm placement; no additional variation angle.\n\nCONTACT ARRANGEMENT — Two rear arms may be used for shoulder, underarm or chest-level routes; at forehead, mouth-line or neck-side destinations, one rear hand takes the upper destination and the other makes a single opposite-side hip cup.\n\nINHERITANCE AND SUPPORT — Preserve the exact named leg/surface support topology and independent balance anchors from the base. Parent: USDG-WALL-V00. No paired inheritance change.\n\nSOURCE BOUNDARY — User-designed text geometry, no source photograph or demonstrated physical pose; geometry and model fidelity remain untested.\n\n((USDG-WALL-V00))",
+  "approach": "Workspace batch-0003 Pass 04: lower front pelvis slightly below rear via relaxed deeper B knee bend (~133-137 deg) + LOW chest-clearance & fold fix.",
+  "expected_support": {
+    "A": "both feet flat on floor (relaxed knees ~147 deg); pelvis cupping cleanly above B's lower-set hips; extended tucked arms on B outer deltoids",
+    "B": "both feet flat on floor (slightly deeper knee bend ~133 deg lowering front pelvis below rear); ~90 deg hinge reaching forward level onto vertical wall (y=-0.85m, z=0.965m)"
+  },
+  "pass_label": "pass-04",
+  "workspace_experimental": true
+}

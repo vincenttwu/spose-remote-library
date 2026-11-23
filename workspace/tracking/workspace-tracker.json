@@ -13,14 +13,14 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T17:28:48Z",
-  "updated_utc": "2026-11-23T17:52:51Z",
+  "updated_utc": "2026-11-23T18:10:06Z",
   "active_exchange": {
     "batch_label": "batch-0003",
-    "pass_label": "pass-03",
+    "pass_label": "pass-04",
     "family": "USDG",
-    "snapshot_dir": "snapshots/batch-0003-pass-03_20261123T174738Z",
-    "feedback_zip": "snapshots/batch-0003-pass-03_20261123T174738Z/spose-workspace-feedback-batch-0003-pass-03_20261123T175250Z.zip",
-    "activated_utc": "2026-11-23T17:52:50Z"
+    "snapshot_dir": "snapshots/batch-0003-pass-04_20261123T180510Z",
+    "feedback_zip": "snapshots/batch-0003-pass-04_20261123T180510Z/spose-workspace-feedback-batch-0003-pass-04_20261123T181004Z.zip",
+    "activated_utc": "2026-11-23T18:10:05Z"
   },
   "batches": {
     "batch-0001": {
@@ -552,6 +552,70 @@
           "audit_notes": "Blind QA 8.24/10 (+1.36 vs Pass 02, 0 P0 / 1 P1): WALL 8.9, PULL 8.7, SURF 8.6, EDGE 8.3 (all 4 promotion-ready with pelvis cupping, relaxed knees, extended tucked A arms, and WALL ~90 deg bend), LOW 6.7 (1 P1 A-lower-chest clip + fold flag).",
           "promoted": false,
           "promotion_ref": null
+        },
+        "pass-04": {
+          "pass_label": "pass-04",
+          "status": "audited",
+          "plan_file": "batches/BATCH-0003-PASS-04.json",
+          "snapshot_dir": "snapshots/batch-0003-pass-04_20261123T180510Z",
+          "run_utc": "2026-11-23T18:05:10Z",
+          "batch_summary": "snapshots/batch-0003-pass-04_20261123T180510Z/batch-summary.json",
+          "audit_md": "snapshots/batch-0003-pass-04_20261123T180510Z/AUDIT.md",
+          "feedback_zip": "snapshots/batch-0003-pass-04_20261123T180510Z/spose-workspace-feedback-batch-0003-pass-04_20261123T181004Z.zip",
+          "pose_count": 5,
+          "rendered_count": 5,
+          "pose_revisions": {
+            "USDG-EDGE-V00": {
+              "revision": "r004",
+              "revision_path": "poses/USDG-EDGE-V00/CPL01/v001/r004",
+              "package": "USDG-EDGE-V00_20261123T180422Z.zip",
+              "package_sha256": "2fe12eeba4ee0b0c5ac18a7c6d7bf5d87e2f561a3d186ab60d460e31e2d070da",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "USDG-SURF-V00": {
+              "revision": "r004",
+              "revision_path": "poses/USDG-SURF-V00/CPL01/v001/r004",
+              "package": "USDG-SURF-V00_20261123T180422Z.zip",
+              "package_sha256": "0e4782d538b159be4b3da6fc7cb9bb8cfbaf9648a880dddd97d87b8d3caea701",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "USDG-WALL-V00": {
+              "revision": "r004",
+              "revision_path": "poses/USDG-WALL-V00/CPL01/v001/r004",
+              "package": "USDG-WALL-V00_20261123T180422Z.zip",
+              "package_sha256": "b544721f85b94208cdd48939324495f34aee7f9d52a933d42da1988ca4275a08",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "USDG-LOW-V00": {
+              "revision": "r004",
+              "revision_path": "poses/USDG-LOW-V00/CPL01/v001/r004",
+              "package": "USDG-LOW-V00_20261123T180422Z.zip",
+              "package_sha256": "149035fcebc346dfe9fba6c72886d8b72dab87d36f99d506a9867d273e12f316",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "USDG-PULL-V00": {
+              "revision": "r004",
+              "revision_path": "poses/USDG-PULL-V00/CPL01/v001/r004",
+              "package": "USDG-PULL-V00_20261123T180422Z.zip",
+              "package_sha256": "96fc4c7b63c42d25774a41c56c4143d93f5ef728ec21f814a124558b3b27b8b3",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 8.7,
+          "audit_notes": "Blind QA 8.70/10 (+0.46 vs Pass 03, 0 P0 / 0 P1 / 0 JSON issues): WALL 8.9, PULL 8.8, EDGE 8.7, SURF 8.6, LOW 8.5 (+1.8). All 5/5 promotion-ready with lower-set front pelvis via relaxed deeper B knee bend.",
+          "promoted": false,
+          "promotion_ref": null
         }
       }
     }
@@ -881,8 +945,8 @@
       "pose_id": "USDG-EDGE-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r003",
-      "revision_count": 3,
+      "latest_revision": "r004",
+      "revision_count": 4,
       "built": true,
       "revisions": {
         "r001": {
@@ -914,6 +978,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/USDG-EDGE-V00/CPL01/v001/r003/blender-result.json"
+        },
+        "r004": {
+          "revision": "r004",
+          "path": "poses/USDG-EDGE-V00/CPL01/v001/r004",
+          "package_timestamp_utc": "20261123T180422Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/USDG-EDGE-V00/CPL01/v001/r004/blender-result.json"
         }
       }
     },
@@ -921,8 +995,8 @@
       "pose_id": "USDG-LOW-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r003",
-      "revision_count": 3,
+      "latest_revision": "r004",
+      "revision_count": 4,
       "built": true,
       "revisions": {
         "r001": {
@@ -954,6 +1028,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/USDG-LOW-V00/CPL01/v001/r003/blender-result.json"
+        },
+        "r004": {
+          "revision": "r004",
+          "path": "poses/USDG-LOW-V00/CPL01/v001/r004",
+          "package_timestamp_utc": "20261123T180422Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/USDG-LOW-V00/CPL01/v001/r004/blender-result.json"
         }
       }
     },
@@ -961,8 +1045,8 @@
       "pose_id": "USDG-PULL-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r003",
-      "revision_count": 3,
+      "latest_revision": "r004",
+      "revision_count": 4,
       "built": true,
       "revisions": {
         "r001": {
@@ -994,6 +1078,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/USDG-PULL-V00/CPL01/v001/r003/blender-result.json"
+        },
+        "r004": {
+          "revision": "r004",
+          "path": "poses/USDG-PULL-V00/CPL01/v001/r004",
+          "package_timestamp_utc": "20261123T180422Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/USDG-PULL-V00/CPL01/v001/r004/blender-result.json"
         }
       }
     },
@@ -1001,8 +1095,8 @@
       "pose_id": "USDG-SURF-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r003",
-      "revision_count": 3,
+      "latest_revision": "r004",
+      "revision_count": 4,
       "built": true,
       "revisions": {
         "r001": {
@@ -1034,6 +1128,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/USDG-SURF-V00/CPL01/v001/r003/blender-result.json"
+        },
+        "r004": {
+          "revision": "r004",
+          "path": "poses/USDG-SURF-V00/CPL01/v001/r004",
+          "package_timestamp_utc": "20261123T180422Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/USDG-SURF-V00/CPL01/v001/r004/blender-result.json"
         }
       }
     },
@@ -1041,8 +1145,8 @@
       "pose_id": "USDG-WALL-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r003",
-      "revision_count": 3,
+      "latest_revision": "r004",
+      "revision_count": 4,
       "built": true,
       "revisions": {
         "r001": {
@@ -1074,6 +1178,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/USDG-WALL-V00/CPL01/v001/r003/blender-result.json"
+        },
+        "r004": {
+          "revision": "r004",
+          "path": "poses/USDG-WALL-V00/CPL01/v001/r004",
+          "package_timestamp_utc": "20261123T180422Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/USDG-WALL-V00/CPL01/v001/r004/blender-result.json"
         }
       }
     }

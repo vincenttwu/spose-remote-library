@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "USDG-EDGE-V00",
+  "package_timestamp_utc": "20261123T180422Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "c4501a6429a73956bde0ef1349926378e4c0864b56b4a60b227f7aa451498e85",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "a4b6a3efd4352d90c547970b9cb488675aa3701f94128ae63124b0f92f8de3f2",
+    "pose.json": "c7f42f1d23fb88a89f8e41704ead303d7e0123b62ab980d4358e76cb338f217f",
+    "rig-targets.json": "a28d1642274c85c9b20fc2b4b5db16be43b61f16e97e25396dee393443b6d0cd"
+  }
+}

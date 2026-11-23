@@ -1,0 +1,10 @@
+{
+  "pose_id": "USDG-LOW-V00",
+  "revision": "r004",
+  "package": "USDG-LOW-V00_20261123T180422Z.zip",
+  "package_sha256": "149035fcebc346dfe9fba6c72886d8b72dab87d36f99d506a9867d273e12f316",
+  "package_timestamp_utc": "20261123T180422Z",
+  "batch_label": "batch-0003",
+  "pass_label": "pass-04",
+  "imported_utc": "2026-11-23T18:04:53Z"
+}
