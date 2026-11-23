@@ -13,7 +13,7 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T16:31:00Z",
+  "updated_utc": "2026-11-23T16:41:31Z",
   "families": {
     "UFDG": {
       "passes": {
@@ -266,6 +266,81 @@
           "audit_completed": true,
           "audit_score": 8.1,
           "audit_notes": "Pass 03 blind QA: 8.1/10 (+1.4 vs Pass 02, +3.4 vs Pass 01). Zero P0/P1 defects (QUAD 8.4, FFRG 8.2, WCHD 8.0, ELBW 7.9, FWCH 7.8). Ready for user review / optional promotion; only minor P2 side-view palm-heel hover remains.",
+          "promoted": false,
+          "promotion_ref": null
+        }
+      }
+    },
+    "UADG": {
+      "passes": {
+        "pass-01": {
+          "pass_dir": "batches/UADG/pass-01",
+          "status": "audited",
+          "plan_file": "batches/UADG/pass-01/plan.json",
+          "audit_md": "batches/UADG/pass-01/AUDIT.md",
+          "pass_summary": "batches/UADG/pass-01/pass-summary.json",
+          "audit_bundle_zip": "batches/UADG/pass-01/audit-bundle.zip",
+          "package_count": 4,
+          "packages": [
+            {
+              "file": "batches/UADG/pass-01/packages/UADG-DUAL-V00_20261123T163704Z.zip",
+              "pose_id": "UADG-DUAL-V00",
+              "sha256": "82d3d476e29bf735d3e0ded11c8c50fe77caccb340088d3e5f84707925c01f37",
+              "bytes": 3782
+            },
+            {
+              "file": "batches/UADG/pass-01/packages/UADG-FASS-V00_20261123T163704Z.zip",
+              "pose_id": "UADG-FASS-V00",
+              "sha256": "c8efdfea3dcdb84c0f740a3c3ba6968f7ece6a5252cceaa3ac85471c0c7ccb0d",
+              "bytes": 3876
+            },
+            {
+              "file": "batches/UADG/pass-01/packages/UADG-FELV-V00_20261123T163704Z.zip",
+              "pose_id": "UADG-FELV-V00",
+              "sha256": "734b3405cde44e7c1c554c2f8de240fe6a2891abb371d23be6d1a27ea2b7d5f5",
+              "bytes": 3835
+            },
+            {
+              "file": "batches/UADG/pass-01/packages/UADG-RELV-V00_20261123T163704Z.zip",
+              "pose_id": "UADG-RELV-V00",
+              "sha256": "b79e7c1e8c220e6e29dabdec7e6a24126b9e748f9bde4f10f727617eeb1a47e1",
+              "bytes": 3826
+            }
+          ],
+          "rendered_count": 4,
+          "renders": {
+            "UADG-DUAL-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-01/renders/UADG-DUAL-V00/blender-result.json"
+            },
+            "UADG-FASS-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-01/renders/UADG-FASS-V00/blender-result.json"
+            },
+            "UADG-FELV-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-01/renders/UADG-FELV-V00/blender-result.json"
+            },
+            "UADG-RELV-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-01/renders/UADG-RELV-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 4.5,
+          "audit_notes": "UADG Pass 01 blind QA: 4.5/10 (RELV 6.0, DUAL 5.0, FELV 4.0, FASS 3.0). P0 rework needed for FASS leg-cradle contact + foot collision, FELV knee-through-wrist clip, DUAL shared sofa foot Z mismatch + B elbow-knee graze, and systemic softer standing knees / closer A lean / edge-braced B palms.",
           "promoted": false,
           "promotion_ref": null
         }

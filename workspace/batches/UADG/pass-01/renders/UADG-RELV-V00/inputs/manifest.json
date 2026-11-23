@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UADG-RELV-V00",
+  "package_timestamp_utc": "20261123T163704Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "94aa177bf51c5b9a010b1a3eca6ba4f6a522400700e9b0ffabb43029d5fcead9",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "0e446e385ad41afe0c27683024ae2892cf71f90d321513c3545f6f2f9cab7f42",
+    "pose.json": "6781cbc1f1f47be8c3ba830ac6edcfcbc764cd3ddfa6a39e7cdedd331c2c23f4",
+    "rig-targets.json": "bdb852a80171b54553c845e974fec5f0a9f64072142e2b130da32ecbe106b29e"
+  }
+}

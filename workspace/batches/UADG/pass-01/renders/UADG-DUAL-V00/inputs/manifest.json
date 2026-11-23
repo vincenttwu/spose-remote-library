@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UADG-DUAL-V00",
+  "package_timestamp_utc": "20261123T163704Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "037f7196e0a2c9031c0dfa919752b4201fee01c5588455b79358617402113510",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "4231fb86997f1458db48e5a695eba20a292330e3f84b7ebfb52fbf2879be1948",
+    "pose.json": "32d6cb71b99f557931cd089447167337b84721610e1fe7e161c531f4a866c22a",
+    "rig-targets.json": "5e537cc52a152a7165c098277eac2830f0385e72acf3d455e5609cf1c791a78d"
+  }
+}

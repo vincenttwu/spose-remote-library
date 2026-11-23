@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UADG-FASS-V00",
+  "package_timestamp_utc": "20261123T163704Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "f325de63a2999400f7bd021f9311d5c18ce2ceeae002ec7f712a06aecc4de887",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "cddf24ebb6898f182714644b5909f01c21e76111f603445a070da582875efeb9",
+    "pose.json": "2a191924e891f88066881fc19f1df293f2712169eefe54a030d01b6fe37b34c6",
+    "rig-targets.json": "e421a30b01ded429c4b11beddf7283c9cd2f3f2d1a242883c6b3d071da87d952"
+  }
+}
