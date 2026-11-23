@@ -1,0 +1,101 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_batch_summary",
+  "non_authoritative": true,
+  "batch_label": "batch-0001",
+  "pass_label": "pass-03",
+  "family": "UFDG",
+  "plan_file": "batches/BATCH-0001-PASS-03.json",
+  "snapshot_dir": "snapshots/batch-0001-pass-03_20261123T162610Z",
+  "run_utc": "2026-11-23T16:26:10Z",
+  "blender_executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+  "pose_count": 5,
+  "rendered_count": 5,
+  "results": [
+    {
+      "pose_id": "UFDG-FWCH-V00",
+      "package": "UFDG-FWCH-V00_20261123T162501Z.zip",
+      "package_sha256": "92154e7abb8eac782b40dd5ec6ac79d512d35207b25d5b39354efddc123f7ddc",
+      "revision": "r003",
+      "revision_path": "poses/UFDG-FWCH-V00/CPL01/v001/r003",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIC_SURFACE_GAP",
+          "detail": "Pelvis mesh gap remained above 9cm after bounded approach"
+        }
+      ],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-WCHD-V00",
+      "package": "UFDG-WCHD-V00_20261123T162501Z.zip",
+      "package_sha256": "369adc953f5cee445fff4c2966924da1ac120ec0c20653855ad22bc8e7a5a474",
+      "revision": "r003",
+      "revision_path": "poses/UFDG-WCHD-V00/CPL01/v001/r003",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIC_SURFACE_GAP",
+          "detail": "Pelvis mesh gap remained above 9cm after bounded approach"
+        }
+      ],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-ELBW-V00",
+      "package": "UFDG-ELBW-V00_20261123T162501Z.zip",
+      "package_sha256": "ff89f1d8b976ac79da37302366f1b6073bd5581acb1e9807108ec7a1ace3182e",
+      "revision": "r003",
+      "revision_path": "poses/UFDG-ELBW-V00/CPL01/v001/r003",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIC_SURFACE_GAP",
+          "detail": "Pelvis mesh gap remained above 9cm after bounded approach"
+        }
+      ],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-QUAD-V00",
+      "package": "UFDG-QUAD-V00_20261123T162501Z.zip",
+      "package_sha256": "4cafb896dc93e0feaba31366f9f370255374275842b93884c07f7a42924245c3",
+      "revision": "r003",
+      "revision_path": "poses/UFDG-QUAD-V00/CPL01/v001/r003",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-FFRG-V00",
+      "package": "UFDG-FFRG-V00_20261123T162501Z.zip",
+      "package_sha256": "fba0a274ef6604aed14d7fc888ced1dad9ad6e9d222163e61a73a7321a15e339",
+      "revision": "r003",
+      "revision_path": "poses/UFDG-FFRG-V00/CPL01/v001/r003",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    }
+  ]
+}

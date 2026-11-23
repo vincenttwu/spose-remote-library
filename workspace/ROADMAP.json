@@ -1,0 +1,2828 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_roadmap",
+  "non_authoritative": true,
+  "direction": "backward_from_roadmap_end",
+  "updated_utc": "2026-11-23T17:29:38Z",
+  "catalog_reference": {
+    "source_id": "SRC003",
+    "source_revision": "v001",
+    "source_checkpoint": "20261122T013728Z",
+    "catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
+  },
+  "active_exchange": {
+    "batch_label": "batch-0003",
+    "pass_label": "pass-02",
+    "family": "USDG",
+    "snapshot_dir": "snapshots/batch-0003-pass-02_20261123T171633Z",
+    "feedback_zip": "snapshots/batch-0003-pass-02_20261123T171633Z/spose-workspace-feedback-batch-0003-pass-02_20261123T172910Z.zip",
+    "activated_utc": "2026-11-23T17:29:37Z"
+  },
+  "summary": {
+    "families_total": 28,
+    "v00_total": 276,
+    "workspace_built": 14,
+    "workspace_batches": 3,
+    "main_library_built": 5
+  },
+  "next_batch_suggestion": {
+    "next_batch_label": "batch-0004",
+    "family": "OFEL",
+    "family_total_v00": 20,
+    "family_remaining_after_this": 15,
+    "pose_ids": [
+      "OFEL-C01-V00",
+      "OFEL-C02-V00",
+      "OFEL-C03-V00",
+      "OFEL-C04-V00",
+      "OFEL-C05-V00"
+    ],
+    "poses": [
+      {
+        "pose_id": "OFEL-C01-V00",
+        "pose_name": "Cradled Cock"
+      },
+      {
+        "pose_id": "OFEL-C02-V00",
+        "pose_name": "Fuck Face"
+      },
+      {
+        "pose_id": "OFEL-C03-V00",
+        "pose_name": "Standing Fuck Face"
+      },
+      {
+        "pose_id": "OFEL-C04-V00",
+        "pose_name": "Game's On"
+      },
+      {
+        "pose_id": "OFEL-C05-V00",
+        "pose_name": "Southern Headrest"
+      }
+    ]
+  },
+  "v00_poses": [
+    {
+      "pose_id": "UFDG-FWCH-V00",
+      "family_id": "UFDG",
+      "pose_name": "Forward child-like floor hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UFDG-WCHD-V00",
+      "family_id": "UFDG",
+      "pose_name": "Wide child-like floor hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UFDG-ELBW-V00",
+      "family_id": "UFDG",
+      "pose_name": "Forearm-supported low hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UFDG-QUAD-V00",
+      "family_id": "UFDG",
+      "pose_name": "Standard quadruped with rear frog squat",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UFDG-FFRG-V00",
+      "family_id": "UFDG",
+      "pose_name": "Front frog with rear frog squat",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UADG-FELV-V00",
+      "family_id": "UADG",
+      "pose_name": "Asymmetric front-leg elevated hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UADG-FASS-V00",
+      "family_id": "UADG",
+      "pose_name": "Rear-assisted front-leg hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UADG-RELV-V00",
+      "family_id": "UADG",
+      "pose_name": "Rear elevated-leg hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "UADG-DUAL-V00",
+      "family_id": "UADG",
+      "pose_name": "Dual-platform asymmetric hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USDG-EDGE-V00",
+      "family_id": "USDG",
+      "pose_name": "Edge-supported standing hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USDG-SURF-V00",
+      "family_id": "USDG",
+      "pose_name": "Torso-supported standing hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USDG-WALL-V00",
+      "family_id": "USDG",
+      "pose_name": "Wall-supported standing hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USDG-LOW-V00",
+      "family_id": "USDG",
+      "pose_name": "Low-surface standing hinge",
+      "generation_gate": "PASS",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USDG-PULL-V00",
+      "family_id": "USDG",
+      "pose_name": "Rear-assisted hands-back standing hinge",
+      "generation_gate": "REVIEW",
+      "workspace_built": true,
+      "workspace_latest_revision": "r002",
+      "workspace_revision_count": 2,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C01-V00",
+      "family_id": "OFEL",
+      "pose_name": "Cradled Cock",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C02-V00",
+      "family_id": "OFEL",
+      "pose_name": "Fuck Face",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C03-V00",
+      "family_id": "OFEL",
+      "pose_name": "Standing Fuck Face",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C04-V00",
+      "family_id": "OFEL",
+      "pose_name": "Game's On",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C05-V00",
+      "family_id": "OFEL",
+      "pose_name": "Southern Headrest",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C06-V00",
+      "family_id": "OFEL",
+      "pose_name": "Head Stand",
+      "generation_gate": "EXCLUDE",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C07-V00",
+      "family_id": "OFEL",
+      "pose_name": "Jack Hammer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C08-V00",
+      "family_id": "OFEL",
+      "pose_name": "Oral Therapy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C09-V00",
+      "family_id": "OFEL",
+      "pose_name": "His Oral Waterfall",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C10-V00",
+      "family_id": "OFEL",
+      "pose_name": "Plumber",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C11-V00",
+      "family_id": "OFEL",
+      "pose_name": "North Pole",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C12-V00",
+      "family_id": "OFEL",
+      "pose_name": "Road Head",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C13-V00",
+      "family_id": "OFEL",
+      "pose_name": "Sit & Blow",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C14-V00",
+      "family_id": "OFEL",
+      "pose_name": "Southern Exposure",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C15-V00",
+      "family_id": "OFEL",
+      "pose_name": "Stand & Blow",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C16-V00",
+      "family_id": "OFEL",
+      "pose_name": "Sword Swallower",
+      "generation_gate": "EXCLUDE",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C17-V00",
+      "family_id": "OFEL",
+      "pose_name": "Tea Bag",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C18-V00",
+      "family_id": "OFEL",
+      "pose_name": "The Usual",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C19-V00",
+      "family_id": "OFEL",
+      "pose_name": "Open Usual",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OFEL-C20-V00",
+      "family_id": "OFEL",
+      "pose_name": "Twisted Usual",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C01-V00",
+      "family_id": "OCUN",
+      "pose_name": "Butler",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C02-V00",
+      "family_id": "OCUN",
+      "pose_name": "Aerial Butler",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C03-V00",
+      "family_id": "OCUN",
+      "pose_name": "Bent Butler",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C04-V00",
+      "family_id": "OCUN",
+      "pose_name": "Leaning Butler",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C05-V00",
+      "family_id": "OCUN",
+      "pose_name": "Lying Butler",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C06-V00",
+      "family_id": "OCUN",
+      "pose_name": "Crabby Clam",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C07-V00",
+      "family_id": "OCUN",
+      "pose_name": "Cradled Clam",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C08-V00",
+      "family_id": "OCUN",
+      "pose_name": "Drive Thru",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C09-V00",
+      "family_id": "OCUN",
+      "pose_name": "Eagle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C10-V00",
+      "family_id": "OCUN",
+      "pose_name": "Folded Eagle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C11-V00",
+      "family_id": "OCUN",
+      "pose_name": "Wrapped Eagle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C12-V00",
+      "family_id": "OCUN",
+      "pose_name": "North Face",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C13-V00",
+      "family_id": "OCUN",
+      "pose_name": "South Face",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C14-V00",
+      "family_id": "OCUN",
+      "pose_name": "Feedbag",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C15-V00",
+      "family_id": "OCUN",
+      "pose_name": "Aerial Feedbag",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C16-V00",
+      "family_id": "OCUN",
+      "pose_name": "Grounded Feedbag",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C17-V00",
+      "family_id": "OCUN",
+      "pose_name": "Kneeling Feedbag",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C18-V00",
+      "family_id": "OCUN",
+      "pose_name": "Standing Feedbag",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C19-V00",
+      "family_id": "OCUN",
+      "pose_name": "Northern Guillotine",
+      "generation_gate": "EXCLUDE",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C20-V00",
+      "family_id": "OCUN",
+      "pose_name": "Southern Guillotine",
+      "generation_gate": "EXCLUDE",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C21-V00",
+      "family_id": "OCUN",
+      "pose_name": "Northern Hospitality",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C22-V00",
+      "family_id": "OCUN",
+      "pose_name": "Southern Hospitality",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C23-V00",
+      "family_id": "OCUN",
+      "pose_name": "Her Oral Waterfall",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C24-V00",
+      "family_id": "OCUN",
+      "pose_name": "Her Aerial Oral Waterfall",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C25-V00",
+      "family_id": "OCUN",
+      "pose_name": "Pie in the Sky",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C26-V00",
+      "family_id": "OCUN",
+      "pose_name": "Servant",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C27-V00",
+      "family_id": "OCUN",
+      "pose_name": "Folded Servant",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C28-V00",
+      "family_id": "OCUN",
+      "pose_name": "Mixed Servant",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C29-V00",
+      "family_id": "OCUN",
+      "pose_name": "Wrapped Servant",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OCUN-C30-V00",
+      "family_id": "OCUN",
+      "pose_name": "Under the Sink",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-SIX9-V00",
+      "family_id": "OSIX",
+      "pose_name": "69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-BENT-V00",
+      "family_id": "OSIX",
+      "pose_name": "Bent 69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-INVT-V00",
+      "family_id": "OSIX",
+      "pose_name": "Inverted 69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-KNEL-V00",
+      "family_id": "OSIX",
+      "pose_name": "Kneeling 69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-RAIS-V00",
+      "family_id": "OSIX",
+      "pose_name": "Raised 69",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-RCLN-V00",
+      "family_id": "OSIX",
+      "pose_name": "Reclined 69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-SIDE-V00",
+      "family_id": "OSIX",
+      "pose_name": "Sideways 69",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-SITT-V00",
+      "family_id": "OSIX",
+      "pose_name": "Sitting 69",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-STND-V00",
+      "family_id": "OSIX",
+      "pose_name": "Standing 69",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-SPLT-V00",
+      "family_id": "OSIX",
+      "pose_name": "Split 69 Stand",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "OSIX-WRAP-V00",
+      "family_id": "OSIX",
+      "pose_name": "Wrapped 69 Stand",
+      "generation_gate": "EXCLUDE",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-SCIS-V00",
+      "family_id": "SCIS",
+      "pose_name": "Scissors",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-CRBY-V00",
+      "family_id": "SCIS",
+      "pose_name": "Crabby Scissors",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-FLAG-V00",
+      "family_id": "SCIS",
+      "pose_name": "Scissored Flagpole",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-KNEL-V00",
+      "family_id": "SCIS",
+      "pose_name": "Kneeling Scissors",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-TKNL-V00",
+      "family_id": "SCIS",
+      "pose_name": "Twisted Kneeling Scissors",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-SITT-V00",
+      "family_id": "SCIS",
+      "pose_name": "Sitting Scissors",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SCIS-WRAP-V00",
+      "family_id": "SCIS",
+      "pose_name": "Wrapped Scissors",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "HANG-HANG-V00",
+      "family_id": "HANG",
+      "pose_name": "Hanger",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "HANG-LAZY-V00",
+      "family_id": "HANG",
+      "pose_name": "Lazy Hanger",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "HANG-MIXD-V00",
+      "family_id": "HANG",
+      "pose_name": "Mixed Hanger",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "HANG-TILT-V00",
+      "family_id": "HANG",
+      "pose_name": "Tilted Hanger",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "HANG-WRAP-V00",
+      "family_id": "HANG",
+      "pose_name": "Wrapped Hanger",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USLW-UPRT-V00",
+      "family_id": "USLW",
+      "pose_name": "Upright seated leg wrap",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USLW-SLBK-V00",
+      "family_id": "USLW",
+      "pose_name": "Slight back-lean seated leg wrap",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USLW-ELBW-V00",
+      "family_id": "USLW",
+      "pose_name": "Rear elbow-braced leg wrap",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USLW-FLAT-V00",
+      "family_id": "USLW",
+      "pose_name": "Full supine flat-back leg wrap",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "USLW-ARCH-V00",
+      "family_id": "USLW",
+      "pose_name": "Shoulder-supported elevated-pelvis arch",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STFRUP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / without vertical support / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STFRSL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / without vertical support / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STFRDP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / without vertical support / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA1UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_1] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA1SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_1] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA1DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_1] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA2UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_2] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA2SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_2] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-STA2DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Standing / [ACTOR_2] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSFRUP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / without vertical support / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSFRSL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / without vertical support / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSFRDP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / without vertical support / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA1UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_1] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA1SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_1] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA1DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_1] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA2UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_2] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA2SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_2] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-HSA2DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Half Squat / [ACTOR_2] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSFRUP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / without vertical support / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSFRSL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / without vertical support / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSFRDP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / without vertical support / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA1UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_1] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA1SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_1] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA1DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_1] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA2UP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_2] backed by vertical surface / upright carried",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA2SL-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_2] backed by vertical surface / slightly reclined",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "ULLW-DSA2DP-V00",
+      "family_id": "ULLW",
+      "pose_name": "Deep Squat / [ACTOR_2] backed by vertical surface / backward dip",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-LAPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Lap Dance",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-LP18-V00",
+      "family_id": "LAPD",
+      "pose_name": "Lap Dance 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-RLPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Reclined Lap Dance 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-KLPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Kneeling Lap Dance",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-KL18-V00",
+      "family_id": "LAPD",
+      "pose_name": "Kneeling Lap Dance 180",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-OLPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Open Lap Dance",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-SLPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Squatting Lap Dance",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-SQ18-V00",
+      "family_id": "LAPD",
+      "pose_name": "Squatting Lap Dance 180",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-TLPD-V00",
+      "family_id": "LAPD",
+      "pose_name": "Tilted Lap Dance",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LAPD-TWLP-V00",
+      "family_id": "LAPD",
+      "pose_name": "Twisted Lap Dance",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-BFLY-V00",
+      "family_id": "BFLY",
+      "pose_name": "Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-XBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Crossed Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-FBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Folded Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-MBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Mixed Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-PBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Pressed Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-SBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Split Butterfly",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-STBF-V00",
+      "family_id": "BFLY",
+      "pose_name": "Standing Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-TBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Tucked Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-TWBF-V00",
+      "family_id": "BFLY",
+      "pose_name": "Twisted Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BFLY-WBFL-V00",
+      "family_id": "BFLY",
+      "pose_name": "Wrapped Butterfly",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "WHBR-WHBR-V00",
+      "family_id": "WHBR",
+      "pose_name": "Wheelbarrow",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "WHBR-KNEL-V00",
+      "family_id": "WHBR",
+      "pose_name": "Kneeling Wheelbarrow",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "WHBR-SKNE-V00",
+      "family_id": "WHBR",
+      "pose_name": "Supported Kneeling Wheelbarrow",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "WHBR-SITT-V00",
+      "family_id": "WHBR",
+      "pose_name": "Sitting Wheelbarrow",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "WHBR-SUPP-V00",
+      "family_id": "WHBR",
+      "pose_name": "Supported Wheelbarrow",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRAB-CRAB-V00",
+      "family_id": "CRAB",
+      "pose_name": "Crab",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRAB-C180-V00",
+      "family_id": "CRAB",
+      "pose_name": "Crab 180",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRAB-TILT-V00",
+      "family_id": "CRAB",
+      "pose_name": "Tilted Crab",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRAB-TWST-V00",
+      "family_id": "CRAB",
+      "pose_name": "Twisted Crab",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SPOO-SPOO-V00",
+      "family_id": "SPOO",
+      "pose_name": "Spoon",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SPOO-BENT-V00",
+      "family_id": "SPOO",
+      "pose_name": "Bent Spoon",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SPOO-BIPL-V00",
+      "family_id": "SPOO",
+      "pose_name": "Bipolar Spoon",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SPOO-CROS-V00",
+      "family_id": "SPOO",
+      "pose_name": "Crossed Spoon",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SPOO-WRAP-V00",
+      "family_id": "SPOO",
+      "pose_name": "Wrapped Spoon",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-SINN-V00",
+      "family_id": "SINN",
+      "pose_name": "Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-CLSD-V00",
+      "family_id": "SINN",
+      "pose_name": "Closed Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-FOLD-V00",
+      "family_id": "SINN",
+      "pose_name": "Folded Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-KNEL-V00",
+      "family_id": "SINN",
+      "pose_name": "Kneeling Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-FLAR-V00",
+      "family_id": "SINN",
+      "pose_name": "Flared Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-FCLD-V00",
+      "family_id": "SINN",
+      "pose_name": "Flared Closed Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-PRES-V00",
+      "family_id": "SINN",
+      "pose_name": "Pressed Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-SPLT-V00",
+      "family_id": "SINN",
+      "pose_name": "Split Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-TILT-V00",
+      "family_id": "SINN",
+      "pose_name": "Tilted Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-TUCK-V00",
+      "family_id": "SINN",
+      "pose_name": "Tucked Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SINN-WRAP-V00",
+      "family_id": "SINN",
+      "pose_name": "Wrapped Sinner",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-GRND-V00",
+      "family_id": "GRND",
+      "pose_name": "Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-CRAB-V00",
+      "family_id": "GRND",
+      "pose_name": "Crabby Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-LYNG-V00",
+      "family_id": "GRND",
+      "pose_name": "Lying Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-L180-V00",
+      "family_id": "GRND",
+      "pose_name": "Lying Groundhog 180",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-MONT-V00",
+      "family_id": "GRND",
+      "pose_name": "Mounted Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-OPEN-V00",
+      "family_id": "GRND",
+      "pose_name": "Open Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-PLNT-V00",
+      "family_id": "GRND",
+      "pose_name": "Planted Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-SEAT-V00",
+      "family_id": "GRND",
+      "pose_name": "Seated Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-SQAT-V00",
+      "family_id": "GRND",
+      "pose_name": "Squatting Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GRND-STND-V00",
+      "family_id": "GRND",
+      "pose_name": "Standing Groundhog",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BDGD-BDGD-V00",
+      "family_id": "BDGD",
+      "pose_name": "Bodyguard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BDGD-KNEL-V00",
+      "family_id": "BDGD",
+      "pose_name": "Kneeling Bodyguard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BDGD-RAIS-V00",
+      "family_id": "BDGD",
+      "pose_name": "Raised Bodyguard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BDGD-SITT-V00",
+      "family_id": "BDGD",
+      "pose_name": "Sitting Bodyguard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-DANC-V00",
+      "family_id": "DANC",
+      "pose_name": "Dancer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-AERI-V00",
+      "family_id": "DANC",
+      "pose_name": "Aerial Dancer",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-DIPP-V00",
+      "family_id": "DANC",
+      "pose_name": "Dipping Dancer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-MIXD-V00",
+      "family_id": "DANC",
+      "pose_name": "Mixed Dancer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-RAIS-V00",
+      "family_id": "DANC",
+      "pose_name": "Raised Dancer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-SPLT-V00",
+      "family_id": "DANC",
+      "pose_name": "Split Dancer",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DANC-WRAP-V00",
+      "family_id": "DANC",
+      "pose_name": "Wrapped Dancer",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-BULL-V00",
+      "family_id": "BULL",
+      "pose_name": "Bull",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-CRAB-V00",
+      "family_id": "BULL",
+      "pose_name": "Crabby Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-BULD-V00",
+      "family_id": "BULL",
+      "pose_name": "Bulldog",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-DOWN-V00",
+      "family_id": "BULL",
+      "pose_name": "Downward Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-FOLD-V00",
+      "family_id": "BULL",
+      "pose_name": "Folded Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-K180-V00",
+      "family_id": "BULL",
+      "pose_name": "Kneeling Bull 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-ELEV-V00",
+      "family_id": "BULL",
+      "pose_name": "Elevated Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-PRES-V00",
+      "family_id": "BULL",
+      "pose_name": "Pressed Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-SITT-V00",
+      "family_id": "BULL",
+      "pose_name": "Sitting Bull",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-SQAT-V00",
+      "family_id": "BULL",
+      "pose_name": "Squatting Bull",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "BULL-S180-V00",
+      "family_id": "BULL",
+      "pose_name": "Squatting Bull 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-CRDL-V00",
+      "family_id": "CRDL",
+      "pose_name": "Cradle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-CRAB-V00",
+      "family_id": "CRDL",
+      "pose_name": "Crabby Cradle",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-FOLD-V00",
+      "family_id": "CRDL",
+      "pose_name": "Folded Cradle",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-KNEL-V00",
+      "family_id": "CRDL",
+      "pose_name": "Kneeling Cradle",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-LAZY-V00",
+      "family_id": "CRDL",
+      "pose_name": "Lazy Cradle",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-MIXD-V00",
+      "family_id": "CRDL",
+      "pose_name": "Mixed Cradle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "CRDL-WRAP-V00",
+      "family_id": "CRDL",
+      "pose_name": "Wrapped Cradle",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-SAIN-V00",
+      "family_id": "SAIN",
+      "pose_name": "Saint",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-S180-V00",
+      "family_id": "SAIN",
+      "pose_name": "Saint 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-CRAB-V00",
+      "family_id": "SAIN",
+      "pose_name": "Crabby Saint",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-FOLD-V00",
+      "family_id": "SAIN",
+      "pose_name": "Folded Saint",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-KNEL-V00",
+      "family_id": "SAIN",
+      "pose_name": "Kneeling Saint",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-K180-V00",
+      "family_id": "SAIN",
+      "pose_name": "Kneeling Saint 180",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-LAZY-V00",
+      "family_id": "SAIN",
+      "pose_name": "Lazy Saint",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-MIXD-V00",
+      "family_id": "SAIN",
+      "pose_name": "Mixed Saint",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "SAIN-WRAP-V00",
+      "family_id": "SAIN",
+      "pose_name": "Wrapped Saint",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-LOTU-V00",
+      "family_id": "LOTU",
+      "pose_name": "Lotus",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-CRAB-V00",
+      "family_id": "LOTU",
+      "pose_name": "Crabby Lotus",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-FOLD-V00",
+      "family_id": "LOTU",
+      "pose_name": "Folded Lotus",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-KNEL-V00",
+      "family_id": "LOTU",
+      "pose_name": "Kneeling Lotus",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-LAZY-V00",
+      "family_id": "LOTU",
+      "pose_name": "Lazy Lotus",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-MIXD-V00",
+      "family_id": "LOTU",
+      "pose_name": "Mixed Lotus",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "LOTU-WRAP-V00",
+      "family_id": "LOTU",
+      "pose_name": "Wrapped Lotus",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-RODE-V00",
+      "family_id": "RODE",
+      "pose_name": "Rodeo",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-LAZY-V00",
+      "family_id": "RODE",
+      "pose_name": "Lazy Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-LYNG-V00",
+      "family_id": "RODE",
+      "pose_name": "Lying Rodeo",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-OPEN-V00",
+      "family_id": "RODE",
+      "pose_name": "Open Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-SQOP-V00",
+      "family_id": "RODE",
+      "pose_name": "Squatting Open Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-HEEL-V00",
+      "family_id": "RODE",
+      "pose_name": "Heeled Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-SQAT-V00",
+      "family_id": "RODE",
+      "pose_name": "Squatting Rodeo",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-STND-V00",
+      "family_id": "RODE",
+      "pose_name": "Standing Rodeo",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-TWST-V00",
+      "family_id": "RODE",
+      "pose_name": "Twisted Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "RODE-STWT-V00",
+      "family_id": "RODE",
+      "pose_name": "Standing Twisted Rodeo",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-COWG-V00",
+      "family_id": "COWG",
+      "pose_name": "Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-AERI-V00",
+      "family_id": "COWG",
+      "pose_name": "Aerial Cowgirl",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-COLL-V00",
+      "family_id": "COWG",
+      "pose_name": "Collapsed Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-LAZY-V00",
+      "family_id": "COWG",
+      "pose_name": "Lazy Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-LONG-V00",
+      "family_id": "COWG",
+      "pose_name": "Lounging Cowgirl",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-LYNG-V00",
+      "family_id": "COWG",
+      "pose_name": "Lying Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-PLNT-V00",
+      "family_id": "COWG",
+      "pose_name": "Planted Cowgirl",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-PROP-V00",
+      "family_id": "COWG",
+      "pose_name": "Propped Cowgirl",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-SCIS-V00",
+      "family_id": "COWG",
+      "pose_name": "Scissored Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-SQAT-V00",
+      "family_id": "COWG",
+      "pose_name": "Squatting Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "COWG-STND-V00",
+      "family_id": "COWG",
+      "pose_name": "Standing Cowgirl",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-MISS-V00",
+      "family_id": "MISS",
+      "pose_name": "Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-CLSD-V00",
+      "family_id": "MISS",
+      "pose_name": "Closed Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-FOLD-V00",
+      "family_id": "MISS",
+      "pose_name": "Folded Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-KNEL-V00",
+      "family_id": "MISS",
+      "pose_name": "Kneeling Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-MIXD-V00",
+      "family_id": "MISS",
+      "pose_name": "Mixed Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-OPEN-V00",
+      "family_id": "MISS",
+      "pose_name": "Open Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-OYST-V00",
+      "family_id": "MISS",
+      "pose_name": "Oystered Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-SPLT-V00",
+      "family_id": "MISS",
+      "pose_name": "Split Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-TILT-V00",
+      "family_id": "MISS",
+      "pose_name": "Tilted Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-TUCK-V00",
+      "family_id": "MISS",
+      "pose_name": "Tucked Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-TKED-V00",
+      "family_id": "MISS",
+      "pose_name": "Tucked Missionary 180",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-TWST-V00",
+      "family_id": "MISS",
+      "pose_name": "Twisted Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-UPRT-V00",
+      "family_id": "MISS",
+      "pose_name": "Upright Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "MISS-WRAP-V00",
+      "family_id": "MISS",
+      "pose_name": "Wrapped Missionary",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-GARD-V00",
+      "family_id": "GARD",
+      "pose_name": "Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-ARCH-V00",
+      "family_id": "GARD",
+      "pose_name": "Arched Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-BRDG-V00",
+      "family_id": "GARD",
+      "pose_name": "Bridged Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-FOLD-V00",
+      "family_id": "GARD",
+      "pose_name": "Folded Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-MIXD-V00",
+      "family_id": "GARD",
+      "pose_name": "Mixed Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-PRES-V00",
+      "family_id": "GARD",
+      "pose_name": "Pressed Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-TILT-V00",
+      "family_id": "GARD",
+      "pose_name": "Tilted Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-TWST-V00",
+      "family_id": "GARD",
+      "pose_name": "Twisted Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "GARD-WRAP-V00",
+      "family_id": "GARD",
+      "pose_name": "Wrapped Guard",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "family_id": "DOGG",
+      "pose_name": "Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": true
+    },
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "family_id": "DOGG",
+      "pose_name": "Closed Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": true
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "family_id": "DOGG",
+      "pose_name": "Downward Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": true
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "family_id": "DOGG",
+      "pose_name": "Facedown Doggy",
+      "generation_gate": "REVIEW",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": true
+    },
+    {
+      "pose_id": "DOGG-FIRE-V00",
+      "family_id": "DOGG",
+      "pose_name": "Fire Hydrant",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-SFIR-V00",
+      "family_id": "DOGG",
+      "pose_name": "Standing Fire Hydrant",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "family_id": "DOGG",
+      "pose_name": "Froggy Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": true
+    },
+    {
+      "pose_id": "DOGG-INVT-V00",
+      "family_id": "DOGG",
+      "pose_name": "Inverted Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-LAZY-V00",
+      "family_id": "DOGG",
+      "pose_name": "Lazy Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-RAIS-V00",
+      "family_id": "DOGG",
+      "pose_name": "Raised Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-REST-V00",
+      "family_id": "DOGG",
+      "pose_name": "Restrained Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-SQAT-V00",
+      "family_id": "DOGG",
+      "pose_name": "Squatting Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    },
+    {
+      "pose_id": "DOGG-STND-V00",
+      "family_id": "DOGG",
+      "pose_name": "Standing Doggy",
+      "generation_gate": "PASS",
+      "workspace_built": false,
+      "workspace_latest_revision": null,
+      "workspace_revision_count": 0,
+      "main_library_built": false
+    }
+  ]
+}

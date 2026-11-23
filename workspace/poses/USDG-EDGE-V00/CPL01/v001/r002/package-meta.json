@@ -1,0 +1,10 @@
+{
+  "pose_id": "USDG-EDGE-V00",
+  "revision": "r002",
+  "package": "USDG-EDGE-V00_20261123T171544Z.zip",
+  "package_sha256": "7bb65786424b69cd198ca0f8521b8250feb6d39fb319d6f6f1368edfafcf1da8",
+  "package_timestamp_utc": "20261123T171544Z",
+  "batch_label": "batch-0003",
+  "pass_label": "pass-02",
+  "migrated_from": "batches/USDG/pass-02/renders/USDG-EDGE-V00"
+}

@@ -1,0 +1,10 @@
+{
+  "pose_id": "UADG-FASS-V00",
+  "revision": "r001",
+  "package": "UADG-FASS-V00_20261123T163704Z.zip",
+  "package_sha256": "c8efdfea3dcdb84c0f740a3c3ba6968f7ece6a5252cceaa3ac85471c0c7ccb0d",
+  "package_timestamp_utc": "20261123T163704Z",
+  "batch_label": "batch-0002",
+  "pass_label": "pass-01",
+  "migrated_from": "batches/UADG/pass-01/renders/UADG-FASS-V00"
+}

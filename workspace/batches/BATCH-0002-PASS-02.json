@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_batch_plan",
+  "batch_label": "batch-0002",
+  "pass_label": "pass-02",
+  "family": "UADG",
+  "note": "Calibrated UADG Pass 02 in workspace/ addressing all Pass 01 blind QA findings.",
+  "local_calibration": {
+    "enabled": true,
+    "max_refinement_attempts": 2
+  },
+  "poses": [
+    {
+      "pose_id": "UADG-FELV-V00",
+      "package": "UADG-FELV-V00_20261123T164500Z.zip"
+    },
+    {
+      "pose_id": "UADG-FASS-V00",
+      "package": "UADG-FASS-V00_20261123T164500Z.zip"
+    },
+    {
+      "pose_id": "UADG-RELV-V00",
+      "package": "UADG-RELV-V00_20261123T164500Z.zip"
+    },
+    {
+      "pose_id": "UADG-DUAL-V00",
+      "package": "UADG-DUAL-V00_20261123T164500Z.zip"
+    }
+  ]
+}

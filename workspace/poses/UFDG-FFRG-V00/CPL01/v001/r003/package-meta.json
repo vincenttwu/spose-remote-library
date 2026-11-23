@@ -1,0 +1,10 @@
+{
+  "pose_id": "UFDG-FFRG-V00",
+  "revision": "r003",
+  "package": "UFDG-FFRG-V00_20261123T162501Z.zip",
+  "package_sha256": "fba0a274ef6604aed14d7fc888ced1dad9ad6e9d222163e61a73a7321a15e339",
+  "package_timestamp_utc": "20261123T162501Z",
+  "batch_label": "batch-0001",
+  "pass_label": "pass-03",
+  "migrated_from": "batches/UFDG/pass-03/renders/UFDG-FFRG-V00"
+}

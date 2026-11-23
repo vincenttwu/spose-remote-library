@@ -1,0 +1,10 @@
+{
+  "pose_id": "USDG-PULL-V00",
+  "revision": "r002",
+  "package": "USDG-PULL-V00_20261123T171544Z.zip",
+  "package_sha256": "663457a5a90e1a6f0028e32d88d39547286e6cd93be2347d3455eb872c465a8c",
+  "package_timestamp_utc": "20261123T171544Z",
+  "batch_label": "batch-0003",
+  "pass_label": "pass-02",
+  "migrated_from": "batches/USDG/pass-02/renders/USDG-PULL-V00"
+}

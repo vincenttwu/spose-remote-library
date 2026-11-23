@@ -1,0 +1,72 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_batch_summary",
+  "non_authoritative": true,
+  "batch_label": "batch-0002",
+  "pass_label": "pass-01",
+  "family": "UADG",
+  "plan_file": "batches/BATCH-0002-PASS-01.json",
+  "snapshot_dir": "snapshots/batch-0002-pass-01_20261123T163743Z",
+  "run_utc": "2026-11-23T16:37:43Z",
+  "blender_executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+  "pose_count": 4,
+  "rendered_count": 4,
+  "results": [
+    {
+      "pose_id": "UADG-FELV-V00",
+      "package": "UADG-FELV-V00_20261123T163704Z.zip",
+      "package_sha256": "734b3405cde44e7c1c554c2f8de240fe6a2891abb371d23be6d1a27ea2b7d5f5",
+      "revision": "r001",
+      "revision_path": "poses/UADG-FELV-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UADG-FASS-V00",
+      "package": "UADG-FASS-V00_20261123T163704Z.zip",
+      "package_sha256": "c8efdfea3dcdb84c0f740a3c3ba6968f7ece6a5252cceaa3ac85471c0c7ccb0d",
+      "revision": "r001",
+      "revision_path": "poses/UADG-FASS-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UADG-RELV-V00",
+      "package": "UADG-RELV-V00_20261123T163704Z.zip",
+      "package_sha256": "b79e7c1e8c220e6e29dabdec7e6a24126b9e748f9bde4f10f727617eeb1a47e1",
+      "revision": "r001",
+      "revision_path": "poses/UADG-RELV-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UADG-DUAL-V00",
+      "package": "UADG-DUAL-V00_20261123T163704Z.zip",
+      "package_sha256": "82d3d476e29bf735d3e0ded11c8c50fe77caccb340088d3e5f84707925c01f37",
+      "revision": "r001",
+      "revision_path": "poses/UADG-DUAL-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    }
+  ]
+}

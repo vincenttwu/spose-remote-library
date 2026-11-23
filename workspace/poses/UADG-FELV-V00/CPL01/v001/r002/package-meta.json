@@ -1,0 +1,10 @@
+{
+  "pose_id": "UADG-FELV-V00",
+  "revision": "r002",
+  "package": "UADG-FELV-V00_20261123T164500Z.zip",
+  "package_sha256": "799029f6add10367d6fea5aa3d6ea8566fdf0b1176cf3438d31f672656df4eb2",
+  "package_timestamp_utc": "20261123T164500Z",
+  "batch_label": "batch-0002",
+  "pass_label": "pass-02",
+  "migrated_from": "batches/UADG/pass-02/renders/UADG-FELV-V00"
+}

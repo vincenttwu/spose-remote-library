@@ -1,0 +1,34 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_batch_plan",
+  "batch_label": "batch-0003",
+  "pass_label": "pass-01",
+  "family": "USDG",
+  "note": "Experimental backward-roadmap batch #3 (USDG, 5 poses) in workspace/.",
+  "local_calibration": {
+    "enabled": true,
+    "max_refinement_attempts": 2
+  },
+  "poses": [
+    {
+      "pose_id": "USDG-EDGE-V00",
+      "package": "USDG-EDGE-V00_20261123T170604Z.zip"
+    },
+    {
+      "pose_id": "USDG-SURF-V00",
+      "package": "USDG-SURF-V00_20261123T170604Z.zip"
+    },
+    {
+      "pose_id": "USDG-WALL-V00",
+      "package": "USDG-WALL-V00_20261123T170604Z.zip"
+    },
+    {
+      "pose_id": "USDG-LOW-V00",
+      "package": "USDG-LOW-V00_20261123T170604Z.zip"
+    },
+    {
+      "pose_id": "USDG-PULL-V00",
+      "package": "USDG-PULL-V00_20261123T170604Z.zip"
+    }
+  ]
+}

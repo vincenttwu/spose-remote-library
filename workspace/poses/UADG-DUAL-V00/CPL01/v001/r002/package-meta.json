@@ -1,0 +1,10 @@
+{
+  "pose_id": "UADG-DUAL-V00",
+  "revision": "r002",
+  "package": "UADG-DUAL-V00_20261123T164500Z.zip",
+  "package_sha256": "64417b6d5567695fc6b1cab777825444d6b7bf4f7ccd69d544d06b56522bc731",
+  "package_timestamp_utc": "20261123T164500Z",
+  "batch_label": "batch-0002",
+  "pass_label": "pass-02",
+  "migrated_from": "batches/UADG/pass-02/renders/UADG-DUAL-V00"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "kind": "spose_workspace_batch_summary",
+  "non_authoritative": true,
+  "batch_label": "batch-0001",
+  "pass_label": "pass-01",
+  "family": "UFDG",
+  "plan_file": "batches/BATCH-0001-PASS-01.json",
+  "snapshot_dir": "snapshots/batch-0001-pass-01_20261123T152827Z",
+  "run_utc": "2026-11-23T15:28:27Z",
+  "blender_executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+  "pose_count": 5,
+  "rendered_count": 5,
+  "results": [
+    {
+      "pose_id": "UFDG-FWCH-V00",
+      "package": "UFDG-FWCH-V00_20261123T152651Z.zip",
+      "package_sha256": "7b99a197d66f2068104b4e7f66c4d10c83153b17f87f243783edc07c8bef6cb2",
+      "revision": "r001",
+      "revision_path": "poses/UFDG-FWCH-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-WCHD-V00",
+      "package": "UFDG-WCHD-V00_20261123T152651Z.zip",
+      "package_sha256": "f67da7ce7bcf355df01477ab8ba7ccb78126fc6f3523307944ee8fbba41f597c",
+      "revision": "r001",
+      "revision_path": "poses/UFDG-WCHD-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.300m, actual=0.215m"
+        }
+      ],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-ELBW-V00",
+      "package": "UFDG-ELBW-V00_20261123T152651Z.zip",
+      "package_sha256": "3fb62d904c14f6e7d97ff105cb21eb0d9bbbe78eb83036986be6f770e2fdf652",
+      "revision": "r001",
+      "revision_path": "poses/UFDG-ELBW-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "BELOW_FLOOR_PENETRATION",
+          "detail": "B sampled mesh below floor by 0.035 m"
+        }
+      ],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-QUAD-V00",
+      "package": "UFDG-QUAD-V00_20261123T152651Z.zip",
+      "package_sha256": "06d07c816b44fda90df02b73939c012e8b8e4e83437327819a6c38c0c0318a78",
+      "revision": "r001",
+      "revision_path": "poses/UFDG-QUAD-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    },
+    {
+      "pose_id": "UFDG-FFRG-V00",
+      "package": "UFDG-FFRG-V00_20261123T152651Z.zip",
+      "package_sha256": "5d9f600a56a3cf54598378a5505e14f2278ada243fcdd00d094865e50fb14280",
+      "revision": "r001",
+      "revision_path": "poses/UFDG-FFRG-V00/CPL01/v001/r001",
+      "reused_existing_package": false,
+      "exit_code": 0,
+      "rendered": true,
+      "issue_count": 0,
+      "issues": [],
+      "preview_count": 4,
+      "scene_blend_saved": true
+    }
+  ]
+}

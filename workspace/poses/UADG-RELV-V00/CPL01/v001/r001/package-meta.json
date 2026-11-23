@@ -1,0 +1,10 @@
+{
+  "pose_id": "UADG-RELV-V00",
+  "revision": "r001",
+  "package": "UADG-RELV-V00_20261123T163704Z.zip",
+  "package_sha256": "b79e7c1e8c220e6e29dabdec7e6a24126b9e748f9bde4f10f727617eeb1a47e1",
+  "package_timestamp_utc": "20261123T163704Z",
+  "batch_label": "batch-0002",
+  "pass_label": "pass-01",
+  "migrated_from": "batches/UADG/pass-01/renders/UADG-RELV-V00"
+}
