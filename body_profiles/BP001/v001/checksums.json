@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": {
+    "master.blend": "e4b02d8894079b54a5033b3dfe8c9a3d485d04e59faa0a4b3ad9f05932138e04",
+    "profile.json": "904e20ed7aadd2a646f191b6d8e8c535b9606e9adda745192ebc3ae64b2ba7d8",
+    "validation.json": "43914a5a57439d5588227b6a44a358f7eeeff997eb0215cf06e9f7f26f115ba1",
+    "previews/front.png": "83cf34a9c0fa08bb4bd05211d5b86f05916cde831b8eae220bbe5f8b1d833dce",
+    "previews/side.png": "1f9d5b837e813a97a84e04be015a171ed5f933476d57b2c2d4966c9cbe1a07cf",
+    "previews/three-quarter.png": "cdc091c40692784e62386f87d53b3bb7ae987dce312f8f70ee8c94edde4db4f6"
+  }
+}

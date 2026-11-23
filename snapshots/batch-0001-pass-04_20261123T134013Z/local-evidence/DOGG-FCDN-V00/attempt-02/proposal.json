@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 grounded B sideways head (z=-0.0035m) and cleared below-floor penetration, but B head dips 3.5mm below floor and A palm coverage dropped from 76% to 60% as B hips lowered.",
+  "expected_effect": "Lift B torso slightly (+3cm, pitch 122 deg) so sideways head rests cleanly on top of Z=0 without clipping, while moving A hand offsets closer to B hips to recover >=75% palm coverage.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        -0.02,
+        0.45
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 122
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.17,
+        0.04,
+        -0.035
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.17,
+        0.04,
+        -0.035
+      ]
+    },
+    {
+      "section": "palm_surface_contact",
+      "field": "target_gap_m",
+      "value": 0.008
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

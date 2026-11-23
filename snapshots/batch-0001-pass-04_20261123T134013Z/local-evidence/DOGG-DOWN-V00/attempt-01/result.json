@@ -1,0 +1,258 @@
+{
+  "pose_id": "DOGG-DOWN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T134437Z",
+  "hypothesis": "Baseline B head flipped backward (+68 deg branch, forward_dot_minus_y=-0.985), B palms hover 9.4cm above floor, and A pelvis/hands stay detached (9.3cm pelvis gap, 0% palm coverage within 30mm).",
+  "expected_effect": "Pre-extend B neck/head/chest so head_aim chooses forward gaze instead of flipping backward, lower B torso and bring palms under shoulders onto the floor, and move A torso/hands forward to close pelvis and palm gaps.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0,
+        0.79
+      ],
+      "after": [
+        0,
+        0,
+        0.71
+      ],
+      "baseline": [
+        0,
+        0,
+        0.79
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.23,
+        -0.49,
+        0.009
+      ],
+      "after": [
+        0.23,
+        -0.41,
+        0.005
+      ],
+      "baseline": [
+        0.23,
+        -0.49,
+        0.009
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.23,
+        -0.49,
+        0.009
+      ],
+      "after": [
+        -0.23,
+        -0.41,
+        0.005
+      ],
+      "baseline": [
+        -0.23,
+        -0.49,
+        0.009
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -15,
+      "after": -35,
+      "baseline": -15
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": -12,
+      "after": -32,
+      "baseline": -12
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "chest",
+        "field": "angle_deg"
+      },
+      "before": -5,
+      "after": -15,
+      "baseline": -5
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -5,
+      "after": -25,
+      "baseline": -5
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": 0,
+      "after": -20,
+      "baseline": 0
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0.35,
+        0.96
+      ],
+      "after": [
+        0,
+        0.28,
+        0.91
+      ],
+      "baseline": [
+        0,
+        0.35,
+        0.96
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.19,
+        0.08,
+        -0.005
+      ],
+      "after": [
+        0.16,
+        0.03,
+        -0.035
+      ],
+      "baseline": [
+        0.19,
+        0.08,
+        -0.005
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.19,
+        0.08,
+        -0.005
+      ],
+      "after": [
+        -0.16,
+        0.03,
+        -0.035
+      ],
+      "baseline": [
+        -0.19,
+        0.08,
+        -0.005
+      ]
+    },
+    {
+      "selector": {
+        "section": "pelvic_alignment",
+        "field": "max_forward_shift_m"
+      },
+      "before": 0.16,
+      "after": 0.22,
+      "baseline": 0.16
+    },
+    {
+      "selector": {
+        "section": "palm_surface_contact",
+        "field": "max_translation_m"
+      },
+      "before": 0.17,
+      "after": 0.23,
+      "baseline": 0.17
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0406 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0406 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "left_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "right_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+      "detail": "L: median patch gap=0.078m; within-30mm fraction=0.00"
+    },
+    {
+      "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+      "detail": "R: median patch gap=0.078m; within-30mm fraction=0.00"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "079c03a5d0e6b70b216dd39a45e38ddf4b5b1931d100087a8986e8ea1cf356b8",
+  "probe_status": "measured"
+}

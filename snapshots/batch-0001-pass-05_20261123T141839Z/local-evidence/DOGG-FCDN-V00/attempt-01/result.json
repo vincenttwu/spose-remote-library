@@ -1,0 +1,115 @@
+{
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T142429Z",
+  "hypothesis": "Baseline forearm recalibration lifted hand_ik by +15.8cm to raise dipping elbows, causing B hands to stick awkwardly upward into the air above B sideways head.",
+  "expected_effect": "Raise B elbow poles (upper_arm_ik_target z 0.065 -> 0.14) and slide B hand_ik forward so forearms clear floor naturally without hand_ik flying upward, keeping low sideways head (2.4cm) and A palm contact intact.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "upper_arm_ik_target.L",
+        "field": "value"
+      },
+      "before": [
+        0.39,
+        -0.49,
+        0.065
+      ],
+      "after": [
+        0.42,
+        -0.5,
+        0.14
+      ],
+      "baseline": [
+        0.39,
+        -0.49,
+        0.065
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "upper_arm_ik_target.R",
+        "field": "value"
+      },
+      "before": [
+        -0.39,
+        -0.49,
+        0.065
+      ],
+      "after": [
+        -0.42,
+        -0.5,
+        0.14
+      ],
+      "baseline": [
+        -0.39,
+        -0.49,
+        0.065
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.23,
+        -0.61,
+        0.03
+      ],
+      "after": [
+        0.26,
+        -0.68,
+        0.03
+      ],
+      "baseline": [
+        0.23,
+        -0.61,
+        0.03
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.23,
+        -0.61,
+        0.03
+      ],
+      "after": [
+        -0.26,
+        -0.68,
+        0.03
+      ],
+      "baseline": [
+        -0.23,
+        -0.61,
+        0.03
+      ]
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "23e472f752f2544e01627ad71f43b026f430c27810b51a74fa3896b305d9fc7b",
+  "probe_status": "measured"
+}

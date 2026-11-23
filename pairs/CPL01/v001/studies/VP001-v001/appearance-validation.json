@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "result": "technical_checks_passed_pending_palette_review",
+  "asset_sha256": "aa36d89d3f44b2864741661d031dd65afe345326087bcfc6cea5a8299aa25fad",
+  "blender_version": "5.2.2 LTS",
+  "actors": {
+    "A": {
+      "regions": 11,
+      "all_regions_assigned": true,
+      "palette_targets_correct_actor": true,
+      "independent_color_control": true,
+      "geometry_unchanged": true,
+      "slider_samples": [
+        {
+          "slider_x": 0.0,
+          "blend_factor": 0.0
+        },
+        {
+          "slider_x": 0.135,
+          "blend_factor": 0.5
+        },
+        {
+          "slider_x": 0.27,
+          "blend_factor": 1.0
+        }
+      ]
+    },
+    "B": {
+      "regions": 11,
+      "all_regions_assigned": true,
+      "palette_targets_correct_actor": true,
+      "independent_color_control": true,
+      "geometry_unchanged": true,
+      "slider_samples": [
+        {
+          "slider_x": 0.0,
+          "blend_factor": 0.0
+        },
+        {
+          "slider_x": 0.135,
+          "blend_factor": 0.5
+        },
+        {
+          "slider_x": 0.27,
+          "blend_factor": 1.0
+        }
+      ]
+    }
+  },
+  "main_pair_template_changed": false
+}

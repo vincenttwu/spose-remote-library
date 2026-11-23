@@ -1,0 +1,9 @@
+00:00.438  blend            | Read blend: "C:\Users\hyper\Documents\GitHub\spose-remote-library\pairs\CPL01\v001\studies\VP001-v001\appearance-study.blend"
+00:06.313  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FCDN-V00\CPL01\v001\.pose-stage-jtdz5ye9\previews\front.png'
+00:07.234  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FCDN-V00\CPL01\v001\.pose-stage-jtdz5ye9\previews\side.png'
+00:08.188  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FCDN-V00\CPL01\v001\.pose-stage-jtdz5ye9\previews\three-quarter.png'
+00:09.141  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FCDN-V00\CPL01\v001\.pose-stage-jtdz5ye9\previews\qa-regions.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+scripts disabled for "C:\Users\hyper\Documents\GitHub\spose-remote-library\pairs\CPL01\v001\studies\VP001-v001\appearance-study.blend", skipping 'rig.004_ui.py'
+
+Blender quit

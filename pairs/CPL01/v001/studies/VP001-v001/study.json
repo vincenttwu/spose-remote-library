@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "visual_profile": "VP001/v001",
+  "status": "proposed_pending_review",
+  "source_template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+  "geometry_unchanged": true,
+  "same_region_map_both_actors": true,
+  "polygon_counts": {
+    "A": {
+      "abdomen": 840,
+      "pelvis": 1386,
+      "thighs": 1370,
+      "calves": 1376,
+      "feet": 660,
+      "chest_back": 1151,
+      "head_neck": 2772,
+      "forearms": 1264,
+      "hands": 5995,
+      "shoulders": 400,
+      "upper_arms": 1080
+    },
+    "B": {
+      "abdomen": 840,
+      "pelvis": 1386,
+      "thighs": 1370,
+      "calves": 1376,
+      "feet": 660,
+      "chest_back": 1151,
+      "head_neck": 2772,
+      "forearms": 1264,
+      "hands": 5995,
+      "shoulders": 400,
+      "upper_arms": 1080
+    }
+  },
+  "modes_rendered": [
+    "regions",
+    "plain"
+  ],
+  "native_texture_used": false,
+  "control": {
+    "bone": "muscle group control",
+    "channel": "location.x",
+    "plain_value": 0.0,
+    "regions_value": 0.27,
+    "factor_expression": "min(1.0,max(0.0,overlay/0.27))",
+    "independent_per_actor": true
+  },
+  "limitations": [
+    "Broad deformation-based body regions, not an exact anatomical muscle segmentation."
+  ]
+}

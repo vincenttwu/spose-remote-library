@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "installed_at_utc": "20261123T101716Z",
+  "bundle_id": "BATCH-001-DOGG-REBUILD-V2-FIVEPACK",
+  "bundle_manifest_sha256": "f6a9c813630b1098d74168ae377f2d02105a56b2d96109d935d93add2243c4b5",
+  "replacements": [
+    "AGENTS.md",
+    "CONTINUATION.md",
+    "SKILL.md",
+    "CHANGELOG.md",
+    "README.md",
+    "GUIDE.md",
+    "WORKFLOW.md",
+    "docs/COLD-START.md",
+    "docs/POSE-MODULE-AND-FEEDBACK.md",
+    "docs/HANDOFF-DESIGN.md",
+    "docs/GEOMETRY-ENGINE-V2.md",
+    "scripts/pose_common.py",
+    "scripts/import_pose.py",
+    "scripts/validate_pose.py",
+    "scripts/export_feedback.py",
+    "scripts/review_pose.py",
+    "scripts/install_update_bundle.py",
+    "scripts/blender_build.py",
+    "scripts/render_previews.py",
+    "scripts/check_batch_001.py",
+    "scripts/rigify_floor_engine.py",
+    "scripts/package_library_for_remote.py",
+    "schemas/pose-package-README.md"
+  ],
+  "pose_packages": [
+    "pose-packages/DOGG-CLSD-V00_20261123T091502Z.zip",
+    "pose-packages/DOGG-DOGG-V00_20261123T091501Z.zip",
+    "pose-packages/DOGG-DOWN-V00_20261123T091503Z.zip",
+    "pose-packages/DOGG-FCDN-V00_20261123T100501Z.zip",
+    "pose-packages/DOGG-FROG-V00_20261123T100502Z.zip"
+  ],
+  "project_archive_root_migrated": true,
+  "blender_tested_during_install": false,
+  "note": "Release manifest is a historical full-archive snapshot; use this receipt for incremental installs."
+}

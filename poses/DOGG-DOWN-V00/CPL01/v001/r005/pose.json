@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOWN-V00",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "revision": 5,
+  "status": "draft",
+  "source_id": "SRC003",
+  "source_checkpoint": "20261122T013728Z",
+  "source_row_sha256": "532c9c38ddc9a008716d240e203ce8324397028657ec6668b75ea88188341b3f",
+  "source_parent_pose_id": "DOGG-DOWN-V00",
+  "source_generation_gate": "PASS",
+  "source_catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+  "rig_map_id": "RIG001",
+  "rig_map_version": "v001",
+  "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+  "body_profile_id": "BP001",
+  "body_profile_version": "v001",
+  "accepted_at": null,
+  "issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0649 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0649 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "FORWARD_FOLD_NOT_ESTABLISHED",
+      "detail": "B: head 0.602m hip 0.545m"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "left_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "right_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+    },
+    {
+      "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+      "detail": "L: median patch gap=0.079m; within-30mm fraction=0.00"
+    },
+    {
+      "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+      "detail": "R: median patch gap=0.080m; within-30mm fraction=0.00"
+    }
+  ],
+  "stability": "needs_work",
+  "geometry_reference_pass": false,
+  "usable_as_draft": true,
+  "appearance": {
+    "visual_profile_id": "VP001",
+    "visual_profile_version": "v001",
+    "actor_palette_ids": {
+      "A": "COOL01",
+      "B": "WARM01"
+    },
+    "mode": "regions",
+    "qa_regions_preview": "previews/qa-regions.png"
+  },
+  "artifacts": {
+    "scene": "scene.blend",
+    "previews": [
+      "previews/front.png",
+      "previews/qa-regions.png",
+      "previews/side.png",
+      "previews/three-quarter.png"
+    ],
+    "validation": "validation.json",
+    "inputs": "inputs/"
+  }
+}

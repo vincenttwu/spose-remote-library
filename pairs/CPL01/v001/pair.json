@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "pair_id": "CPL01",
+  "version": "v001",
+  "status": "draft_pending_review",
+  "shared_body_profile": {
+    "profile_id": "BP001",
+    "version": "v001"
+  },
+  "height_only_difference": true,
+  "actors": [
+    {
+      "actor_id": "A",
+      "target_height_m": 1.85,
+      "relative_size": 1.0,
+      "dataset_actor": null
+    },
+    {
+      "actor_id": "B",
+      "target_height_m": 1.77,
+      "relative_size": 0.9567567567567568,
+      "dataset_actor": null
+    }
+  ],
+  "template_file": "template.blend",
+  "template_file_exists": true,
+  "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+  "scaling_method": "Common parent Empty uniform scale, preserving un-applied rig transforms; evaluated heights verified.",
+  "independent_rigs": true,
+  "camera_settings": {
+    "type": "ORTHO",
+    "render_size": [
+      1200,
+      1000
+    ],
+    "ortho_scale": 2.8,
+    "forward_axis": "-Y"
+  },
+  "lighting_settings": {
+    "type": "three_area_lights",
+    "world_strength": 0.5
+  },
+  "approved_at": null,
+  "measurements": {
+    "A": {
+      "height_m": 1.8499998962506652,
+      "bounds_m": {
+        "min": [
+          -0.8554911613464355,
+          -0.1768488734960556,
+          1.2759119272232056e-07
+        ],
+        "max": [
+          -0.14450854063034058,
+          0.07824275642633438,
+          1.850000023841858
+        ],
+        "dimensions": [
+          0.710982620716095,
+          0.25509162992239,
+          1.8499998962506652
+        ]
+      }
+    },
+    "B": {
+      "height_m": 1.7700001602061093,
+      "bounds_m": {
+        "min": [
+          0.15988126397132874,
+          -0.16920138895511627,
+          -1.7927959561347961e-07
+        ],
+        "max": [
+          0.8401187062263489,
+          0.07485927641391754,
+          1.7699999809265137
+        ],
+        "dimensions": [
+          0.6802374422550201,
+          0.2440606653690338,
+          1.7700001602061093
+        ]
+      }
+    }
+  },
+  "objects": {
+    "A": {
+      "root": "CPL01_A_ROOT",
+      "rig": "CPL01_A_RIG",
+      "shape_controls": "CPL01_A_SHAPES",
+      "body": "CPL01_A_BODY"
+    },
+    "B": {
+      "root": "CPL01_B_ROOT",
+      "rig": "CPL01_B_RIG",
+      "shape_controls": "CPL01_B_SHAPES",
+      "body": "CPL01_B_BODY"
+    }
+  },
+  "independence_tests": [
+    {
+      "moving": "CPL01_A_RIG",
+      "other_max_delta_m": 0.0,
+      "own_max_delta_m": 0.08074699173876584,
+      "passed": true
+    },
+    {
+      "moving": "CPL01_B_RIG",
+      "other_max_delta_m": 0.0,
+      "own_max_delta_m": 0.07725538077042761,
+      "passed": true
+    }
+  ],
+  "blender_version": "5.2.2 LTS",
+  "provisional": true,
+  "prepared_at": "2026-11-23T14:24:07+08:00",
+  "validation_report": "validation.json",
+  "appearance_proposal": {
+    "visual_profile": "VP001/v001",
+    "study": "studies/VP001-v001/appearance-study.blend",
+    "status": "proposed_pending_review",
+    "applied_to_main_template": false
+  }
+}

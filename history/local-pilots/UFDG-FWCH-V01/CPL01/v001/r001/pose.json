@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "pose_id": "UFDG-FWCH-V01",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "revision": 1,
+  "status": "draft",
+  "source_checkpoint": "SRC002-v001",
+  "source_row_sha256": "16401a236b5a8b22c03ae3106108fb60deb5ccb7158865492ddf7f7160865c5e",
+  "source_parent_pose_id": "UFDG-FWCH-V00",
+  "source_generation_gate": "PASS",
+  "body_profile_id": "BP001",
+  "body_profile_version": "v001",
+  "template_sha256": "aa36d89d3f44b2864741661d031dd65afe345326087bcfc6cea5a8299aa25fad",
+  "blender_version": "5.2.2 LTS",
+  "rig_map_version": "RIG001/v001",
+  "created_at": "2026-11-23T14:54:17+08:00",
+  "updated_at": "2026-11-23T15:18:38+08:00",
+  "artifacts": {
+    "scene": "scene.blend",
+    "previews": [
+      "previews/front.png",
+      "previews/side.png",
+      "previews/three-quarter.png",
+      "previews/qa-regions.png"
+    ],
+    "validation": "validation.json",
+    "geometry_measurements": "geometry-measurements.json",
+    "specification": "specification.txt",
+    "checksums": "checksums.json"
+  },
+  "issues": [
+    {
+      "code": "CONTACT_FIT_REVIEW",
+      "detail": "Hand/shoulder and hand/chest surface intersection candidates remain; review underarm/rib contact and finger placement before accepting."
+    },
+    {
+      "code": "PROVISIONAL_CHARACTER_ASSETS",
+      "detail": "BP001, CPL01 and VP001 remain unapproved; this is a user-requested provisional pilot."
+    }
+  ],
+  "reviewed_by": null,
+  "accepted_at": null,
+  "appearance": {
+    "visual_profile_id": "VP001",
+    "visual_profile_version": "v001",
+    "actor_palette_ids": {
+      "A": "COOL01",
+      "B": "WARM01"
+    },
+    "mode": "regions",
+    "qa_regions_preview": "previews/qa-regions.png",
+    "muscle_group_slider_x": {
+      "A": 0.27,
+      "B": 0.27
+    }
+  },
+  "source_id": "SRC002",
+  "source_revision": "v001",
+  "source_catalog_sha256": "15d23616c97e16b051ee7cfa2093ffe19a74c2acf12a4c93aec0cd50bab7bb59",
+  "source_specification_column": "specification",
+  "source_row_hash_fields": [
+    "pose_id",
+    "specification"
+  ],
+  "source_row_hash_serialization": "UTF-8 JSON, sorted keys, compact separators, ensure_ascii=False",
+  "template_path": "pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "template_status": "unapproved_pilot_use",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pilot": true,
+  "parent_scene_used": false,
+  "generation_script": "tooling/scripts/build_pilot_underarm_pose.py",
+  "generation_script_sha256": "4c2e1280ec16ea281147cbea7ee5efd4f67203c99226ae7d3cb6d2309bafc74c",
+  "scene_sha256": "b4dc9962482c3e2f60e83fd971a45c0e4ba0423eb0df274c750e9d49f7923d65",
+  "technical_verification": "basic_checks_passed_contact_fit_review_pending"
+}

@@ -1,0 +1,52 @@
+{
+  "rendered": true,
+  "template": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "checks": {
+    "pair_objects_present": true,
+    "applied_control_count": 19,
+    "character_proportion_edits": "NONE_REQUESTED",
+    "rig_runtime_version": "5.2.2 LTS",
+    "approval": "NOT_REVIEWED"
+  },
+  "contact_checks": {
+    "method": "sampled_evaluated_mesh_nearest_point_and_bone_head_proxies",
+    "warning": "Candidate proximities only; no signed penetration depth, balance simulation or anatomical validity.",
+    "mesh_sample": {
+      "a_vertices": 17958,
+      "b_vertices": 17958,
+      "minimum_distance_m": 0.09982,
+      "one_percentile_distance_m": 0.110808,
+      "sample_pairs_under_1cm": 0
+    },
+    "anchors": [
+      {
+        "id": "pelvis_alignment",
+        "distance_m": 0.444285,
+        "tolerance_m": 0.18,
+        "proxy_in_tolerance": false,
+        "method": "bone_head_to_bone_head"
+      },
+      {
+        "id": "left_hand_to_receiver_hip",
+        "distance_m": 0.428581,
+        "tolerance_m": 0.22,
+        "proxy_in_tolerance": false,
+        "method": "bone_head_to_bone_head"
+      },
+      {
+        "id": "right_hand_to_receiver_hip",
+        "distance_m": 0.428581,
+        "tolerance_m": 0.22,
+        "proxy_in_tolerance": false,
+        "method": "bone_head_to_bone_head"
+      }
+    ]
+  },
+  "previews": [
+    "front",
+    "qa-regions",
+    "side",
+    "three-quarter"
+  ],
+  "issues": []
+}

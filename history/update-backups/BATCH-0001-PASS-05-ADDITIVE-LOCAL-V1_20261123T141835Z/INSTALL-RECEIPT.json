@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "kind": "spose_pose_pass_install_receipt",
+  "release_id": "BATCH-0001-PASS-05-ADDITIVE-LOCAL-V1",
+  "installed_utc": "20261123T141835Z",
+  "changes": [
+    {
+      "target": "AGENTS.md",
+      "current_sha256": "2d0d8c3e67a5cb035b7f82d3efb26753053c109e2510a5d480ac5587067dd277",
+      "new_sha256": "f59f6816ea56ca9a65d0845409855f5147096dd425eca9ccc2d045c3b93991fe",
+      "source": "updates/AGENTS.md",
+      "backup": "previous\\AGENTS.md"
+    },
+    {
+      "target": "CHANGELOG.md",
+      "current_sha256": "58abfc1f9529c6e21cbf78e888fc413292a417e1a70b6be54dc862977b8c677d",
+      "new_sha256": "1d94c219b6a6b7830dbd990e812a42427a98a8f7c1d8f15e33532dba50be6436",
+      "source": "updates/CHANGELOG.md",
+      "backup": "previous\\CHANGELOG.md"
+    },
+    {
+      "target": "GUIDE.md",
+      "current_sha256": "43d27d6e4b1baed3fe292ca8d2444178b3ad3cd58de628a89a5cd1273f551196",
+      "new_sha256": "b457caeb63fd5899684026edc7f960ce9123fdb2b318484fc4e697c5af225540",
+      "source": "updates/GUIDE.md",
+      "backup": "previous\\GUIDE.md"
+    },
+    {
+      "target": "README.md",
+      "current_sha256": "5e4b922a200d9f6ef31453a0385a9e648318f316e5161d907bfde3fdc23d95ac",
+      "new_sha256": "cca360381317439d215ad674fb5e2cd9f8cfe423ac5f60161c3389edf5e57e6e",
+      "source": "updates/README.md",
+      "backup": "previous\\README.md"
+    },
+    {
+      "target": "SKILL.md",
+      "current_sha256": "b70614b318852d65ae97ff51f991184b93553ec856279909f19c484be9955e14",
+      "new_sha256": "7629fc1183532e2c262fd6ca02270d9bc5e944c15698a83c125eeea2bf9aa5b6",
+      "source": "updates/SKILL.md",
+      "backup": "previous\\SKILL.md"
+    },
+    {
+      "target": "WORKFLOW.md",
+      "current_sha256": "dc49221767d783ce2064bdc73caa4f536771a7fe4623f03ec8f6eb668d152798",
+      "new_sha256": "110c74b1b37cc7f436dc3be96566f420434aec26181ea3bd46feee50d702a3f2",
+      "source": "updates/WORKFLOW.md",
+      "backup": "previous\\WORKFLOW.md"
+    },
+    {
+      "target": "batches/BATCH-001.json",
+      "current_sha256": "18b31ba54a9520414337426a4eebc2ddeb319041f1ee0ac0b23b058f5bb33add",
+      "new_sha256": "a5eac8b8acc04f6580da8828f9c8dd7424390378f4e2135347c276a37a799f43",
+      "source": "updates/batches/BATCH-001.json",
+      "backup": "previous\\batches\\BATCH-001.json"
+    },
+    {
+      "target": "docs/FEEDBACK-CONTRACT.md",
+      "current_sha256": "b16d87b5a2e303efb231ee049d257264c18bce788ac531453e2014effbb8f84a",
+      "new_sha256": "04b86fe67e94f340380553b207829a6a31fed2014d0aa6b9163b6faae80cbfbe",
+      "source": "updates/docs/FEEDBACK-CONTRACT.md",
+      "backup": "previous\\docs\\FEEDBACK-CONTRACT.md"
+    },
+    {
+      "target": "docs/LOCAL-COLLABORATION.md",
+      "current_sha256": "f01370659aab00e35b82e2b6e2cc707af3d3fba63863dbaacfc61b6f225d23a1",
+      "new_sha256": "d5f98aeb274aec5f61198307698a7592fd87ecec9a0301f01f84771c6b21e4fe",
+      "source": "updates/docs/LOCAL-COLLABORATION.md",
+      "backup": "previous\\docs\\LOCAL-COLLABORATION.md"
+    },
+    {
+      "target": "docs/PASS-05-CALIBRATION.md",
+      "current_sha256": null,
+      "new_sha256": "7ec3b05ae351e7a788ac44e145b0d2413dc94da8b9562015db9b414748ad82ed",
+      "source": "updates/docs/PASS-05-CALIBRATION.md",
+      "backup": null
+    },
+    {
+      "target": "scripts/blender_build.py",
+      "current_sha256": "ab0d0f4ae217b5fbf872c71eceeab697ff815f8dd7cd55f5a92b574f3e769216",
+      "new_sha256": "7e4186c89bd640cddef21dcf6ca9218f3bf038efab0cb01cb0a131bd767d7a87",
+      "source": "updates/scripts/blender_build.py",
+      "backup": "previous\\scripts\\blender_build.py"
+    },
+    {
+      "target": "scripts/rigify_floor_engine.py",
+      "current_sha256": "54440cab365d06e400fcd13188ce8e2bef0bfe36314712535eccc57f2a2bfab6",
+      "new_sha256": "b5d6c06f5b499c2f6cae30dd83ca47980b2a98e8fd295f7cef42381aeccffa17",
+      "source": "updates/scripts/rigify_floor_engine.py",
+      "backup": "previous\\scripts\\rigify_floor_engine.py"
+    },
+    {
+      "target": "incoming/DOGG-CLSD-V00_20261123T140730Z.zip",
+      "current_sha256": null,
+      "new_sha256": "0b263c9d511c2b063ff253c600d50c0457bd9d7ecf62969a93d657910d36957e",
+      "source": "pose-packages/DOGG-CLSD-V00_20261123T140730Z.zip",
+      "backup": null
+    },
+    {
+      "target": "incoming/DOGG-DOGG-V00_20261123T140729Z.zip",
+      "current_sha256": null,
+      "new_sha256": "592bef4f270b7527d78251ab426edbfdc0a6879a7665c73f6bb3d7ccde549f0c",
+      "source": "pose-packages/DOGG-DOGG-V00_20261123T140729Z.zip",
+      "backup": null
+    },
+    {
+      "target": "incoming/DOGG-DOWN-V00_20261123T140731Z.zip",
+      "current_sha256": null,
+      "new_sha256": "1030a412eb479d4005ed049fd7dd98bd8cfc31bff4c9c0ab0956cebbd1e7db9e",
+      "source": "pose-packages/DOGG-DOWN-V00_20261123T140731Z.zip",
+      "backup": null
+    },
+    {
+      "target": "incoming/DOGG-FCDN-V00_20261123T140732Z.zip",
+      "current_sha256": null,
+      "new_sha256": "2ba4e850774be74cf27d9569f56f75b3b68f22249961a576eaa6fa2bd3f93ed6",
+      "source": "pose-packages/DOGG-FCDN-V00_20261123T140732Z.zip",
+      "backup": null
+    },
+    {
+      "target": "incoming/DOGG-FROG-V00_20261123T140733Z.zip",
+      "current_sha256": null,
+      "new_sha256": "684ea28621451d10f03e4350f3e363196168670cf44c0edfb785f086b010953e",
+      "source": "pose-packages/DOGG-FROG-V00_20261123T140733Z.zip",
+      "backup": null
+    }
+  ],
+  "bundle_manifest_sha256": "162d638bb7a42504f93f28a16f4957c1eab66113749510c945154ba5646dae7f",
+  "notes": "Five pose ZIPs staged, no Blender pose revisions, source CSV or tracking database touched."
+}

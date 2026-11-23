@@ -1,0 +1,69 @@
+{
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "created_utc": "20261123T142617Z",
+  "hypothesis": "Attempt 01 eliminated Attempt 00 upturned hands and laid forearms/hands naturally flat beside B low sideways head, but B sampled min_z dipped slightly to -0.0158m.",
+  "expected_effect": "Raise B hand_ik z slightly (+1.6cm) to bring B body_min_z above 0 while keeping forearms/hands flat on the floor and low sideways head unchanged.",
+  "visual_review_note": "Pending Attempt 02 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.26,
+        -0.68,
+        0.03
+      ],
+      "after": [
+        0.26,
+        -0.68,
+        0.046
+      ],
+      "baseline": [
+        0.23,
+        -0.61,
+        0.03
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.26,
+        -0.68,
+        0.03
+      ],
+      "after": [
+        -0.26,
+        -0.68,
+        0.046
+      ],
+      "baseline": [
+        -0.23,
+        -0.61,
+        0.03
+      ]
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "2fc22746a76af239e347944df213c9fd642971de673fea42e6b93974b5aa3219",
+  "probe_status": "measured"
+}

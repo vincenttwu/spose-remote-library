@@ -1,0 +1,973 @@
+{
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "results": [
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T140729Z.zip",
+      "revision_folder": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r006",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.480m, actual=0.456m"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 6,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66899,
+          "knee_L_z_m": 0.0427,
+          "knee_R_z_m": 0.0427,
+          "knee_L_angle_deg": 91.08,
+          "knee_R_angle_deg": 91.08,
+          "head_z_m": 1.03679
+        },
+        "B": {
+          "hip_z_m": 0.45617,
+          "knee_L_z_m": 0.04098,
+          "knee_R_z_m": 0.04098,
+          "knee_L_angle_deg": 80.5,
+          "knee_R_angle_deg": 80.5,
+          "head_z_m": 0.57398
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.00162,
+          "p01_distance_m": 0.006323,
+          "samples_under_1cm": 209
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.39486,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.16325,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.16332,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "v4_palm_patch_centroid_to_lateral_pelvis",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.060648,
+              "iteration_gap_m": [
+                0.059106,
+                0.010648,
+                0.002173
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 477,
+              "surface_distribution": {
+                "p10_m": 0.00556,
+                "p25_m": 0.0102,
+                "p50_m": 0.018728,
+                "p75_m": 0.028661,
+                "p90_m": 0.036914,
+                "within_15mm_fraction": 0.3833,
+                "within_30mm_fraction": 0.7751,
+                "min_m": 0.001503
+              },
+              "palm_to_hip_surface_gap_m": 0.001503,
+              "palm_patch_p25_distance_m": 0.0102,
+              "palm_patch_p50_distance_m": 0.018728,
+              "palm_patch_p75_distance_m": 0.028661,
+              "contact_coverage_30mm": 0.7751,
+              "confidence": "region_approximation"
+            },
+            "R": {
+              "side": "R",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.060542,
+              "iteration_gap_m": [
+                0.058878,
+                0.010542,
+                0.003217
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 466,
+              "surface_distribution": {
+                "p10_m": 0.00569,
+                "p25_m": 0.010266,
+                "p50_m": 0.018761,
+                "p75_m": 0.028866,
+                "p90_m": 0.037091,
+                "within_15mm_fraction": 0.382,
+                "within_30mm_fraction": 0.7708,
+                "min_m": 0.001412
+              },
+              "palm_to_hip_surface_gap_m": 0.001412,
+              "palm_patch_p25_distance_m": 0.010266,
+              "palm_patch_p50_distance_m": 0.018761,
+              "palm_patch_p75_distance_m": 0.028866,
+              "contact_coverage_30mm": 0.7708,
+              "confidence": "region_approximation"
+            }
+          },
+          "warning": "Unsigned mesh distances; visual placement and penetration still require inspection."
+        },
+        "head_aim": {
+          "enabled": true,
+          "actor": "B",
+          "requested_elevation_deg": 13.0,
+          "neck_assist_enabled": false,
+          "sampled_delta_neck_x_deg": 0.0,
+          "sampled_delta_x_deg": -68.0,
+          "before": {
+            "vector_world": [
+              0.0,
+              -0.544639,
+              -0.83867
+            ],
+            "elevation_deg": -57.0,
+            "forward_dot_minus_y": 0.54464,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "after": {
+            "vector_world": [
+              0.0,
+              -0.981627,
+              0.190809
+            ],
+            "elevation_deg": 11.0,
+            "forward_dot_minus_y": 0.98163,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "candidate_count": 9,
+          "achieved": true,
+          "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+        },
+        "head_gaze": {
+          "vector_world": [
+            0.0,
+            -0.981627,
+            0.190809
+          ],
+          "elevation_deg": 11.0,
+          "forward_dot_minus_y": 0.98163,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-DOGG-V00\",\n  \"revision\": 6,\n  \"output\": \"poses/DOGG-DOGG-V00/CPL01/v001/r006\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"PELVIS_TOO_LOW\",\n      \"detail\": \"B: min_hip_z_m=0.480m, actual=0.456m\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T140730Z.zip",
+      "revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r005",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.470m, actual=0.460m"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 5,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66899,
+          "knee_L_z_m": 0.04258,
+          "knee_R_z_m": 0.04258,
+          "knee_L_angle_deg": 90.9,
+          "knee_R_angle_deg": 90.9,
+          "head_z_m": 1.03679
+        },
+        "B": {
+          "hip_z_m": 0.4603,
+          "knee_L_z_m": 0.04093,
+          "knee_R_z_m": 0.04093,
+          "knee_L_angle_deg": 77.24,
+          "knee_R_angle_deg": 77.24,
+          "head_z_m": 0.57811
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.000738,
+          "p01_distance_m": 0.007347,
+          "samples_under_1cm": 198
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.39381,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.16426,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.16423,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "v4_palm_patch_centroid_to_lateral_pelvis",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.061527,
+              "iteration_gap_m": [
+                0.059713,
+                0.011527,
+                0.002814
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 476,
+              "surface_distribution": {
+                "p10_m": 0.006238,
+                "p25_m": 0.010328,
+                "p50_m": 0.018687,
+                "p75_m": 0.028997,
+                "p90_m": 0.036983,
+                "within_15mm_fraction": 0.3894,
+                "within_30mm_fraction": 0.7702,
+                "min_m": 0.000738
+              },
+              "palm_to_hip_surface_gap_m": 0.000738,
+              "palm_patch_p25_distance_m": 0.010328,
+              "palm_patch_p50_distance_m": 0.018687,
+              "palm_patch_p75_distance_m": 0.028997,
+              "contact_coverage_30mm": 0.7702,
+              "confidence": "region_approximation"
+            },
+            "R": {
+              "side": "R",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.061303,
+              "iteration_gap_m": [
+                0.059491,
+                0.011303,
+                0.002478
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 466,
+              "surface_distribution": {
+                "p10_m": 0.0063,
+                "p25_m": 0.010339,
+                "p50_m": 0.018812,
+                "p75_m": 0.029366,
+                "p90_m": 0.037303,
+                "within_15mm_fraction": 0.3881,
+                "within_30mm_fraction": 0.7616,
+                "min_m": 0.000857
+              },
+              "palm_to_hip_surface_gap_m": 0.000857,
+              "palm_patch_p25_distance_m": 0.010339,
+              "palm_patch_p50_distance_m": 0.018812,
+              "palm_patch_p75_distance_m": 0.029366,
+              "contact_coverage_30mm": 0.7616,
+              "confidence": "region_approximation"
+            }
+          },
+          "warning": "Unsigned mesh distances; visual placement and penetration still require inspection."
+        },
+        "head_aim": {
+          "enabled": true,
+          "actor": "B",
+          "requested_elevation_deg": 13.0,
+          "neck_assist_enabled": false,
+          "sampled_delta_neck_x_deg": 0.0,
+          "sampled_delta_x_deg": -68.0,
+          "before": {
+            "vector_world": [
+              0.0,
+              -0.544639,
+              -0.83867
+            ],
+            "elevation_deg": -57.0,
+            "forward_dot_minus_y": 0.54464,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "after": {
+            "vector_world": [
+              0.0,
+              -0.981627,
+              0.190809
+            ],
+            "elevation_deg": 11.0,
+            "forward_dot_minus_y": 0.98163,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "candidate_count": 9,
+          "achieved": true,
+          "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+        },
+        "head_gaze": {
+          "vector_world": [
+            0.0,
+            -0.981627,
+            0.190809
+          ],
+          "elevation_deg": 11.0,
+          "forward_dot_minus_y": 0.98163,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-CLSD-V00\",\n  \"revision\": 5,\n  \"output\": \"poses/DOGG-CLSD-V00/CPL01/v001/r005\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"PELVIS_TOO_LOW\",\n      \"detail\": \"B: min_hip_z_m=0.470m, actual=0.460m\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T140731Z.zip",
+      "revision_folder": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r005",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 8,
+      "issues": [
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/L: z=0.0649 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/R: z=0.0649 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "FORWARD_FOLD_NOT_ESTABLISHED",
+          "detail": "B: head 0.602m hip 0.545m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "left_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "right_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render"
+        },
+        {
+          "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+          "detail": "L: median patch gap=0.079m; within-30mm fraction=0.00"
+        },
+        {
+          "code": "PALM_HIP_PATCH_CONTACT_WEAK",
+          "detail": "R: median patch gap=0.080m; within-30mm fraction=0.00"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 5,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 1.00553,
+          "knee_L_z_m": 0.42385,
+          "knee_R_z_m": 0.42385,
+          "knee_L_angle_deg": 115.51,
+          "knee_R_angle_deg": 115.51,
+          "head_z_m": 1.34922
+        },
+        "B": {
+          "hip_z_m": 0.54493,
+          "knee_L_z_m": 0.39514,
+          "knee_R_z_m": 0.39514,
+          "knee_L_angle_deg": 73.65,
+          "knee_R_angle_deg": 73.65,
+          "head_z_m": 0.60196
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.004496,
+          "p01_distance_m": 0.044751,
+          "samples_under_1cm": 6
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.46874,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.30111,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.30183,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": false
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "v4_palm_patch_centroid_to_lateral_pelvis",
+          "target_gap_m": 0.012,
+          "sides": {
+            "L": {
+              "side": "L",
+              "converged": false,
+              "contact_target_valid": true,
+              "translation_m": 0.23,
+              "iteration_gap_m": [
+                0.136649,
+                0.124326,
+                0.115386,
+                0.103852,
+                0.092202
+              ],
+              "hand_patch_radius_m": null,
+              "hand_patch_method": "fallback closest 35% of hand material",
+              "hand_mesh_vertices_sampled": 1989,
+              "hip_mesh_vertices_sampled": 477,
+              "surface_distribution": {
+                "p10_m": 0.057216,
+                "p25_m": 0.06798,
+                "p50_m": 0.079389,
+                "p75_m": 0.090114,
+                "p90_m": 0.102102,
+                "within_15mm_fraction": 0.0,
+                "within_30mm_fraction": 0.0,
+                "min_m": 0.042738
+              },
+              "palm_to_hip_surface_gap_m": 0.042738,
+              "palm_patch_p25_distance_m": 0.06798,
+              "palm_patch_p50_distance_m": 0.079389,
+              "palm_patch_p75_distance_m": 0.090114,
+              "contact_coverage_30mm": 0.0,
+              "confidence": "partial"
+            },
+            "R": {
+              "side": "R",
+              "converged": false,
+              "contact_target_valid": true,
+              "translation_m": 0.23,
+              "iteration_gap_m": [
+                0.137614,
+                0.125424,
+                0.116428,
+                0.10504,
+                0.093474
+              ],
+              "hand_patch_radius_m": null,
+              "hand_patch_method": "fallback closest 35% of hand material",
+              "hand_mesh_vertices_sampled": 1989,
+              "hip_mesh_vertices_sampled": 465,
+              "surface_distribution": {
+                "p10_m": 0.057806,
+                "p25_m": 0.068604,
+                "p50_m": 0.079989,
+                "p75_m": 0.090751,
+                "p90_m": 0.102909,
+                "within_15mm_fraction": 0.0,
+                "within_30mm_fraction": 0.0,
+                "min_m": 0.043084
+              },
+              "palm_to_hip_surface_gap_m": 0.043084,
+              "palm_patch_p25_distance_m": 0.068604,
+              "palm_patch_p50_distance_m": 0.079989,
+              "palm_patch_p75_distance_m": 0.090751,
+              "contact_coverage_30mm": 0.0,
+              "confidence": "partial"
+            }
+          },
+          "warning": "Unsigned mesh distances; visual placement and penetration still require inspection."
+        },
+        "head_aim": {
+          "enabled": true,
+          "actor": "B",
+          "requested_elevation_deg": 8.0,
+          "neck_assist_enabled": false,
+          "sampled_delta_neck_x_deg": 0.0,
+          "sampled_delta_x_deg": -68.0,
+          "before": {
+            "vector_world": [
+              0.0,
+              -0.224951,
+              -0.97437
+            ],
+            "elevation_deg": -77.0,
+            "forward_dot_minus_y": 0.22495,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "after": {
+            "vector_world": [
+              0.0,
+              -0.987688,
+              -0.156434
+            ],
+            "elevation_deg": -9.0,
+            "forward_dot_minus_y": 0.98769,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "candidate_count": 9,
+          "achieved": false,
+          "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+        },
+        "head_gaze": {
+          "vector_world": [
+            0.0,
+            -0.987688,
+            -0.156434
+          ],
+          "elevation_deg": -9.0,
+          "forward_dot_minus_y": 0.98769,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-DOWN-V00\",\n  \"revision\": 5,\n  \"output\": \"poses/DOGG-DOWN-V00/CPL01/v001/r005\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"GROUND_SUPPORT_NOT_MET\",\n      \"detail\": \"B/hands/L: z=0.0649 m (expected 0.0040 \\u00b1 0.0260)\"\n    },\n    {\n      \"code\": \"GROUND_SUPPORT_NOT_MET\",\n      \"detail\": \"B/hands/R: z=0.0649 m (expected 0.0040 \\u00b1 0.0260)\"\n    },\n    {\n      \"code\": \"FORWARD_FOLD_NOT_ESTABLISHED\",\n      \"detail\": \"B: head 0.602m hip 0.545m\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"left_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"right_hand_to_receiver_hip exceeds diagnostic tolerance; inspect render\"\n    },\n    {\n      \"code\": \"PALM_HIP_PATCH_CONTACT_WEAK\",\n      \"detail\": \"L: median patch gap=0.079m; within-30mm fraction=0.00\"\n    },\n    {\n      \"code\": \"PALM_HIP_PATCH_CONTACT_WEAK\",\n      \"detail\": \"R: median patch gap=0.080m; within-30mm fraction=0.00\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T140732Z.zip",
+      "revision_folder": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r004",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 4,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.6742,
+          "knee_L_z_m": 0.05486,
+          "knee_R_z_m": 0.05486,
+          "knee_L_angle_deg": 101.19,
+          "knee_R_angle_deg": 101.19,
+          "head_z_m": 1.04883
+        },
+        "B": {
+          "hip_z_m": 0.25292,
+          "knee_L_z_m": 0.04025,
+          "knee_R_z_m": 0.04025,
+          "knee_L_angle_deg": 46.29,
+          "knee_R_angle_deg": 46.29,
+          "head_z_m": 0.13231
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.000998,
+          "p01_distance_m": 0.007751,
+          "samples_under_1cm": 127
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.47884,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.22039,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.22156,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "v4_palm_patch_centroid_to_lateral_pelvis",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.17,
+              "iteration_gap_m": [
+                0.074218,
+                0.051268,
+                0.035017,
+                0.025754,
+                0.019265
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 476,
+              "surface_distribution": {
+                "p10_m": 0.006216,
+                "p25_m": 0.011889,
+                "p50_m": 0.021221,
+                "p75_m": 0.031709,
+                "p90_m": 0.041256,
+                "within_15mm_fraction": 0.3337,
+                "within_30mm_fraction": 0.7097,
+                "min_m": 0.000788
+              },
+              "palm_to_hip_surface_gap_m": 0.000788,
+              "palm_patch_p25_distance_m": 0.011889,
+              "palm_patch_p50_distance_m": 0.021221,
+              "palm_patch_p75_distance_m": 0.031709,
+              "contact_coverage_30mm": 0.7097,
+              "confidence": "region_approximation"
+            },
+            "R": {
+              "side": "R",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.17,
+              "iteration_gap_m": [
+                0.074557,
+                0.051645,
+                0.034811,
+                0.025274,
+                0.020115
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 466,
+              "surface_distribution": {
+                "p10_m": 0.006269,
+                "p25_m": 0.012204,
+                "p50_m": 0.021746,
+                "p75_m": 0.032267,
+                "p90_m": 0.041781,
+                "within_15mm_fraction": 0.3209,
+                "within_30mm_fraction": 0.7017,
+                "min_m": 0.00129
+              },
+              "palm_to_hip_surface_gap_m": 0.00129,
+              "palm_patch_p25_distance_m": 0.012204,
+              "palm_patch_p50_distance_m": 0.021746,
+              "palm_patch_p75_distance_m": 0.032267,
+              "contact_coverage_30mm": 0.7017,
+              "confidence": "region_approximation"
+            }
+          },
+          "warning": "Unsigned mesh distances; visual placement and penetration still require inspection."
+        },
+        "head_side_near_floor": {
+          "actor": "B",
+          "side": "L",
+          "z_m": 0.024415,
+          "method": "VP001_head_neck_material_side_patch_near_head_bone",
+          "anatomy_precision": "approximate_side_of_head_not_exact_cheek"
+        },
+        "head_aim": {
+          "enabled": true,
+          "actor": "B",
+          "requested_elevation_deg": -60.0,
+          "neck_assist_enabled": false,
+          "sampled_delta_neck_x_deg": 0.0,
+          "sampled_delta_x_deg": -24.0,
+          "before": {
+            "vector_world": [
+              0.636381,
+              0.218454,
+              -0.739795
+            ],
+            "elevation_deg": -47.714,
+            "forward_dot_minus_y": -0.21845,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "after": {
+            "vector_world": [
+              0.636381,
+              -0.101334,
+              -0.76469
+            ],
+            "elevation_deg": -49.879,
+            "forward_dot_minus_y": 0.10133,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "candidate_count": 9,
+          "achieved": true,
+          "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+        },
+        "head_gaze": {
+          "vector_world": [
+            0.636381,
+            -0.101334,
+            -0.76469
+          ],
+          "elevation_deg": -49.879,
+          "forward_dot_minus_y": 0.10133,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-FCDN-V00\",\n  \"revision\": 4,\n  \"output\": \"poses/DOGG-FCDN-V00/CPL01/v001/r004\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T140733Z.zip",
+      "revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r004",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "meets_reference",
+      "issue_count": 0,
+      "issues": [],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 4,
+      "pose_status": "draft",
+      "stability": "unreviewed",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66739,
+          "knee_L_z_m": 0.03863,
+          "knee_R_z_m": 0.03863,
+          "knee_L_angle_deg": 83.27,
+          "knee_R_angle_deg": 83.27,
+          "head_z_m": 1.04124
+        },
+        "B": {
+          "hip_z_m": 0.48712,
+          "knee_L_z_m": 0.38192,
+          "knee_R_z_m": 0.38192,
+          "knee_L_angle_deg": 74.42,
+          "knee_R_angle_deg": 74.42,
+          "head_z_m": 0.55501
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.000979,
+          "p01_distance_m": 0.005892,
+          "samples_under_1cm": 259
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.4031,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.1686,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.16851,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "v4_palm_patch_centroid_to_lateral_pelvis",
+          "target_gap_m": 0.012,
+          "sides": {
+            "L": {
+              "side": "L",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.068022,
+              "iteration_gap_m": [
+                0.067954,
+                0.018022,
+                0.002184
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 475,
+              "surface_distribution": {
+                "p10_m": 0.005117,
+                "p25_m": 0.010037,
+                "p50_m": 0.019132,
+                "p75_m": 0.031082,
+                "p90_m": 0.04023,
+                "within_15mm_fraction": 0.4016,
+                "within_30mm_fraction": 0.7304,
+                "min_m": 0.000439
+              },
+              "palm_to_hip_surface_gap_m": 0.000439,
+              "palm_patch_p25_distance_m": 0.010037,
+              "palm_patch_p50_distance_m": 0.019132,
+              "palm_patch_p75_distance_m": 0.031082,
+              "contact_coverage_30mm": 0.7304,
+              "confidence": "region_approximation"
+            },
+            "R": {
+              "side": "R",
+              "converged": true,
+              "contact_target_valid": true,
+              "translation_m": 0.067783,
+              "iteration_gap_m": [
+                0.067757,
+                0.017783,
+                0.002112
+              ],
+              "hand_patch_radius_m": 0.1,
+              "hand_patch_method": "def-hand proximity",
+              "hand_mesh_vertices_sampled": 1636,
+              "hip_mesh_vertices_sampled": 467,
+              "surface_distribution": {
+                "p10_m": 0.005138,
+                "p25_m": 0.010107,
+                "p50_m": 0.019156,
+                "p75_m": 0.031295,
+                "p90_m": 0.040402,
+                "within_15mm_fraction": 0.4004,
+                "within_30mm_fraction": 0.7249,
+                "min_m": 0.000248
+              },
+              "palm_to_hip_surface_gap_m": 0.000248,
+              "palm_patch_p25_distance_m": 0.010107,
+              "palm_patch_p50_distance_m": 0.019156,
+              "palm_patch_p75_distance_m": 0.031295,
+              "contact_coverage_30mm": 0.7249,
+              "confidence": "region_approximation"
+            }
+          },
+          "warning": "Unsigned mesh distances; visual placement and penetration still require inspection."
+        },
+        "head_aim": {
+          "enabled": true,
+          "actor": "B",
+          "requested_elevation_deg": 12.0,
+          "neck_assist_enabled": true,
+          "sampled_delta_neck_x_deg": 0.0,
+          "sampled_delta_x_deg": -70.0,
+          "before": {
+            "vector_world": [
+              0.0,
+              -0.104528,
+              -0.994522
+            ],
+            "elevation_deg": -84.0,
+            "forward_dot_minus_y": 0.10453,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "after": {
+            "vector_world": [
+              0.0,
+              -0.970296,
+              -0.241922
+            ],
+            "elevation_deg": -14.0,
+            "forward_dot_minus_y": 0.9703,
+            "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+          },
+          "candidate_count": 45,
+          "achieved": false,
+          "warning": "Rest-to-pose orientation proxy; verify face appearance on side/three-quarter render"
+        },
+        "head_gaze": {
+          "vector_world": [
+            0.0,
+            -0.970296,
+            -0.241922
+          ],
+          "elevation_deg": -14.0,
+          "forward_dot_minus_y": 0.9703,
+          "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"unreviewed\",\n  \"pose_id\": \"DOGG-FROG-V00\",\n  \"revision\": 4,\n  \"output\": \"poses/DOGG-FROG-V00/CPL01/v001/r004\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": []\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    }
+  ]
+}

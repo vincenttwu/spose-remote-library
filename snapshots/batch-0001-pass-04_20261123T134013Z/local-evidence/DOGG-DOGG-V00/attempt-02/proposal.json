@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOGG-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 improved pelvis alignment (0.395m pass), palm coverage (77%), and head gaze (-3 deg), but chest arch lifted B palms to z=0.038m and B hip sits at 0.457m.",
+  "expected_effect": "Pull B hand_ik closer under shoulders onto the floor (z~0.004m), raise B torso slightly toward 0.48m hip target, and lift B head slightly into positive elevation.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.94
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.23,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.23,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -38
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

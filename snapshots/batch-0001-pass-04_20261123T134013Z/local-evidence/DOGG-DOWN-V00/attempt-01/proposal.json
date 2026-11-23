@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOWN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline B head flipped backward (+68 deg branch, forward_dot_minus_y=-0.985), B palms hover 9.4cm above floor, and A pelvis/hands stay detached (9.3cm pelvis gap, 0% palm coverage within 30mm).",
+  "expected_effect": "Pre-extend B neck/head/chest so head_aim chooses forward gaze instead of flipping backward, lower B torso and bring palms under shoulders onto the floor, and move A torso/hands forward to close pelvis and palm gaps.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.71
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.23,
+        -0.41,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.23,
+        -0.41,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -35
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -32
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -15
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -25
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -20
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0.28,
+        0.91
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.16,
+        0.03,
+        -0.035
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.16,
+        0.03,
+        -0.035
+      ]
+    },
+    {
+      "section": "pelvic_alignment",
+      "field": "max_forward_shift_m",
+      "value": 0.22
+    },
+    {
+      "section": "palm_surface_contact",
+      "field": "max_translation_m",
+      "value": 0.23
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

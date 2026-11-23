@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "local_run": "local/batch-0001-pass-04_20261123T134013Z",
+  "enabled": true,
+  "max_refinement_attempts": 2
+}

@@ -1,0 +1,17 @@
+{
+  "blender-result.json": "ce8a036c4d8df24efd94b9abd5b17f5af9befee11962660a637d1a3d361e0119",
+  "build-settings.json": "fc6d47604cb014879dab9bd1688660a604f2f46ee43cc73e0a7920e5089c2cd4",
+  "build.log": "cb182ce4c6a0af7d083e024ad606fbeae1cc955df4ae096e06336f6d587ec726",
+  "inputs/contacts.json": "0cbdf050d95da21045a34e4e15fab8a335484514432f681a69be7cc9f6f035f6",
+  "inputs/manifest.json": "8b33e1bf291ce8f4e6eedaa6a49e932760ee27152ee47ceb8aaa7bcba7943139",
+  "inputs/pose.json": "c149d230d68dc934d9ac68347fa557092d425c3f7eb7488a873d971858c2cabc",
+  "inputs/render-config.json": "37518fa112cffc99e7622aceae6232371d36fb21280080b86a00324091500aa7",
+  "inputs/rig-targets.json": "9980af888ea0ed721ebe373332a49ed6adbf8662ba143c132e32b8e8c6ac6d73",
+  "inputs/validation-plan.json": "d88ab238a1ad2df855136245016629df4d8064968cf70349a5d6e677cddfb3e5",
+  "pose.json": "0899d371c04924312e457b7d21676775329d6be8dbf0cabb1b0c09ff0a301b7d",
+  "previews/front.png": "4d638eff43192ed87bcb88821a656446b8ce3c73beac4e6ed7d248329aa1fee5",
+  "previews/qa-regions.png": "b283c992555b0a00d2017a859f346035d7d65119ec1fc7af600c40c5f9b64aab",
+  "previews/side.png": "05db4e0e626c084b14fa2337b6c2f9070c570d983fbc8ab43e1f5cfd2e5239f6",
+  "previews/three-quarter.png": "271bb94b0f06b434fc3d1a4b47954b0db9da3858741b4600396e65c7f5e55a71",
+  "validation.json": "c9ce22767b374da04839e523cb838f9850970c898cb7d650583d286c70fb73d6"
+}

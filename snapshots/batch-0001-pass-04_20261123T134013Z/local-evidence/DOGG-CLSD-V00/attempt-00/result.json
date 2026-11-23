@@ -1,0 +1,9 @@
+{
+  "attempt": 0,
+  "pose_id": "DOGG-CLSD-V00",
+  "kind": "authoritative_baseline",
+  "revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r004",
+  "status": "built_new_revision",
+  "hypothesis": "remote baseline; no local changes",
+  "rig_targets_sha256": "062505521b29d7f769f79a05ee884cf6ea0162867a3b6e3cafa9e87a7888a66b"
+}

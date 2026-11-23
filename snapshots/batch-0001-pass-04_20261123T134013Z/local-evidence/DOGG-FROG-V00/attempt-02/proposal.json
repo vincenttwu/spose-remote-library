@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 widened B feet out of A knee intersection, but chest styling lifted B palms to z=0.042m and B feet still graze A knees in side view.",
+  "expected_effect": "Pull B hand_ik closer under shoulders to re-ground palms cleanly on floor, shift B feet 6cm further forward to fully clear A knees, and lift B head gaze closer to level.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "foot_ik.L",
+      "field": "value",
+      "value": [
+        0.43,
+        0.05,
+        0.08
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "foot_ik.R",
+      "field": "value",
+      "value": [
+        -0.43,
+        0.05,
+        0.08
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.29,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.29,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -45
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

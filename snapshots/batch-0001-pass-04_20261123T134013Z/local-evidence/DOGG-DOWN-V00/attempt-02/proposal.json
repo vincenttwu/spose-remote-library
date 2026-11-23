@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOWN-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 lowered B palms to 0.041m and pelvis gap to 0.052m, but B head remained 12 deg past -Z (so head_aim still chose +68 deg backward branch) and upright A arms could not reach down to B hips.",
+  "expected_effect": "Ease B torso pitch to 108 deg with added chest/neck/head extension so B head crosses into forward -Y branch, ground B palms flat on floor, and lean standing A torso forward (36 deg) and lower so A hands reach B hips.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.67
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 108
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.23,
+        -0.34,
+        0.004
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.23,
+        -0.34,
+        0.004
+      ]
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -25
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -35
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -35
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0.24,
+        0.85
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 36
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.16,
+        0.03,
+        -0.055
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.16,
+        0.03,
+        -0.055
+      ]
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

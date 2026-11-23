@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline palm contact converged (76% within 30mm), but large negative X rotations on B neck/head (-42/-58 and -48/-62) lift the sideways head to z=0.138m while B dips 2.6cm below floor and A stops at 5.7cm pelvis gap.",
+  "expected_effect": "Relax negative X neck/head extension and pitch B torso steeper forward while slightly lifting hips to drop the sideways head closer to floor, reduce below-floor clipping, and close A-B pelvis distance.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        -0.02,
+        0.42
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 125
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -22
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -38
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "field": "angle_deg",
+      "value": -28
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "field": "angle_deg",
+      "value": -42
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0.28,
+        0.75
+      ]
+    },
+    {
+      "section": "pelvic_alignment",
+      "field": "max_forward_shift_m",
+      "value": 0.22
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

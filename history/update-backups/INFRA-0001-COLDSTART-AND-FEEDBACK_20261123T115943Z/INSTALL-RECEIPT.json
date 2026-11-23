@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "kind": "spose_infrastructure_install_receipt",
+  "release_id": "INFRA-0001-COLDSTART-AND-FEEDBACK",
+  "installed_utc": "20261123T115943Z",
+  "changes": [
+    {
+      "target": "AGENTS.md",
+      "current_sha256": "d7c7318221e1434fb26526b1f8ecf3a610a57ff0ae72324b9930ba1548f06385",
+      "new_sha256": "c01d7389e6ca0298d9c767c2fcc574291a57556ef054c82195b2e6930cd4bbb0",
+      "source": "updates/AGENTS.md",
+      "backup": "previous\\AGENTS.md"
+    },
+    {
+      "target": "CHANGELOG.md",
+      "current_sha256": "a7922972bf51817c0bd1d8f891c0703bb62e72689adff843703d20abc81ad00d",
+      "new_sha256": "00c388787054e282d4a874fcf5fe539f60ab34a6f7aae61f86e49ee79a640106",
+      "source": "updates/CHANGELOG.md",
+      "backup": "previous\\CHANGELOG.md"
+    },
+    {
+      "target": "GUIDE.md",
+      "current_sha256": "a8ea812d2295370e04a0e41a32841e36b3399d8e46dd9d014f7d50055f7cc0cc",
+      "new_sha256": "69b5a5181b8b80d318ae13afd5f0dd93c37b89a6ee8c65d6840b69163362bdfb",
+      "source": "updates/GUIDE.md",
+      "backup": "previous\\GUIDE.md"
+    },
+    {
+      "target": "README.md",
+      "current_sha256": "0ebda56423966d65c8ee11265acd4096b0fcbd0f4814f79dc6008560dcdd747f",
+      "new_sha256": "e2c9fd30c9551102622dcf7ae1b1f13e202421b05b3dc08925ee0b8106d207a7",
+      "source": "updates/README.md",
+      "backup": "previous\\README.md"
+    },
+    {
+      "target": "SKILL.md",
+      "current_sha256": "3b31ef7bfa35c4cf73049c0617e532c59cd1587f618e68af7cc13507a2a74cb3",
+      "new_sha256": "b252928ac4b524522c2c0dd83a4803af27b84ae0fd7f94ec5c99765570bc7023",
+      "source": "updates/SKILL.md",
+      "backup": "previous\\SKILL.md"
+    },
+    {
+      "target": "WORKFLOW.md",
+      "current_sha256": "e7ac815ebef9506e95759f0341f64e6d7115c1018958b8575a16971d34dfa18f",
+      "new_sha256": "fc8e334d900fb32b1bd5cea12a0d597ef835789cb635d8aac20a88cee3f8ab22",
+      "source": "updates/WORKFLOW.md",
+      "backup": "previous\\WORKFLOW.md"
+    },
+    {
+      "target": "docs/ARCHITECTURE.md",
+      "current_sha256": null,
+      "new_sha256": "8fc97380163a8170b532549b79537a6c440e9e48472cf0366e218fd7008de412",
+      "source": "updates/docs/ARCHITECTURE.md",
+      "backup": null
+    },
+    {
+      "target": "docs/COLD-START.md",
+      "current_sha256": "6b86d1ec14f63e00a9f15e9d860b41a44cd621e4fc58f1af5ae932659a27598b",
+      "new_sha256": "5b12bf617be8d9ceab1b32e7902d54323e72cc6046b31ce8f27c723f654dacd7",
+      "source": "updates/docs/COLD-START.md",
+      "backup": "previous\\docs\\COLD-START.md"
+    },
+    {
+      "target": "docs/FEEDBACK-CONTRACT.md",
+      "current_sha256": null,
+      "new_sha256": "070d8e2fd044a7bbd21f84d49074701783b8b4715d89bc97a96e2f56718a9c51",
+      "source": "updates/docs/FEEDBACK-CONTRACT.md",
+      "backup": null
+    },
+    {
+      "target": "docs/HANDOFF-DESIGN.md",
+      "current_sha256": "d970c0d9bf66f4bdd2a0496abad46918db6a0d68bc7b82933e06493de11d6a5a",
+      "new_sha256": "af81f32f389ad2cf93ffea9371414f5d423c2b0da245ee39385c67698d5765e5",
+      "source": "updates/docs/HANDOFF-DESIGN.md",
+      "backup": "previous\\docs\\HANDOFF-DESIGN.md"
+    },
+    {
+      "target": "docs/MAINTENANCE.md",
+      "current_sha256": null,
+      "new_sha256": "fcd3c43983a68a990acca91b7ec422dd0639e428901f30a7956b9670653b81d4",
+      "source": "updates/docs/MAINTENANCE.md",
+      "backup": null
+    },
+    {
+      "target": "docs/POSE-MODULE-AND-FEEDBACK.md",
+      "current_sha256": "9c1214bbfe389ca652f18c3c4d86febfa8b74d9e775898e7d591a5a8a85e799d",
+      "new_sha256": "c397a65964c0b62921fa8c579f4307a9c2efca95765f6a9ce946e7fc7858cd1e",
+      "source": "updates/docs/POSE-MODULE-AND-FEEDBACK.md",
+      "backup": "previous\\docs\\POSE-MODULE-AND-FEEDBACK.md"
+    },
+    {
+      "target": "docs/RELEASE-AND-RECOVERY.md",
+      "current_sha256": "5b291acaf518f13c6c83f981978f653d9ab35e338c63cc377a7b0bf1b48b47ed",
+      "new_sha256": "c47b173e564962808735a084170c796a8372b592a3d7f4311ba53e0accf86d52",
+      "source": "updates/docs/RELEASE-AND-RECOVERY.md",
+      "backup": "previous\\docs\\RELEASE-AND-RECOVERY.md"
+    },
+    {
+      "target": "docs/REVIEW-AND-SCORING.md",
+      "current_sha256": null,
+      "new_sha256": "0fa2c089123e79f75c7b5c03f20479de723b13d05a118d49261d7673644c0137",
+      "source": "updates/docs/REVIEW-AND-SCORING.md",
+      "backup": null
+    },
+    {
+      "target": "docs/SCHEMAS.md",
+      "current_sha256": null,
+      "new_sha256": "8610e6640c4b2d34ddebf0e6bcfda3019ed574a63c5bb3f71a77b6ece3e1a8ce",
+      "source": "updates/docs/SCHEMAS.md",
+      "backup": null
+    },
+    {
+      "target": "scripts/check_documentation.py",
+      "current_sha256": null,
+      "new_sha256": "e524c5ab1dcae26b3b155046de8853b011e50c39aa5dfbbfc9cb946749f66239",
+      "source": "updates/scripts/check_documentation.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/compress_images.py",
+      "current_sha256": null,
+      "new_sha256": "ab4e556b84f9924a6caccda4f1c5d1981bdf117f3cc894054f0d6bdb7247f7e6",
+      "source": "updates/scripts/compress_images.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/feedback_bundle.py",
+      "current_sha256": null,
+      "new_sha256": "34e1315e64c66b957d0656523bf278b52ef845e27a1db4bd4e434a11b2c272c8",
+      "source": "updates/scripts/feedback_bundle.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/refresh_exchange.py",
+      "current_sha256": null,
+      "new_sha256": "e8b38d986d5fe67200249aa6ce62c75263dcb76d76fe10aa36ccfb8dfb696f15",
+      "source": "updates/scripts/refresh_exchange.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/run_pose_batch.py",
+      "current_sha256": "7b26dc476d6eb00bfe531ca5fecbee299a7b46220fd3fdb41d4ea2e0d6652a1e",
+      "new_sha256": "2980e6cfe6b8fa85b09885694e37c12f1c8ae45705295b602bf649b750c6f6ec",
+      "source": "updates/scripts/run_pose_batch.py",
+      "backup": "previous\\scripts\\run_pose_batch.py"
+    },
+    {
+      "target": "scripts/update_continuation.py",
+      "current_sha256": null,
+      "new_sha256": "ab735f720badc6c64ccc4dcbb2e55f95042c7905611841fe8ee887ece06865ab",
+      "source": "updates/scripts/update_continuation.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/verify_feedback.py",
+      "current_sha256": null,
+      "new_sha256": "1167d61dd9611d1f484ab3ae5dcf164fbd2ca37d77259b8f64d7ec24fa45f9d7",
+      "source": "updates/scripts/verify_feedback.py",
+      "backup": null
+    }
+  ],
+  "bundle_manifest_sha256": "38020424f006d47736ddf67cf0cf91e03dd3de6df588ba3430373179600496c7",
+  "notes": "No Blender pose revisions, source CSV or tracking database touched."
+}

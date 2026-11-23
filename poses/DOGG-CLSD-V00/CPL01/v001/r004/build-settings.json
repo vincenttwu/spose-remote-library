@@ -1,0 +1,36 @@
+{
+  "template_file": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "fallback_template": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\template.blend",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "pose_id": "DOGG-CLSD-V00",
+  "output": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\poses\\DOGG-CLSD-V00\\CPL01\\v001\\.pose-stage-6i3ygc0p",
+  "save_blend": true,
+  "render_config": {
+    "resolution": [
+      1152,
+      960
+    ],
+    "qa_regions": true,
+    "adaptive_camera": true
+  },
+  "validation_plan": {
+    "schema_version": 1,
+    "pose_id": "DOGG-CLSD-V00",
+    "requirements": [
+      "Correct fundamental posture per source",
+      "Both left/right support regions near z=0",
+      "No significant mesh floor penetration",
+      "No floating palms or wrong-leg configuration",
+      "Pelvic adjacency and rear-hand contact visually inspected",
+      "No excessive clipping or interpenetration"
+    ],
+    "known_limitations": [
+      "No full signed mesh collision solver or force simulation; review images and proxy checks."
+    ],
+    "acceptance": "Optional review only. Record all geometry warnings; never stop other batch poses or next batch.",
+    "process_mode": "always_render_all_five",
+    "pass_label": "pass-03",
+    "calibration_reference_only": true
+  }
+}

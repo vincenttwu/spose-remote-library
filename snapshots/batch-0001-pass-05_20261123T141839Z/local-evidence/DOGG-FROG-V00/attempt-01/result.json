@@ -1,0 +1,106 @@
+{
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T142406Z",
+  "hypothesis": "Baseline styling B head (-18 deg) with torso pitch 102 deg left pre-aim gaze at -84 deg so head_aim clamped at -14 deg downward despite neck_assist, while chest -15 deg kept B palms near 0.029m.",
+  "expected_effect": "Set styling B head to -38 deg and ease B torso pitch to 96 deg so head_aim reaches +12 deg forward-up gaze, ease chest to -8 deg and shift hand_ik 5cm closer under shoulders to plant palms flat near Z=0 while keeping wide feet clear of A knees.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 102,
+      "after": 96,
+      "baseline": 102
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.29,
+        -0.5,
+        0.005
+      ],
+      "after": [
+        0.29,
+        -0.45,
+        0.004
+      ],
+      "baseline": [
+        0.29,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.29,
+        -0.5,
+        0.005
+      ],
+      "after": [
+        -0.29,
+        -0.45,
+        0.004
+      ],
+      "baseline": [
+        -0.29,
+        -0.5,
+        0.005
+      ]
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "chest",
+        "field": "angle_deg"
+      },
+      "before": -15,
+      "after": -8,
+      "baseline": -15
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": -18,
+      "after": -38,
+      "baseline": -18
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0497 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0497 m (expected 0.0040 ± 0.0260)"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "1599a0f37f5b1b7bfd31f1631732aaea7f3cb3a85e0e647e94e6ae2f7c03f3bc",
+  "probe_status": "measured"
+}

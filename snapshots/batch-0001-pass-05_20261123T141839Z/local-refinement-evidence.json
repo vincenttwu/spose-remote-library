@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "kind": "spose-local-refinement-evidence",
+  "session": "local/batch-0001-pass-05_20261123T141839Z",
+  "batch_label": "batch-0001",
+  "pass_label": "pass-05",
+  "max_refinement_attempts": 2,
+  "finalized_utc": "20261123T142810Z",
+  "pose_selections": {
+    "DOGG-DOGG-V00": {
+      "selected_attempt": 0,
+      "selection_reason": "Baseline Attempt 00 already strong and stable: +11.0 deg forward-up gaze (dot-Y 0.982), all 10/10 floor supports pass (B palms 25.0mm), pelvis alignment passes (0.395m, closest pelvis 2.1cm), palm patch coverage 77.5/77.1 pct (p50 18.7mm). Kept unchanged per LOCAL-WORKS to avoid forced edits.",
+      "local_visual_score_out_of_10": 8.2,
+      "baseline_revision_folder": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r006",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        }
+      ],
+      "selected_is_authoritative_baseline": true
+    },
+    "DOGG-CLSD-V00": {
+      "selected_attempt": 0,
+      "selection_reason": "Baseline Attempt 00 preserves narrow-knee corridor cleanly with +11.0 deg forward-up gaze (dot-Y 0.982), all 10/10 floor supports pass (B palms 26.3mm), pelvis alignment passes (0.394m, closest pelvis 2.1cm), and palm patch coverage 77.0/76.2 pct (p50 18.7mm). Kept unchanged per LOCAL-WORKS.",
+      "local_visual_score_out_of_10": 8.2,
+      "baseline_revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r005",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        }
+      ],
+      "selected_is_authoritative_baseline": true
+    },
+    "DOGG-DOWN-V00": {
+      "selected_attempt": 1,
+      "selection_reason": "Attempt 01 resolves all major Pass 04/Pass 05 baseline defects (8 issues -> 1): B palms drop from 65.0mm to 8.3mm flat on floor, true standing forward fold established with B head (0.487m) 8.9cm below B hip (0.576m), crisp forward gaze (+1.0 deg, dot-Y 0.9999), closest pelvis drops 4.3cm to 3.0cm, and A palm patch coverage jumps from 0 pct to 81.7/81.9 pct (p50 18.1mm). Only advisory left is bone-head pelvis anchor 0.423m.",
+      "local_visual_score_out_of_10": 8.3,
+      "baseline_revision_folder": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r005",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 11
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-FCDN-V00": {
+      "selected_attempt": 1,
+      "selection_reason": "Attempt 01 fixes the Pass 05 baseline visual regression where forearm recalibration lifted B hands awkwardly into the air above B head; forearms and hands now rest naturally flat on the floor (B/forearms 18.4mm) while preserving low sideways head (24.4mm), closest pelvis (3.8cm), and A palm coverage 71.0/70.2 pct (p50 21.2mm). Attempt 02 yielded identical geometry after forearm recalibration, so simpler Attempt 01 is selected; minor note: B body_min_z dips -15.8mm at fingertip edge.",
+      "local_visual_score_out_of_10": 7.9,
+      "baseline_revision_folder": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r004",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 4
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 2
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-FROG-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 achieves 0 diagnostic issues and resolves both Pass 05 baseline defects: B gaze rises from -14.0 deg downward to +12.0 deg forward-up (dot-Y 0.978), B palms plant flat on floor at 9.4mm (vs 28.5mm baseline and 49.7mm Attempt 01), wide feet remain clearly separated from A knees with zero clipping, body_min_z is positive (A 1.8mm, B 4.0mm), and A palm patch coverage rises to 74.4/74.3 pct (p50 20.0mm).",
+      "local_visual_score_out_of_10": 8.5,
+      "baseline_revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r004",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 5
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 1
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    }
+  },
+  "files_sha256": {
+    "local-evidence/DOGG-CLSD-V00/attempt-00/blender-result.json": "bb362aa579e679ddfa3341a3f362854635c11ba348f38fe2344e73725f7ea95d",
+    "local-evidence/DOGG-CLSD-V00/attempt-00/result.json": "22770409c95ec6d31d5a918f62802171682396941644fd5e446ca54e92a65f07",
+    "local-evidence/DOGG-CLSD-V00/attempt-00/rig-targets.json": "cab086050666bfc963342cf8defcdbb5b4a910d9c3f6abfd6a1c5489fa0859fb",
+    "local-evidence/DOGG-DOGG-V00/attempt-00/blender-result.json": "eaf65281a4af10adf1fbac74bfd52ac25ee60c4215b6d3f0223e19c9d785423c",
+    "local-evidence/DOGG-DOGG-V00/attempt-00/result.json": "527ec4074dceb492e14d23d13a09df0fe0e014291b3dd95396b3b07c41dd12eb",
+    "local-evidence/DOGG-DOGG-V00/attempt-00/rig-targets.json": "63e943d5f7e5f531c1e7a31c327832fd132ab1aeda7ee46886152331a0575f10",
+    "local-evidence/DOGG-DOWN-V00/attempt-00/blender-result.json": "419bd2b948ae415cdcd66dedda4cbfa5f969823055d33145a1df3745e915e920",
+    "local-evidence/DOGG-DOWN-V00/attempt-00/result.json": "eb707109e47fcc18c6f5e28e02bd638f986dad7c7fbe349ee4c1c332da98f72d",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/blender-result.json": "863773bbd0add0cda29b60dd662de5757c61eac3a3802cad813b7c663a086eae",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/calibration.json": "4f82fd9c7523f52ce4a6d254fb068d4f8f82aab276224fdcb5667c87767dd2cf",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/front.png": "658f287e35e6ab6c253ff5395fbe605330f8a8185f8f054d001e21bb486b365f",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/qa-regions.png": "2759098ea678b4a5c181f68d7faee7a192bcdd8a4523cdddf830a006ab10e76b",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/side.png": "8fa71439898bdb86865e283e2d8f59f29495dcb56ac3c860d2f6089aebed037e",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/three-quarter.png": "d0b65359ca2a32ea099cff6203e89b32e15dda5555228842c9231936e0dc84b2",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/proposal.json": "58787b2da907568debc72cc8e4ecc68c6444c58bf85e655940bb4527f29b7b2a",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/result.json": "ffc1279d2ad95fc838eaa03890848b02483b9ce41c9f72490c0660b894c62503",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/rig-targets.json": "c58c14cb5d3b910317db511abe951a4b3be0da132acd87bac65b9fbfae558f6c",
+    "local-evidence/DOGG-FCDN-V00/attempt-00/blender-result.json": "e2269130c81f4752ab11634f6d66574e3b583725bdc673e0f7bb62b9950e5634",
+    "local-evidence/DOGG-FCDN-V00/attempt-00/result.json": "2ad2a77d192951f043cb54c7abd784609d24581299b4ed98a65a825375b37cf1",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/blender-result.json": "1eb1c096ed8c860463cd353a325269f510f1f41e72f88f2f42e7a299907ae13d",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/calibration.json": "bd41738d4a4bec7f62e4605a78ef49dca696cee737fc85f41079e22f0b9c238d",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/front.png": "150df4fa5b58b72c327b5832ae5f8a26978c32b985dd621486b452a9b3fbbeee",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/qa-regions.png": "f5b455eef0659ea1ca33f0cc27ea17a8fdd98d57006792f7ea8a6ec2e69855f7",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/side.png": "6a91761470e0ebe4f40d7432f007cc99a5c644d55808c99a278158aba498ba30",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/three-quarter.png": "1f3ad42c553bec017dfe022ba63b3be4b5e02328efefc6340aabd2469944a508",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/proposal.json": "7e6599e16719361f4fc2e9ec45de987028ab50506dc11f0b95d7a874576c1c19",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/result.json": "b90558d422a5c865e9cdeaf6a28b167aa33bd11204e5ef84231c176330718716",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/rig-targets.json": "23e472f752f2544e01627ad71f43b026f430c27810b51a74fa3896b305d9fc7b",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/blender-result.json": "36dbfab6a29c93e9b137bfe8517dfd5fa6621d947ffc8e3e1b7620ea23588a30",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/calibration.json": "71cfffb17a4e13c4a7ab1d0a4f93efe490bd70cd696779af36b5000b2f18f98f",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/side.png": "9bcad585d972723e67348faca3f86b1e3ac779b486a670311986c1b286ad1639",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/three-quarter.png": "eacf2d37a0e41a7d8c14f50e847c0adffd56ae17f85d73d9026230b9332b3159",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/proposal.json": "3f39255e1c85e572a4faa94de75f591434b2acaac092b67445aedabd468645df",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/result.json": "bdaa0178d0d9519cf572603f1f63863c381c58b58d2e1fecfba37ea8195172fe",
+    "local-evidence/DOGG-FROG-V00/attempt-00/blender-result.json": "f7afc1001220fb418d805c32b478cb0a871006a096db436bfd5e023769788c02",
+    "local-evidence/DOGG-FROG-V00/attempt-00/result.json": "446114f9af3550f504d816309b4cabd135990607b9ff362a1fb30e6793f2ecb8",
+    "local-evidence/DOGG-FROG-V00/attempt-01/blender-result.json": "44a0f13494ffe427ca2eb4e5b486f1de248ba8f5b95f7875b5e1c6e7381442ce",
+    "local-evidence/DOGG-FROG-V00/attempt-01/calibration.json": "e662ef24ca88230c3f414ed73b3baf030f51a6b82665def6b96eb9e4eae25b1e",
+    "local-evidence/DOGG-FROG-V00/attempt-01/previews/side.png": "504e48447486689b54b11df1ada810a4c9e652d8a5c0a6438d6639c6b58dd3f9",
+    "local-evidence/DOGG-FROG-V00/attempt-01/previews/three-quarter.png": "87a34608b3fe972002a20e40e3afadbe5c3c628c20407c014c4d02c62f95fc4f",
+    "local-evidence/DOGG-FROG-V00/attempt-01/proposal.json": "3320a9d325ec5341ca5c365069abcd1447d4f88d94d1cb592302b103ceeebe65",
+    "local-evidence/DOGG-FROG-V00/attempt-01/result.json": "6377290ab3b135828ead3e63bd6e642321ad8d003ea1d8aff5a83ea0f186f931",
+    "local-evidence/DOGG-FROG-V00/attempt-02/blender-result.json": "ba8c42588eadfa4b5b2aa068d21fd00e613d318f32301725027a76e385ff009a",
+    "local-evidence/DOGG-FROG-V00/attempt-02/calibration.json": "b2a3004862b75e889f830f957838644f3f35bc29a2aa2f5d83218e5c8164efad",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/front.png": "cee176e31be1d175edb133f9b13693da0f1989707dfd883824ad982034a18e4f",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/qa-regions.png": "a8312963eb43b7b58198b332353366eecfff43a6e2906c300b90a9fa855e15d9",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/side.png": "ae44507b16bffe76d021d38b9eeca5f0755842a3e7096d412c24ee48734d97fa",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/three-quarter.png": "6da20b499d9d0047309bbb69b9d9c054f1daa3bedccb6c94bae5a8783b279b4d",
+    "local-evidence/DOGG-FROG-V00/attempt-02/proposal.json": "18b6bcb9af38849175b78ad630bc775ea425206d8bfd45041308d6e05d2f366f",
+    "local-evidence/DOGG-FROG-V00/attempt-02/result.json": "8e978fdf538758f2ef0e884ab22da5859b4589eaa66709cb0279d2fc14508798",
+    "local-evidence/DOGG-FROG-V00/attempt-02/rig-targets.json": "f09e6bd9df10a40fce9383c6da54afd19c8b325c1da3534834108c2155e2cb86"
+  },
+  "warning": "Local candidate is not an authoritative library revision"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-CLSD-V00",
+  "status": "proposal",
+  "batch_id": "BATCH-001-DOGG-FIVE-NOGATES",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Closed Doggy",
+  "source_gate": "PASS",
+  "source_complexity_pose": "1",
+  "specification": "[ACTOR_1] and [ACTOR_2] face the same anatomical forward direction. [ACTOR_1] stays directly behind [ACTOR_2], with the front of [ACTOR_1] oriented toward the back of [ACTOR_2]; both pelvic headings remain front-to-rear aligned even if either torso bends.\n\nPRIMARY MOUNTED CONTACT — The front of [ACTOR_1]'s pelvic/lower-abdominal region meets the back of [ACTOR_2]'s pelvic region in a centered, continuous front-to-rear contact. [ACTOR_1]'s own knee or foot base is brought close enough to [ACTOR_2]'s proximal thighs for that contact to occur; [ACTOR_1] is not a separate figure kneeling or standing at a distance. The two pelvic regions stay together while the chest, shoulders, hands or head change position.\n\nThe contact is already established in the final pose before any hand or angle change; the pelvis follows the supported actor's hip height rather than remaining at a distant rear or elevated position.\n\nLoad paths and environmental clearance: both knees of [ACTOR_1] supported by [FLOOR]. both palms of [ACTOR_2] supported by [FLOOR]; both knees of [ACTOR_2] supported by [FLOOR]. [ACTOR_2]'s knees remain close together while [ACTOR_1]'s knees/shins are placed behind and outside that compact limb corridor; both of [ACTOR_2]'s palms stay grounded. All grounded palms, forearms, knees and feet retain one exclusive physical job; a grounded limb is not simultaneously assigned a new partner grip.\n\nPose-specific silhouette (Closed Doggy): Hands-and-knees base with [ACTOR_2] knees brought closer together. [ACTOR_1] maintains kneel posture and [ACTOR_2] maintains quadruped posture on the declared surfaces: [FLOOR]. Do not replace this pose with a different leg-height, bridge, rotated, kneeling or standing configuration.\n\nFAMILY CLOSENESS RULE — DOGG REAR EMBRACE TOPOLOGY — receiver knees kept close; the rear shins stay outside this narrow leg corridor. The defining lower-body front/rear or oblique pelvic interface closes FIRST. Where available, [ACTOR_1] arms scoop and encircle from behind and the rear chest follows [ACTOR_2] back. An arm wrap alone never proves pelvic contact; [ACTOR_1] supporting knees/feet stay close to the actual hip height. The receiver keeps all original hands, feet, knees and external support.\n\nSOURCE BASE CONTACT — both hands of [ACTOR_1] to both hips of [ACTOR_2] (bracing contact). Source V00 arm endpoints remain unchanged. The family closeness rule defines future variation priorities, not an additional observed V00 wrap. Source illustrations may not prove concealed skin-to-skin contact.\n\nANTI-GAP / POSE-IDENTITY GATE — Do not widen the receiving knees or leave a rearward gap to make room for the supporting shins. The original environmental supports and root pelvic interface must remain valid; do not introduce an arbitrary new bridge, hand grip or torso rotation.\n\n((DOGG-CLSD-V00))",
+  "approach": "World-space torso placement plus IK/FK setup and evaluated-mesh floor correction; geometry must be verified in local Blender.",
+  "expected_support": {
+    "A": "both knees of [ACTOR_1] supported by [FLOOR]",
+    "B": "both palms of [ACTOR_2] supported by [FLOOR]; both knees of [ACTOR_2] supported by [FLOOR]"
+  },
+  "source_invariants": {
+    "relative_facing": "SAME_DIRECTION",
+    "anti_gap_constraint": "Do not widen the receiving knees or leave a rearward gap to make room for the supporting shins."
+  },
+  "created_as": "unrendered_best_effort_candidate",
+  "prior_batch_risks": [
+    "Previous Batch 001 used local torso rotations and never established kneeling.",
+    "Do not accept if geometry hard gate fails."
+  ],
+  "authoring_revision_note": "Same general tabletop correction as DOGG, retaining its narrower receiving-knee configuration.",
+  "calibration_inputs": "Measured r002 B hip 0.272m, A hip 0.665m; per-silhouette hypotheses, no Blender confirmation."
+}

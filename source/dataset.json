@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC003",
+  "source_revision": "v001",
+  "access": "read_only",
+  "root": ".",
+  "root_relative_to": "config_file",
+  "checkpoint": "20261122T013728Z",
+  "canonical_catalog": "SPOSE-FULL-20261122T013728Z.csv",
+  "catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+  "records": 3036,
+  "families": 28,
+  "bases": 276,
+  "columns": 51,
+  "specification_column": "specification",
+  "ignored_columns": [
+    "specification_uncensored"
+  ],
+  "first_pose_id": null,
+  "original_filename": "SPOSE-FULL-20261122T013728Z.csv",
+  "reference_archive_config": "dataset-original.json",
+  "source_gates_are_production_statuses": false,
+  "notes": [
+    "Full 28-family canonical catalog is the active read-only source in remote.",
+    "SRC002 UFDG-only catalog and its registration retained for historical traceability.",
+    "The generation_gate field is a reference filter only; it is never a Blender job status.",
+    "V00-first development scope; other variation rows remain available in active catalog."
+  ]
+}

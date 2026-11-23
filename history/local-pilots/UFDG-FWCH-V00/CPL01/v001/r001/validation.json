@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "pose_id": "UFDG-FWCH-V00",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "revision": 1,
+  "checks": {
+    "blend_reopens": "not_run",
+    "expected_rigs_present": "not_run",
+    "character_proportions_preserved": "not_run",
+    "external_dependencies_resolved": "not_run",
+    "previews_rendered": "not_run",
+    "visual_review": "not_run",
+    "output_checksums_recorded": "not_run",
+    "appearance_metadata": "not_run",
+    "actor_palette_identity": "not_run",
+    "region_qa_preview": "not_run",
+    "appearance_controls_independent": "not_run",
+    "appearance_does_not_change_geometry": "not_run"
+  },
+  "result": "not_validated",
+  "notes": [
+    "Interrupted working draft; no contact, support, saved-reopen or proportion verification is claimed."
+  ],
+  "validated_at": null
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "access": "read_only",
+  "root": "C:\\Users\\hyper\\Documents\\Characters\\Poses\\SPOSE\\data\\SPOSE-COMPLETE-28-FAMILIES-20261122T013728Z",
+  "checkpoint": "20261122T013728Z",
+  "canonical_catalog": "01_Consolidated\\SPOSE-FAMILY-CONSOLIDATED-MACHINE-20261122T013728Z.csv",
+  "catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+  "records": 3036,
+  "families": 28,
+  "bases": 276,
+  "continuation_guide": "00_Index/S-POSE-CONTINUATION_20261122T013728Z.md",
+  "checksum_manifest": "00_Index/SPOSE-SHA256-FULL-20261122T013728Z.json",
+  "source_gates_are_production_statuses": false,
+  "notes": [
+    "Do not execute source build scripts.",
+    "Historical exports are not current authority.",
+    "Source integrity was previously checked; verify checksums again before production."
+  ]
+}

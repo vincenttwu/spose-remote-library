@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "rig_map_id": "RIG001",
+  "version": "v001",
+  "source_sha256": "23b4775a22142bf7eec291e3a23af0aaa897fd84b334f4d278b6abf419952877",
+  "inspection": "RIG001-inspection-v001.json",
+  "blender_version": "5.2.2 LTS",
+  "forward_axis": "-Y",
+  "up_axis": "+Z",
+  "controls": {
+    "root": "root",
+    "torso": "torso",
+    "hips": "hips",
+    "chest": "chest",
+    "head": "head",
+    "neck": "neck",
+    "hand_ik": [
+      "hand_ik.L",
+      "hand_ik.R"
+    ],
+    "arm_fk": [
+      "upper_arm_fk.L",
+      "upper_arm_fk.R"
+    ],
+    "elbow_poles": [
+      "upper_arm_ik_target.L",
+      "upper_arm_ik_target.R"
+    ],
+    "foot_ik": [
+      "foot_ik.L",
+      "foot_ik.R"
+    ],
+    "knee_poles": [
+      "thigh_ik_target.L",
+      "thigh_ik_target.R"
+    ],
+    "arm_mode_properties": [
+      "upper_arm_parent.L[IK_FK]",
+      "upper_arm_parent.R[IK_FK]"
+    ],
+    "leg_mode_properties": [
+      "thigh_parent.L[IK_FK]",
+      "thigh_parent.R[IK_FK]"
+    ]
+  },
+  "mode_semantics": {
+    "IK_FK_0": "IK",
+    "IK_FK_1": "FK",
+    "neutral_arms": "FK",
+    "neutral_legs": "IK"
+  },
+  "tests": [
+    {
+      "control": "head",
+      "max_mesh_displacement_m": 0.016238135824203394,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "torso",
+      "max_mesh_displacement_m": 0.021298074892622195,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "upper_arm_fk.L",
+      "max_mesh_displacement_m": 0.05384929805056847,
+      "restore_error_m": 5.960930120637897e-07,
+      "passed": true
+    },
+    {
+      "control": "upper_arm_fk.R",
+      "max_mesh_displacement_m": 0.05384937138317934,
+      "restore_error_m": 6.561694649535618e-07,
+      "passed": true
+    },
+    {
+      "control": "foot_ik.L",
+      "max_mesh_displacement_m": 0.054634895286872244,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "foot_ik.R",
+      "max_mesh_displacement_m": 0.05463486865202889,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "hand_ik.L",
+      "mode": "IK",
+      "max_mesh_displacement_m": 0.028868198533795564,
+      "passed": true
+    },
+    {
+      "control": "hand_ik.R",
+      "mode": "IK",
+      "max_mesh_displacement_m": 0.02886855641098002,
+      "passed": true
+    },
+    {
+      "control": "arms control",
+      "shape_key": "Arm Size",
+      "passed": true
+    }
+  ],
+  "rigify_ui": {
+    "tested": true,
+    "registered": true,
+    "error": null
+  },
+  "limitations": [
+    "Basic control/deformation tests only; animation and every individual bone are not exhaustively tested.",
+    "Preserve profile shoulder offsets and shape settings when resetting a pose."
+  ]
+}

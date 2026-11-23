@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "requirements": [
+    "Correct fundamental posture per source",
+    "Both left/right required support regions near z=0",
+    "No significant mesh floor penetration",
+    "No floating primary supports or wrong-leg configuration",
+    "Pelvic adjacency and rear-hand contact visually inspected",
+    "No excessive clipping or interpenetration",
+    "Compare Pass05 baseline against Pass04 selected local candidate, not just Pass04 remote baseline."
+  ],
+  "known_limitations": [
+    "No full signed mesh collision solver or force simulation; review images and proxy checks."
+  ],
+  "acceptance": "Optional review only. Record all geometry warnings; never stop other batch poses or next batch.",
+  "pose_id": "DOGG-FCDN-V00",
+  "process_mode": "always_render_all_five",
+  "pass_label": "pass-05",
+  "calibration_reference_only": true
+}

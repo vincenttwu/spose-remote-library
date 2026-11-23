@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": {
+    "geometry-measurements.json": "c9640186329011020cfd46466b342d26724b25a2953a24bc8dfedc8a34c3ab49",
+    "pose.json": "59a69fc81f29bbbb833b470037af2af983b455ea338c3d4712a404bfcdd02e26",
+    "scene.blend": "b4dc9962482c3e2f60e83fd971a45c0e4ba0423eb0df274c750e9d49f7923d65",
+    "specification.txt": "47f12708d5680516243c05e7ef847f42c72eee5d1aaa9e69e913f0324d5e25ba",
+    "validation.json": "5c3cd72236fd770dff3f5b5e02c8f92f9099f29b6a0d770e5807acf4302ac9ea",
+    "previews/front.png": "dc3a446baa3cca3e7ba3353c1d6c9b601f4d5b6c8ed55c8724f69f55a1a90c76",
+    "previews/qa-regions.png": "1f73bb4dda80833f777efdd710ddf641078a461b8989dc6a3535f1e8db39390c",
+    "previews/side.png": "208c6c08dac86bf813412c527813b05d6f9037c24f3536ad750875af9bfd6461",
+    "previews/three-quarter.png": "1f73bb4dda80833f777efdd710ddf641078a461b8989dc6a3535f1e8db39390c"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "appearance-study.blend": "aa36d89d3f44b2864741661d031dd65afe345326087bcfc6cea5a8299aa25fad",
+    "appearance-validation.json": "a0fe827a758b3b6f0a46378ef31a81d788920ddf8aba57ce19eeb8dffd25161f",
+    "plain-front.png": "3de8b1548d904855a0f903900667a818504e1569dc9ce4948c205cfed7bf735d",
+    "regions-front.png": "cc5551955d62ac7fc7da24eab95e97b063afed3de125e1b0dd343bbc8985991e",
+    "regions-three-quarter.png": "2697d6a6280e2c1d6b533113dca1cb136ba7fbf99837d7c3cab3c51358b7cc8c",
+    "study.json": "cc4f1c09d8a13231732b32ef4c52aaeefac990366c2a177a67b50d5e316096c7"
+  }
+}

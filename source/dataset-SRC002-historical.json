@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC002",
+  "source_revision": "v001",
+  "access": "read_only",
+  "root": ".",
+  "root_relative_to": "config_file",
+  "checkpoint": "SRC002-v001",
+  "canonical_catalog": "SPOSE-UFDG-v001.csv",
+  "catalog_sha256": "15d23616c97e16b051ee7cfa2093ffe19a74c2acf12a4c93aec0cd50bab7bb59",
+  "records": 55,
+  "families": 1,
+  "bases": 5,
+  "columns": 50,
+  "specification_column": "specification",
+  "ignored_columns": [
+    "specification_uncensored"
+  ],
+  "first_pose_id": "UFDG-FWCH-V00",
+  "registered_at": "2026-11-23T14:45:42+08:00",
+  "original_filename": "Untitled spreadsheet.csv",
+  "moved_from": "C:\\Users\\hyper\\Downloads\\Untitled spreadsheet.csv",
+  "reference_archive_config": "dataset-original.json",
+  "source_gates_are_production_statuses": false,
+  "notes": [
+    "Imported bytes preserved; no descriptions normalized or rewritten.",
+    "Use this CSV for active pose specifications; do not substitute descriptions from the original catalog.",
+    "The original 3036-row dataset registration remains in dataset-original.json; it is reference-only.",
+    "Source reference paths may need the original archive resolver; the imported CSV remains authoritative for its descriptions."
+  ]
+}

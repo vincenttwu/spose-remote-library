@@ -1,0 +1,112 @@
+{
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "created_utc": "20261123T134823Z",
+  "hypothesis": "Attempt 01 grounded B sideways head (z=-0.0035m) and cleared below-floor penetration, but B head dips 3.5mm below floor and A palm coverage dropped from 76% to 60% as B hips lowered.",
+  "expected_effect": "Lift B torso slightly (+3cm, pitch 122 deg) so sideways head rests cleanly on top of Z=0 without clipping, while moving A hand offsets closer to B hips to recover >=75% palm coverage.",
+  "visual_review_note": "Pending Attempt 02 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        -0.02,
+        0.42
+      ],
+      "after": [
+        0,
+        -0.02,
+        0.45
+      ],
+      "baseline": [
+        0,
+        -0.02,
+        0.39
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 125,
+      "after": 122,
+      "baseline": 115
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.19,
+        0.06,
+        -0.015
+      ],
+      "after": [
+        0.17,
+        0.04,
+        -0.035
+      ],
+      "baseline": [
+        0.19,
+        0.06,
+        -0.015
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.19,
+        0.06,
+        -0.015
+      ],
+      "after": [
+        -0.17,
+        0.04,
+        -0.035
+      ],
+      "baseline": [
+        -0.19,
+        0.06,
+        -0.015
+      ]
+    },
+    {
+      "selector": {
+        "section": "palm_surface_contact",
+        "field": "target_gap_m"
+      },
+      "before": 0.012,
+      "after": 0.008,
+      "baseline": 0.012
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "0e7ab29b071bbb519e3a3a977b3383ef089ec3c1ddc455ce6895d6e858c3c8cd",
+  "probe_status": "measured"
+}

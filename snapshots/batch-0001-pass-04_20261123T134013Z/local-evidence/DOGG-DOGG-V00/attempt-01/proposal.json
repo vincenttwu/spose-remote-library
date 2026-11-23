@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOGG-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline has solid palm contact (67% within 30mm) and forward head, but B hip sits at 0.432m (<0.48m target), pelvis_alignment is 0.408m, and B head_aim clamped at -9 deg with a flat back.",
+  "expected_effect": "Raise B tabletop hip height closer to 0.48m, achieve mild positive head elevation and subtle lumbar arch, and tighten pelvis separation and palm coverage without interpenetration.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.91
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 95
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0.34,
+        0.78
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -40
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -16
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -30
+    },
+    {
+      "section": "pelvic_alignment",
+      "field": "target_distance_m",
+      "value": 0.02
+    },
+    {
+      "section": "palm_surface_contact",
+      "field": "target_gap_m",
+      "value": 0.008
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

@@ -1,0 +1,38 @@
+# Disposable local scratch, flat exchange, and legacy report folders
+/local/
+/review/
+/upload/
+/reports/
+
+# Temporary exchange activation lock and atomic swap directories
+/tracking/exchange-activation.lock
+/review.activate-*.tmp/
+/review.activate-*.old/
+/upload.activate-*.tmp/
+/upload.activate-*.old/
+
+# External core assets (see ASSETS.md for backup/restore paths and SHA-256 hashes)
+/pairs/CPL01/v001/template.blend
+/pairs/CPL01/v001/studies/VP001-v001/appearance-study.blend
+/body_profiles/BP001/v001/master.blend
+/source/SPOSE-FULL-20261122T013728Z.csv
+
+# Rebuildable heavy Blender scenes and rendered images
+*.blend
+*.blend1
+*.png
+*.webp
+*.jpg
+*.jpeg
+
+# Generated feedback/handoff archives (keep small data-only pose packages in incoming/)
+*.zip
+!/incoming/*.zip
+!/incoming/**/*.zip
+
+# Python & OS artifacts
+**/__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+Thumbs.db

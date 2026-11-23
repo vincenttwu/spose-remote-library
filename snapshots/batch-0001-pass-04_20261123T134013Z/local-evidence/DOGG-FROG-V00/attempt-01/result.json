@@ -1,0 +1,106 @@
+{
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T134513Z",
+  "hypothesis": "Baseline passes all checks (73% palm coverage), but side and 3/4 views show B feet clipping directly into A knees and B head elevation clamped at -16 deg.",
+  "expected_effect": "Shift B feet slightly wider and forward to eliminate B-foot/A-knee intersection while keeping wide frog stance, and add mild chest/neck extension for forward-slightly-up gaze.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "foot_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.36,
+        0.17,
+        0.08
+      ],
+      "after": [
+        0.42,
+        0.11,
+        0.08
+      ],
+      "baseline": [
+        0.36,
+        0.17,
+        0.08
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "foot_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.36,
+        0.17,
+        0.08
+      ],
+      "after": [
+        -0.42,
+        0.11,
+        0.08
+      ],
+      "baseline": [
+        -0.36,
+        0.17,
+        0.08
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -22,
+      "after": -36,
+      "baseline": -22
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "chest",
+        "field": "angle_deg"
+      },
+      "before": -5,
+      "after": -15,
+      "baseline": -5
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -12,
+      "after": -28,
+      "baseline": -12
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0416 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0416 m (expected 0.0040 ± 0.0260)"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "a110e27b662d03c0dac728d73048da5ec3c22ef6c1cf89243a501db7cdd753a2",
+  "probe_status": "measured"
+}

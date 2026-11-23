@@ -1,0 +1,9 @@
+{
+  "attempt": 0,
+  "pose_id": "DOGG-FROG-V00",
+  "kind": "authoritative_baseline",
+  "revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r004",
+  "status": "built_new_revision",
+  "hypothesis": "remote baseline; no local changes",
+  "rig_targets_sha256": "52078736ec463b5c3758b6fe8f620c435864d890b5d86c4914361f171f00adbf"
+}

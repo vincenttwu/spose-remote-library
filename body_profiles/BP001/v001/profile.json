@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "profile_id": "BP001",
+  "version": "v001",
+  "status": "draft_pending_review",
+  "description": "Shared adult male athletic body type; broad shoulders, tapered waist, defined chest and abdomen, balanced muscular limbs.",
+  "reference": {
+    "path": "C:\\Users\\hyper\\Documents\\Characters\\Flow\\COUPLE-1\\SEAN_BODY.png",
+    "sha256": "5d938eaef849125671cada4655adbd8e82c785d85330cc27629b10127b65f73e",
+    "access": "read_only",
+    "purpose": "body_proportions_only"
+  },
+  "master_height_m": 1.85,
+  "master_height_measured_m": 1.8500000396743417,
+  "source_rig": "C:\\Users\\hyper\\Documents\\Characters\\Blender\\Mannequin\\Adjustable Mannequin\\Adjustable Mannequin v1.3 Rigify.blend",
+  "master_file": "master.blend",
+  "master_file_exists": true,
+  "master_sha256": "e4b02d8894079b54a5033b3dfe8c9a3d485d04e59faa0a4b3ad9f05932138e04",
+  "rig_map": "tooling/rig-maps/RIG001-v001.json",
+  "slider_values": {
+    "neck control": 0.055,
+    "arms control": 0.115,
+    "torso control": 0.055,
+    "legs control": 0.04,
+    "hips control": -0.005,
+    "head style": 0.285,
+    "breasts control": 0.0,
+    "breasts angle": 0.0,
+    "belly control": 0.0,
+    "muscle group control": 0.0,
+    "guide lines control": 0.0
+  },
+  "measurements": {
+    "neutral_evaluated_bounds_m": {
+      "min": [
+        -0.35549116134643555,
+        -0.1768488734960556,
+        -1.5832483768463135e-08
+      ],
+      "max": [
+        0.3554914891719818,
+        0.07824275642633438,
+        1.850000023841858
+      ],
+      "dimensions": [
+        0.7109826505184174,
+        0.25509162992239,
+        1.8500000396743417
+      ]
+    },
+    "measurement_convention": "evaluated body mesh vertex Z extent; outline disabled; excludes widgets and stage"
+  },
+  "unobserved_geometry": "Side and back proportions require estimation and preview review.",
+  "approved_at": null,
+  "source_rig_sha256": "23b4775a22142bf7eec291e3a23af0aaa897fd84b334f4d278b6abf419952877",
+  "blender_version": "5.2.2 LTS",
+  "neutral_controls": {
+    "shoulder.L": {
+      "location": [
+        0.006008134689182043,
+        0.023831715807318687,
+        0.004577291663736105
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "YXZ"
+    },
+    "upper_arm_fk.L": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        0.8191520571708679,
+        -0.04390237480401993,
+        -0.0016221681144088507,
+        -0.5718914866447449
+      ],
+      "mode": "QUATERNION"
+    },
+    "shoulder.R": {
+      "location": [
+        -0.006008134689182043,
+        0.023831715807318687,
+        0.004577291663736105
+      ],
+      "quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mode": "YXZ"
+    },
+    "upper_arm_fk.R": {
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "quaternion": [
+        0.8191520571708679,
+        -0.0439024418592453,
+        0.0016221695113927126,
+        0.5718915462493896
+      ],
+      "mode": "QUATERNION"
+    }
+  },
+  "extra_shape_keys": {
+    "BP001_TorsoTaper": 1.0
+  },
+  "geometry_style": "Articulated source mannequin; approximate reference proportions, not a photoreal anatomy model.",
+  "calibration_notes": [
+    "Body-shape sliders and shoulder-control offsets are profile geometry settings; preserve them when resetting poses.",
+    "Shoulder offsets are stored in neutral_controls, not baked into rig rest bones.",
+    "Side/back geometry estimated from the provided front reference."
+  ],
+  "control_tests": [
+    {
+      "control": "head",
+      "max_mesh_displacement_m": 0.016238135824203394,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "torso",
+      "max_mesh_displacement_m": 0.021298074892622195,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "upper_arm_fk.L",
+      "max_mesh_displacement_m": 0.05384929805056847,
+      "restore_error_m": 5.960930120637897e-07,
+      "passed": true
+    },
+    {
+      "control": "upper_arm_fk.R",
+      "max_mesh_displacement_m": 0.05384937138317934,
+      "restore_error_m": 6.561694649535618e-07,
+      "passed": true
+    },
+    {
+      "control": "foot_ik.L",
+      "max_mesh_displacement_m": 0.054634895286872244,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "foot_ik.R",
+      "max_mesh_displacement_m": 0.05463486865202889,
+      "restore_error_m": 0.0,
+      "passed": true
+    },
+    {
+      "control": "hand_ik.L",
+      "mode": "IK",
+      "max_mesh_displacement_m": 0.028868198533795564,
+      "passed": true
+    },
+    {
+      "control": "hand_ik.R",
+      "mode": "IK",
+      "max_mesh_displacement_m": 0.02886855641098002,
+      "passed": true
+    },
+    {
+      "control": "arms control",
+      "shape_key": "Arm Size",
+      "passed": true
+    }
+  ],
+  "rigify_ui_test": {
+    "tested": true,
+    "registered": true,
+    "error": null
+  },
+  "prepared_at": "2026-11-23T14:24:07+08:00",
+  "validation_report": "validation.json"
+}

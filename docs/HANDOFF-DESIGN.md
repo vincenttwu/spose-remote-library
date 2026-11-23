@@ -1,0 +1,9 @@
+# Portable cold-start handoff contract — current infrastructure revision
+
+The SPOSE installed library remains authoritative for Blender assets and tracking. The compact, read-only handoff contains the latest ROADMAP, recent events, **all V00 source rows** (and an ID/index for the rest of the full 3,036-row catalog), source/rig/pair SHA-256 dependencies, operating docs, scripts and lightweight metadata. It explicitly excludes heavy `.blend` files, the full source CSV, SQLite tracker, credentials and large historical assets.
+
+Historically `python scripts/package-library-for-remote.py` created a **separate flat-root context ZIP**. That tool remains valid for exceptional standalone context transfer and compatibility. **Current default:** `scripts/feedback_bundle.py` embeds the *same portable context payload* under `context/` inside the **one combined batch feedback ZIP**. Thus the owner normally uploads exactly one ZIP: `upload/spose-remote-feedback-batch-XXXX-pass-YY_<UTC>.zip`.
+
+The `context/handoff/HANDOFF-MANIFEST.json` hashes are relative to `context/`; each member's checksum is checked by the outer feedback manifest as well. `context/CONTINUATION.md` is generated from local live batch state before packing, not a static guess. Read `context/AGENTS.md`, `context/SKILL.md`, `context/ROADMAP.json` and `context/source/V00-CATALOG.csv` to cold-start another session. The feedback's `poses/` directory contains actual rendered evidence, which the old handoff ZIP intentionally omitted.
+
+The assistant should not insist on clean geometry or accepted status before continuing. The user may choose another five-pose batch even if previous results remain `needs_work`. All source/geometry gate labels are reference metadata. Nothing in the context pack is a runnable Blender library or licenses overwriting the full local data.

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline passes all checks (73% palm coverage), but side and 3/4 views show B feet clipping directly into A knees and B head elevation clamped at -16 deg.",
+  "expected_effect": "Shift B feet slightly wider and forward to eliminate B-foot/A-knee intersection while keeping wide frog stance, and add mild chest/neck extension for forward-slightly-up gaze.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "foot_ik.L",
+      "field": "value",
+      "value": [
+        0.42,
+        0.11,
+        0.08
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "foot_ik.R",
+      "field": "value",
+      "value": [
+        -0.42,
+        0.11,
+        0.08
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -36
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -15
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -28
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

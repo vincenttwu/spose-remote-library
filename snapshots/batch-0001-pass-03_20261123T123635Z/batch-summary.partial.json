@@ -1,0 +1,584 @@
+{
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "results": [
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T122627Z.zip",
+      "revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r003",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 2,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.470m, actual=0.438m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 3,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.6651,
+          "knee_L_z_m": 0.03853,
+          "knee_R_z_m": 0.03853,
+          "knee_L_angle_deg": 88.85,
+          "knee_R_angle_deg": 88.85,
+          "head_z_m": 1.0329
+        },
+        "B": {
+          "hip_z_m": 0.43835,
+          "knee_L_z_m": 0.04191,
+          "knee_R_z_m": 0.04191,
+          "knee_L_angle_deg": 77.15,
+          "knee_R_angle_deg": 77.15,
+          "head_z_m": 0.45578
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.001794,
+          "p01_distance_m": 0.010661,
+          "samples_under_1cm": 64
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.4102,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.16381,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.17556,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "VP001_evaluated_lateral_pelvis_to_wrist_near_palm",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.043628,
+              "gap_history_m": [
+                0.051628,
+                0.002356
+              ],
+              "palm_to_hip_surface_gap_m": 0.000302,
+              "palm_patch_p25_distance_m": 0.029032,
+              "hand_mesh_vertices_sampled": 2879,
+              "hip_mesh_vertices_sampled": 350
+            },
+            "R": {
+              "side": "R",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.031216,
+              "gap_history_m": [
+                0.039216,
+                0.013126
+              ],
+              "palm_to_hip_surface_gap_m": 0.00357,
+              "palm_patch_p25_distance_m": 0.037624,
+              "hand_mesh_vertices_sampled": 2895,
+              "hip_mesh_vertices_sampled": 345
+            }
+          },
+          "warning": "Unsigned surface proximity; no reliable penetration depth or force simulation."
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-CLSD-V00\",\n  \"revision\": 3,\n  \"output\": \"poses/DOGG-CLSD-V00/CPL01/v001/r003\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"PELVIS_TOO_LOW\",\n      \"detail\": \"B: min_hip_z_m=0.470m, actual=0.438m\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T122628Z.zip",
+      "revision_folder": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r004",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 2,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.480m, actual=0.432m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 4,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.6651,
+          "knee_L_z_m": 0.03897,
+          "knee_R_z_m": 0.03897,
+          "knee_L_angle_deg": 89.67,
+          "knee_R_angle_deg": 89.67,
+          "head_z_m": 1.0329
+        },
+        "B": {
+          "hip_z_m": 0.43194,
+          "knee_L_z_m": 0.04059,
+          "knee_R_z_m": 0.04059,
+          "knee_L_angle_deg": 80.14,
+          "knee_R_angle_deg": 80.14,
+          "head_z_m": 0.44937
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.002391,
+          "p01_distance_m": 0.011938,
+          "samples_under_1cm": 46
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.40842,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.17267,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.17267,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "VP001_evaluated_lateral_pelvis_to_wrist_near_palm",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.034178,
+              "gap_history_m": [
+                0.042178,
+                0.010003
+              ],
+              "palm_to_hip_surface_gap_m": 0.002374,
+              "palm_patch_p25_distance_m": 0.035807,
+              "hand_mesh_vertices_sampled": 2920,
+              "hip_mesh_vertices_sampled": 351
+            },
+            "R": {
+              "side": "R",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.034178,
+              "gap_history_m": [
+                0.042178,
+                0.010003
+              ],
+              "palm_to_hip_surface_gap_m": 0.002374,
+              "palm_patch_p25_distance_m": 0.035807,
+              "hand_mesh_vertices_sampled": 2920,
+              "hip_mesh_vertices_sampled": 343
+            }
+          },
+          "warning": "Unsigned surface proximity; no reliable penetration depth or force simulation."
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-DOGG-V00\",\n  \"revision\": 4,\n  \"output\": \"poses/DOGG-DOGG-V00/CPL01/v001/r004\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"PELVIS_TOO_LOW\",\n      \"detail\": \"B: min_hip_z_m=0.480m, actual=0.432m\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T122629Z.zip",
+      "revision_folder": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r003",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 6,
+      "issues": [
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/L: z=0.0939 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/R: z=0.0939 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        },
+        {
+          "code": "PELVIC_SURFACE_GAP",
+          "detail": "Pelvis mesh gap remained above 9cm after bounded approach"
+        },
+        {
+          "code": "PALM_HIP_REGION_NOT_MEASURABLE",
+          "detail": "L: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+        },
+        {
+          "code": "PALM_HIP_REGION_NOT_MEASURABLE",
+          "detail": "R: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 3,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 1.15444,
+          "knee_L_z_m": 0.50196,
+          "knee_R_z_m": 0.50196,
+          "knee_L_angle_deg": 132.83,
+          "knee_R_angle_deg": 132.83,
+          "head_z_m": 1.53936
+        },
+        "B": {
+          "hip_z_m": 0.66563,
+          "knee_L_z_m": 0.45861,
+          "knee_R_z_m": 0.45861,
+          "knee_L_angle_deg": 100.37,
+          "knee_R_angle_deg": 100.37,
+          "head_z_m": 0.52797
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.027601,
+          "p01_distance_m": 0.080768,
+          "samples_under_1cm": 0
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.55764,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "VP001_evaluated_lateral_pelvis_to_wrist_near_palm",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "contact_target_valid": false,
+              "converged": false,
+              "translation_m": 0.0,
+              "gap_history_m": [],
+              "reason": "ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+            },
+            "R": {
+              "side": "R",
+              "contact_target_valid": false,
+              "converged": false,
+              "translation_m": 0.0,
+              "gap_history_m": [],
+              "reason": "ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+            }
+          },
+          "warning": "Unsigned surface proximity; no reliable penetration depth or force simulation."
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-DOWN-V00\",\n  \"revision\": 3,\n  \"output\": \"poses/DOGG-DOWN-V00/CPL01/v001/r003\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"GROUND_SUPPORT_NOT_MET\",\n      \"detail\": \"B/hands/L: z=0.0939 m (expected 0.0040 \\u00b1 0.0260)\"\n    },\n    {\n      \"code\": \"GROUND_SUPPORT_NOT_MET\",\n      \"detail\": \"B/hands/R: z=0.0939 m (expected 0.0040 \\u00b1 0.0260)\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    },\n    {\n      \"code\": \"PELVIC_SURFACE_GAP\",\n      \"detail\": \"Pelvis mesh gap remained above 9cm after bounded approach\"\n    },\n    {\n      \"code\": \"PALM_HIP_REGION_NOT_MEASURABLE\",\n      \"detail\": \"L: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback\"\n    },\n    {\n      \"code\": \"PALM_HIP_REGION_NOT_MEASURABLE\",\n      \"detail\": \"R: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T122630Z.zip",
+      "revision_folder": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r002",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 5,
+      "issues": [
+        {
+          "code": "BELOW_FLOOR_PENETRATION",
+          "detail": "B sampled mesh below floor by 0.026 m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        },
+        {
+          "code": "PALM_HIP_REGION_NOT_MEASURABLE",
+          "detail": "L: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+        },
+        {
+          "code": "PALM_HIP_REGION_NOT_MEASURABLE",
+          "detail": "R: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+        },
+        {
+          "code": "HEAD_SIDE_ABOVE_FLOOR",
+          "detail": "head-side surface z=0.138m"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 2,
+      "pose_status": "draft",
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66756,
+          "knee_L_z_m": 0.04298,
+          "knee_R_z_m": 0.04298,
+          "knee_L_angle_deg": 95.5,
+          "knee_R_angle_deg": 95.5,
+          "head_z_m": 1.04219
+        },
+        "B": {
+          "hip_z_m": 0.27343,
+          "knee_L_z_m": 0.04009,
+          "knee_R_z_m": 0.04009,
+          "knee_L_angle_deg": 46.02,
+          "knee_R_angle_deg": 46.02,
+          "head_z_m": 0.22855
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.003297,
+          "p01_distance_m": 0.036829,
+          "samples_under_1cm": 6
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.4812,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.19981,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.19981,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "VP001_evaluated_lateral_pelvis_to_wrist_near_palm",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "contact_target_valid": false,
+              "converged": false,
+              "translation_m": 0.0,
+              "gap_history_m": [],
+              "reason": "ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+            },
+            "R": {
+              "side": "R",
+              "contact_target_valid": false,
+              "converged": false,
+              "translation_m": 0.0,
+              "gap_history_m": [],
+              "reason": "ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback"
+            }
+          },
+          "warning": "Unsigned surface proximity; no reliable penetration depth or force simulation."
+        },
+        "head_side_near_floor": {
+          "actor": "B",
+          "side": "L",
+          "z_m": 0.138272,
+          "method": "VP001_head_neck_material_side_patch_near_head_bone",
+          "anatomy_precision": "approximate_side_of_head_not_exact_cheek"
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"needs_work\",\n  \"pose_id\": \"DOGG-FCDN-V00\",\n  \"revision\": 2,\n  \"output\": \"poses/DOGG-FCDN-V00/CPL01/v001/r002\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": [\n    {\n      \"code\": \"BELOW_FLOOR_PENETRATION\",\n      \"detail\": \"B sampled mesh below floor by 0.026 m\"\n    },\n    {\n      \"code\": \"CONTACT_ANCHOR_TOO_FAR\",\n      \"detail\": \"pelvis_alignment exceeds diagnostic tolerance; inspect render\"\n    },\n    {\n      \"code\": \"PALM_HIP_REGION_NOT_MEASURABLE\",\n      \"detail\": \"L: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback\"\n    },\n    {\n      \"code\": \"PALM_HIP_REGION_NOT_MEASURABLE\",\n      \"detail\": \"R: ValueError: Cannot localize wrist-near palm vertices; no unsafe whole-body fallback\"\n    },\n    {\n      \"code\": \"HEAD_SIDE_ABOVE_FLOOR\",\n      \"detail\": \"head-side surface z=0.138m\"\n    }\n  ]\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T122631Z.zip",
+      "revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r002",
+      "build_status": "built_new_revision",
+      "accepted": false,
+      "geometry_quality": "meets_reference",
+      "issue_count": 0,
+      "issues": [],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": null,
+      "revision": 2,
+      "pose_status": "draft",
+      "stability": "unreviewed",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66739,
+          "knee_L_z_m": 0.03863,
+          "knee_R_z_m": 0.03863,
+          "knee_L_angle_deg": 83.27,
+          "knee_R_angle_deg": 83.27,
+          "head_z_m": 1.04124
+        },
+        "B": {
+          "hip_z_m": 0.48712,
+          "knee_L_z_m": 0.32494,
+          "knee_R_z_m": 0.32494,
+          "knee_L_angle_deg": 70.09,
+          "knee_R_angle_deg": 70.09,
+          "head_z_m": 0.48717
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.001114,
+          "p01_distance_m": 0.005716,
+          "samples_under_1cm": 249
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.4031,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.168,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.168,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          }
+        ],
+        "palm_surface_contact": {
+          "enabled": true,
+          "method": "VP001_evaluated_lateral_pelvis_to_wrist_near_palm",
+          "target_gap_m": 0.008,
+          "sides": {
+            "L": {
+              "side": "L",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.055898,
+              "gap_history_m": [
+                0.053714,
+                0.018184,
+                0.009356
+              ],
+              "palm_to_hip_surface_gap_m": 0.000482,
+              "palm_patch_p25_distance_m": 0.027651,
+              "hand_mesh_vertices_sampled": 2670,
+              "hip_mesh_vertices_sampled": 350
+            },
+            "R": {
+              "side": "R",
+              "contact_target_valid": true,
+              "converged": true,
+              "translation_m": 0.055898,
+              "gap_history_m": [
+                0.053714,
+                0.018184,
+                0.009355
+              ],
+              "palm_to_hip_surface_gap_m": 0.000482,
+              "palm_patch_p25_distance_m": 0.027651,
+              "hand_mesh_vertices_sampled": 2670,
+              "hip_mesh_vertices_sampled": 344
+            }
+          },
+          "warning": "Unsigned surface proximity; no reliable penetration depth or force simulation."
+        }
+      },
+      "execution_output": "{\n  \"status\": \"draft\",\n  \"stability\": \"unreviewed\",\n  \"pose_id\": \"DOGG-FROG-V00\",\n  \"revision\": 2,\n  \"output\": \"poses/DOGG-FROG-V00/CPL01/v001/r002\",\n  \"previews\": [\n    \"previews/front.png\",\n    \"previews/qa-regions.png\",\n    \"previews/side.png\",\n    \"previews/three-quarter.png\"\n  ],\n  \"issues\": []\n}\n\n",
+      "new_revision_created": true,
+      "import_returncode": 0
+    }
+  ]
+}

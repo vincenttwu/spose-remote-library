@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "family": "DOGG",
+  "purpose": "pass04_measured_palm_contact_and_signed_head_orientation",
+  "progression": "unconditional_attempt_all_and_record",
+  "reference_source": "SRC003/v001",
+  "pose_count": 5,
+  "calibration_note": "Measure true rig head response instead of guessing sign. Evaluate palm PATCH coverage, not closest vertex. Save scenes for independent calibration probe.",
+  "poses": [
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T125830Z.zip",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T125831Z.zip",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T125832Z.zip",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T125833Z.zip",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T125834Z.zip",
+      "reference_gate": "informational_only"
+    }
+  ],
+  "batch_label": "batch-0001",
+  "pass_label": "pass-04",
+  "pass_goal": "Correct surface hand/hip contact, head/lumbar presentation, deeper side-face FCDN, DOWN grounded hands, FROG actual support.",
+  "feedback_filename_pattern": "spose-remote-feedback-batch-0001-pass-04_<timestamp>.zip",
+  "local_calibration": {
+    "enabled": true,
+    "max_refinement_attempts": 2,
+    "evidence_mode": "compact",
+    "baseline_attempt_index": 0,
+    "human_visual_scoring_advisory": true,
+    "no_automatic_promotion": true,
+    "guidance": {
+      "priorities": [
+        "hand-pelvis contact coverage and realistic orientation",
+        "correct visible inter-actor pelvis spacing",
+        "head direction and modest lumbar curvature for non-FCDN",
+        "deeper fold and side-facing head for FCDN",
+        "DOWN support and overall silhouette"
+      ],
+      "non_fcdn_head": "Face should orient forward and slightly upward, verified from side and three-quarter views; do not blindly trust bone axis.",
+      "fcdn_head": "Keep low, sideways face near the floor, no head-up presentation.",
+      "contact": "Use palm patch median, coverage and visual review together. A near-zero vertex gap is not convincing contact.",
+      "measurement_only": "All geometry and quality scores are references, never gates",
+      "per_attempt_position_limit_m": 0.09,
+      "baseline_total_position_limit_m": 0.16,
+      "per_attempt_rotation_limit_deg": 20,
+      "baseline_total_rotation_limit_deg": 35
+    }
+  }
+}

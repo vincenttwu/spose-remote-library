@@ -1,0 +1,135 @@
+{
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T134455Z",
+  "hypothesis": "Baseline palm contact converged (76% within 30mm), but large negative X rotations on B neck/head (-42/-58 and -48/-62) lift the sideways head to z=0.138m while B dips 2.6cm below floor and A stops at 5.7cm pelvis gap.",
+  "expected_effect": "Relax negative X neck/head extension and pitch B torso steeper forward while slightly lifting hips to drop the sideways head closer to floor, reduce below-floor clipping, and close A-B pelvis distance.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        -0.02,
+        0.39
+      ],
+      "after": [
+        0,
+        -0.02,
+        0.42
+      ],
+      "baseline": [
+        0,
+        -0.02,
+        0.39
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 115,
+      "after": 125,
+      "baseline": 115
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -42,
+      "after": -22,
+      "baseline": -42
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": -58,
+      "after": -38,
+      "baseline": -58
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "neck",
+        "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+        "field": "angle_deg"
+      },
+      "before": -48,
+      "after": -28,
+      "baseline": -48
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "head",
+        "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+        "field": "angle_deg"
+      },
+      "before": -62,
+      "after": -42,
+      "baseline": -62
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0.35,
+        0.75
+      ],
+      "after": [
+        0,
+        0.28,
+        0.75
+      ],
+      "baseline": [
+        0,
+        0.35,
+        0.75
+      ]
+    },
+    {
+      "selector": {
+        "section": "pelvic_alignment",
+        "field": "max_forward_shift_m"
+      },
+      "before": 0.16,
+      "after": 0.22,
+      "baseline": 0.16
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "9330c666d89b754f6d05aa338aabd39f31faca98c8ddf3fcf7090803d6416dce",
+  "probe_status": "measured"
+}

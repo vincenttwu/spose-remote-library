@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "kind": "spose-local-refinement-evidence",
+  "session": "local/batch-0001-pass-04_20261123T134013Z",
+  "batch_label": "batch-0001",
+  "pass_label": "pass-04",
+  "max_refinement_attempts": 2,
+  "finalized_utc": "20261123T135002Z",
+  "pose_selections": {
+    "DOGG-DOGG-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 improves across visual and metric checks vs baseline: all 10/10 floor supports pass (B palms grounded after Attempt 01 lift), head elevation reaches +11.0 deg forward with modest lumbar curve (vs -9.0 deg flat back), pelvis_alignment passes (0.395m vs 0.408m, closest pelvis 2.1cm vs 3.2cm), and palm patch coverage rises from 67.3 (p50 18.7mm). Only remaining advisory is B hip 0.456m vs 0.480m target.",
+      "local_visual_score_out_of_10": 8.2,
+      "baseline_revision_folder": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r005",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 8
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 4
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-CLSD-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 preserves narrow-knee corridor while delivering the same major gains as DOGG-DOGG: all 10/10 floor supports pass, B gaze improves from -9.0 to +11.0 deg with subtle lumbar curve, pelvis_alignment passes (0.394m vs 0.410m, closest pelvis 2.1cm vs 3.6cm), palm patch coverage improves 66.8 (p50 18.7mm), and B hip rises to 0.460m (1cm from 0.470m target).",
+      "local_visual_score_out_of_10": 8.2,
+      "baseline_revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r004",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 8
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 4
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-DOWN-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 fixes the severe visual defect in baseline/Attempt 01 where B head flipped backwards (dot-Y now +0.996 forward vs -0.985), closes A-B pelvis gap from 9.3cm to 3.6cm (PELVIC_SURFACE_GAP cleared), and leans standing A forward so palms contact B lower back/hips (p50 42.9mm, coverage 0). Tradeoff: easing B torso pitch raised B palms to 12.4cm above floor (still needs deeper fold in a future remote pass), but visually far superior to baseline.",
+      "local_visual_score_out_of_10": 6.8,
+      "baseline_revision_folder": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r004",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 13
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 11
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-FCDN-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 clears both BELOW_FLOOR_PENETRATION (2.6cm in baseline) and HEAD_SIDE_ABOVE_FLOOR (head-side z drops from 13.8cm to 2.4cm without Attempt 01 -3.5mm floor dip), maintains low forearm support and sideways head near floor, closes closest pelvis gap from 5.7cm to 3.8cm, and recovers palm patch coverage to 71.0 in Attempt 01).",
+      "local_visual_score_out_of_10": 7.8,
+      "baseline_revision_folder": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r003",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 8
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 5
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    },
+    "DOGG-FROG-V00": {
+      "selected_attempt": 2,
+      "selection_reason": "Attempt 02 eliminates the visible B-foot/A-knee collision present in baseline (clear daylight between B feet and A knees in both side and 3/4 views) while keeping 73 B palms sit at z=0.034m (4mm over 0.030m advisory threshold due to post-calibration chest styling), down from 0.042m in Attempt 01.",
+      "local_visual_score_out_of_10": 7.7,
+      "baseline_revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r003",
+      "attempts": [
+        {
+          "attempt": 0,
+          "status": "built_new_revision",
+          "reported_image_count": 4,
+          "probe_status": "baseline_from_collector",
+          "applied_changes": 0
+        },
+        {
+          "attempt": 1,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 5
+        },
+        {
+          "attempt": 2,
+          "status": "rendered",
+          "reported_image_count": 4,
+          "probe_status": "measured",
+          "applied_changes": 5
+        }
+      ],
+      "selected_is_authoritative_baseline": false
+    }
+  },
+  "files_sha256": {
+    "local-evidence/DOGG-CLSD-V00/attempt-00/blender-result.json": "47de50b4221abea2ee734de6b598e04ce6b1b698f1bb1be88fad0b51b127e5c0",
+    "local-evidence/DOGG-CLSD-V00/attempt-00/result.json": "1b4e952ef1a7aeda78d8be40393f32a63fa3ac09e0fb489e596fd8b411f24deb",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/blender-result.json": "329db6fdc88e8c1ddaba9198ace5707539a42b9753fb5fd1642c3673f9e146ab",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/calibration.json": "befdbbc4e3d8928255e08c7661888af8e59f7cbacf5c438d580f80d6dde5363b",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/previews/side.png": "18869c75a31bf3b8e03250b6070425c216aeb719684fd6c8f518f22609ba7425",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/previews/three-quarter.png": "acc84b1fc4a6887140009259329e2f3256cf9fcf89951f006ccd667dc3961fa9",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/proposal.json": "b36be66e3657be90cece008aeeb3293ca0c318c807618c3c4884e657cd0a5c88",
+    "local-evidence/DOGG-CLSD-V00/attempt-01/result.json": "784781ddf185a245ee2642fdf1d5614af4f75cdb02cc1374bb7eb0510f14f542",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/blender-result.json": "1aea6ce4f3fe2d56c52a16509597042bac9adfb5cf17d643bcbd5e017bcea052",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/calibration.json": "9d23c17239218d35a7e976d5e58e488303c76cfd1ccc49109d1c838ad638f206",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/previews/front.png": "ba998949d8c2bbfb02bbbccf786ef602ad224399c805996bf1207f63c704afa4",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/previews/qa-regions.png": "fb5d122efabe24b46407551ba634c35ab0d35d835daffdbc53b8bc8e44e6f1dc",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/previews/side.png": "dc7ef8d1c501b9a8cbd15f485f7b42cea0680be2a41db02fa7bd8011dabc3d0f",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/previews/three-quarter.png": "f95fa6797bc837ac9ded3cf8572f4002eed83aa5520e01c77af4b87071aa1036",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/proposal.json": "b48f1b0322a23240425e6c2bc073a0fa967232c0987bf2d4bc4546f98988bdb8",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/result.json": "19bd875be92a6f3e966717e2f743dc2f311c072b98f32d21d7372d44941b7243",
+    "local-evidence/DOGG-CLSD-V00/attempt-02/rig-targets.json": "17f321217cdff53d74430776df37323cda099b394d2041211e619c7f90ac9079",
+    "local-evidence/DOGG-DOGG-V00/attempt-00/blender-result.json": "5503c9831fdd0dce88bc9c0f48dd646fc4ec515c30a71984a245084070aaca53",
+    "local-evidence/DOGG-DOGG-V00/attempt-00/result.json": "fbacccd11f7041e5b23b94dfd825ca6a0c2108117cdf24db1af820ac25e670dd",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/blender-result.json": "9d9b80d0e2b232efc74eaa3914871c4350637f8afffaf43aeaf985caf1fe91c6",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/calibration.json": "076cccf9d898032a944059f9fae7ce75c63f57029de25b785ed6fa969cae6728",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/previews/side.png": "0fd773809c8226926af42f6324e86e4f5b59b28fb2136965141682d4e85e4d0c",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/previews/three-quarter.png": "3d3f8a14bcf6d958783a04451d8f1b60bb8616c8ac92af74418cf5a94d748c1a",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/proposal.json": "fa6f7dadc4a39a5bd74474ef988f1bd8e022c565c453ce4ecfed4ec568c28ca1",
+    "local-evidence/DOGG-DOGG-V00/attempt-01/result.json": "435d80603ee47d0346a6794e712bf22bcecf733375d422cb2034d43e77c0917e",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/blender-result.json": "a42dd8b8ebdbcc15b77af8c1df1d353c53178eb1e09b087cf0bf489b716f1d8b",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/calibration.json": "8bc3b4c1965e90ef81d5bcc48a4a9cee86bfee9ddea77aefdf5b6472f9b0a682",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/previews/front.png": "cc0ddc7c438443be6027eea03a9e141028636035686853bd2efc874845f7cbee",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/previews/qa-regions.png": "89cb54a9cb2250cb88e12b6220dfa6c856b70ba6f01eb5544ccee9989ea90185",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/previews/side.png": "826121eaa16ce01173a5d0c9f64f79b9ffa1e563cb6ee02963a8c42f239d9d70",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/previews/three-quarter.png": "c1c052f858789b4cd843220b51ec44ddde716d61e3c7655e5fb315a01bc67dd8",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/proposal.json": "dafa74d7367b10401c62dd4e63e4e4fb53debdb8fe657d30a774b0bb73959cdc",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/result.json": "a234d2fb2533e50959906c914238673a7151f7a100f5fd3101e376a91fa4828c",
+    "local-evidence/DOGG-DOGG-V00/attempt-02/rig-targets.json": "1ab98eb19a792eb6285c557d98c9b2d951cb85150c2bf029b64a9acd621680b7",
+    "local-evidence/DOGG-DOWN-V00/attempt-00/blender-result.json": "fcf9d86f923aaccfde9e809d3e644e413307ce20075079a923941be3c942969e",
+    "local-evidence/DOGG-DOWN-V00/attempt-00/result.json": "faf57f03173c9baa8b4579f04a78561068ce75f144c497c29c14ca3e71b67b83",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/blender-result.json": "580ad1015540df44c87e9850296cdd5cca60494faf39a3a8ce599a6368173f7a",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/calibration.json": "b9dcf4f194b2bfb1f2b230702d2e9948fc2f43a5f11758a2e2694488a2a6b27c",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/side.png": "fec896c4546c2d044e6c9edab08a7ffef1cfb7ec17f63a50c1a0cd93d4144ef4",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/previews/three-quarter.png": "34f3bec8e588dda2ece0bc4744b84837ccf11b25c345c39bfc6ed7bd14441978",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/proposal.json": "5b71b776f2c084c4d0be5830a119389e4c5f074b32f9069db92a09006b54d39e",
+    "local-evidence/DOGG-DOWN-V00/attempt-01/result.json": "ad07022cb5b8900a25a61a4440e924d848fc074114ae6f3a1af4b423da180676",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/blender-result.json": "25b3901f542da363cb4d9d5c4ebe1fafa5364851bc3acbe2e1ded43434822f13",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/calibration.json": "f809aa854abef84baeced76538765195d2dc2a077261d3082d753552d4f03a9e",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/previews/front.png": "df4e5d7d577ad0644242e23f0f515bc9a3212f39b6fbde32072b76c0aaaf867c",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/previews/qa-regions.png": "de809ce55dd125fef5a23e94479ea8c6d92bc5b451c8d31b91613c70f5266583",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/previews/side.png": "93712c0293a615a6ab196fad364ff1f91aeea87267ed11c05a2be547784ce849",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/previews/three-quarter.png": "0f8753d9204169c724c4edc352e8edf922a21521d650a587418099cf433d981f",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/proposal.json": "0bbbea39de55adb13bc1c5e19a0c983c2658a59e5f238aa91b2e19316b636fd0",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/result.json": "0893e77f4775e587fc387cb902ee92318321419d095ed658acc2006ddf642c9e",
+    "local-evidence/DOGG-DOWN-V00/attempt-02/rig-targets.json": "4905b28c0c39b98601198a8ed68ae0a298540f0332f5298c80cd62ee0ee86314",
+    "local-evidence/DOGG-FCDN-V00/attempt-00/blender-result.json": "0746d59317720ef47b5e13e95f4520dc0d1da99320b8f3f30d671ec47ab1ba39",
+    "local-evidence/DOGG-FCDN-V00/attempt-00/result.json": "47d52978dede3adabd47945237b29714428a312310c7be293e96e08b0d9e3903",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/blender-result.json": "3bfb08808391b8ae494b3036ee508f1f68989f29762099480d51a04ee38acbf2",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/calibration.json": "228d3ba17e70c0a780927fb3efa6d134cbb360450ca01f9ca79c39c56611b63e",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/side.png": "90df996880396c37f088ee7b69bda1aa522f291499e3e98874baca51bcc14faf",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/previews/three-quarter.png": "10011f1a4e867c450a0fb82ec61b7681b65e87469251285290db900628a6be54",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/proposal.json": "3c5e29a9891281ade63e692b95f5d64f80490b87512436d41d14b021fe609d0d",
+    "local-evidence/DOGG-FCDN-V00/attempt-01/result.json": "1fc440afb0d569b487d0161389a202a936a362c2cbf7f5178ad352c201c55f59",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/blender-result.json": "4aa46898bc30bea8795d6cf0a8f941de36d39eedd6d601d7525ba39fee1a2650",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/calibration.json": "a2e3bc574392694a1abab8f29f339fa600efa819cdecc1a9830f5a47e74fa3b5",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/front.png": "5be6b9bc8f2cfeba145a138473c8f0f9e12cc823c88fb7177c945f846b62f366",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/qa-regions.png": "fc44db461e23f43b6de61b86a5035963c9d767486e34819104f4066c5a584480",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/side.png": "e901e6614af097053e676011a3061aa6a71e3d076199cfc65a4dd0f65fba18a1",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/previews/three-quarter.png": "ef87d80a339a1d3a9985f4cb65775da56348005e97f6438990bd5e242335f031",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/proposal.json": "e8cce6e852f242f2a24d39ea8ac29ed5c87ec16ae681591051fed02369a67c41",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/result.json": "57fadb58e9761337e216cad3c752f811d139e7a1dadb838f3a979226a9f16814",
+    "local-evidence/DOGG-FCDN-V00/attempt-02/rig-targets.json": "0e7ab29b071bbb519e3a3a977b3383ef089ec3c1ddc455ce6895d6e858c3c8cd",
+    "local-evidence/DOGG-FROG-V00/attempt-00/blender-result.json": "94fbf53855a61e0303ebe6a0451b1f3fda0c3e91c5f67f37a36c5f61054617b5",
+    "local-evidence/DOGG-FROG-V00/attempt-00/result.json": "acc4d9d9d8c29643b5d7a8c8d15da28dd788ebc485cd23356a40181829048d99",
+    "local-evidence/DOGG-FROG-V00/attempt-01/blender-result.json": "8d1e48876c89d725055b4dd5bfa841dfe4195bf4d494eb76dc14afef05ff10b7",
+    "local-evidence/DOGG-FROG-V00/attempt-01/calibration.json": "20754ae3eb1e00f428b7f0b96e244756ae29f76fa4ab176ae24065b10bc85389",
+    "local-evidence/DOGG-FROG-V00/attempt-01/previews/side.png": "3bdd675991c79f180f5643efe7f1e25bf893d9d0f5d28625504b3648952e882f",
+    "local-evidence/DOGG-FROG-V00/attempt-01/previews/three-quarter.png": "49006731da8ab1f1e7adb681990dabb1cdf162d52e3736122fcecabdf1550695",
+    "local-evidence/DOGG-FROG-V00/attempt-01/proposal.json": "367ac9558e0953001184bbdcc064b92952cf696c5e1a47c19f8c3b68243030db",
+    "local-evidence/DOGG-FROG-V00/attempt-01/result.json": "c8f14bc073280652a7611d885fb634e27f968bb9adf052e8cd4b51c4e85599a8",
+    "local-evidence/DOGG-FROG-V00/attempt-02/blender-result.json": "8a1cb043d3d4102f35af2ad5aaf12919a4b170647c55915fdac3c99a1db54bd2",
+    "local-evidence/DOGG-FROG-V00/attempt-02/calibration.json": "2650bb31b85f9b0f97b9e2eaff4e7d2133d8bc59c81f29ea1c9551e87bacf6a5",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/front.png": "3debff1e8a7c96224de7edae970b989de4089dc093464acf7e388e5144173e54",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/qa-regions.png": "c16d7d122c7bbb84a30a593f39725eea2362f80452436e774c3ec8ff893b514a",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/side.png": "281a0d6d866561e44d330812b77d78318bb86051d6f3557ac2cdc7237d5ad6aa",
+    "local-evidence/DOGG-FROG-V00/attempt-02/previews/three-quarter.png": "ec0e2b1d15960bfb6f9ce0f314561bc1d4e13238bd9c036fda29464ce1f57b29",
+    "local-evidence/DOGG-FROG-V00/attempt-02/proposal.json": "921aecdb6b92c3446c6a540effe30a19c900817f22199cae8a6a5fd27e0da825",
+    "local-evidence/DOGG-FROG-V00/attempt-02/result.json": "6e9b87f496c62e8221835ad87628f704d38342db508e7e0e3b7a1bacdfd5cb32",
+    "local-evidence/DOGG-FROG-V00/attempt-02/rig-targets.json": "26c1321ba2847e9e51f128df7f23ccb02f0623e79160b3a0d7621315e65bcb27"
+  },
+  "warning": "Local candidate is not an authoritative library revision"
+}

@@ -1,0 +1,214 @@
+{
+  "pose_id": "DOGG-DOWN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T142344Z",
+  "hypothesis": "Baseline B chest styling (-25 deg) arches upper torso up so B head (0.602m) sits above squatting B hip (0.545m) and stretches B palms 6.5cm off floor, while low B hips stay below standing A reach (0 pct palm coverage).",
+  "expected_effect": "Relax B chest to -5 deg, raise B torso z to 0.70m and pitch to 122 deg for true standing forward fold (head below hip, palms flat on floor), extend styling B head to -55 deg to hold forward gaze, and lean A slightly closer to contact B hips.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0.0,
+        0.0,
+        0.64
+      ],
+      "after": [
+        0.0,
+        0.0,
+        0.7
+      ],
+      "baseline": [
+        0.0,
+        0.0,
+        0.64
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 112,
+      "after": 122,
+      "baseline": 112
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.23,
+        -0.38,
+        0.004
+      ],
+      "after": [
+        0.23,
+        -0.31,
+        0.004
+      ],
+      "baseline": [
+        0.23,
+        -0.38,
+        0.004
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.23,
+        -0.38,
+        0.004
+      ],
+      "after": [
+        -0.23,
+        -0.31,
+        0.004
+      ],
+      "baseline": [
+        -0.23,
+        -0.38,
+        0.004
+      ]
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "chest",
+        "field": "angle_deg"
+      },
+      "before": -25,
+      "after": -5,
+      "baseline": -25
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": -35,
+      "after": -55,
+      "baseline": -35
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0.24,
+        0.85
+      ],
+      "after": [
+        0.0,
+        0.21,
+        0.81
+      ],
+      "baseline": [
+        0,
+        0.24,
+        0.85
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 36,
+      "after": 44,
+      "baseline": 36
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.16,
+        0.03,
+        -0.055
+      ],
+      "after": [
+        0.17,
+        0.06,
+        -0.015
+      ],
+      "baseline": [
+        0.16,
+        0.03,
+        -0.055
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.16,
+        0.03,
+        -0.055
+      ],
+      "after": [
+        -0.17,
+        0.06,
+        -0.015
+      ],
+      "baseline": [
+        -0.16,
+        0.03,
+        -0.055
+      ]
+    },
+    {
+      "selector": {
+        "section": "palm_surface_contact",
+        "field": "target_gap_m"
+      },
+      "before": 0.012,
+      "after": 0.008,
+      "baseline": 0.012
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "CONTACT_ANCHOR_TOO_FAR",
+      "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "c58c14cb5d3b910317db511abe951a4b3be0da132acd87bac65b9fbfae558f6c",
+  "probe_status": "measured"
+}

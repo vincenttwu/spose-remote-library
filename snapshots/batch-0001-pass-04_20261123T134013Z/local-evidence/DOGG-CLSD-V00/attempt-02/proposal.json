@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-CLSD-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 improved pelvis alignment (0.394m pass), palm coverage (77%), and gaze (-3 deg) while keeping narrow knees, but chest arch lifted B palms to z=0.038m and B hip is 0.461m.",
+  "expected_effect": "Pull B hand_ik closer under shoulders onto the floor, raise B hip above 0.470m target, and achieve mild positive head gaze while preserving narrow knee corridor.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.93
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.19,
+        -0.49,
+        0.005
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.19,
+        -0.49,
+        0.005
+      ]
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -38
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "summary": "Initial remote-batch V00 candidate; Blender render and human review required.",
+  "required_views": [
+    "front",
+    "side",
+    "three-quarter",
+    "qa-regions"
+  ],
+  "checklist": [
+    "Pelvic proximity aligns with the specification and no large rear gap remains.",
+    "Primary support contacts stay on the floor as specified.",
+    "Rear hands land near the intended hip region without severe clipping.",
+    "Character-facing direction and family silhouette remain recognizable.",
+    "No limb is assigned conflicting support and grip roles."
+  ],
+  "pose_id": "DOGG-CLSD-V00",
+  "focus": [
+    "pelvic continuity",
+    "support clarity",
+    "rear hand placement",
+    "family silhouette"
+  ]
+}

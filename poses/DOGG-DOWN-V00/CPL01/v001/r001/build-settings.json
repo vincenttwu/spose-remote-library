@@ -1,0 +1,41 @@
+{
+  "template_file": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "fallback_template": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\template.blend",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "pose_id": "DOGG-DOWN-V00",
+  "output": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\poses\\DOGG-DOWN-V00\\CPL01\\v001\\.pose-stage-q37cd9lh",
+  "save_blend": false,
+  "render_config": {
+    "resolution": [
+      1200,
+      1000
+    ],
+    "qa_regions": true,
+    "pose_id": "DOGG-DOWN-V00"
+  },
+  "validation_plan": {
+    "schema_version": 1,
+    "summary": "Initial remote-batch V00 candidate; Blender render and human review required.",
+    "required_views": [
+      "front",
+      "side",
+      "three-quarter",
+      "qa-regions"
+    ],
+    "checklist": [
+      "Pelvic proximity aligns with the specification and no large rear gap remains.",
+      "Primary support contacts stay on the floor as specified.",
+      "Rear hands land near the intended hip region without severe clipping.",
+      "Character-facing direction and family silhouette remain recognizable.",
+      "No limb is assigned conflicting support and grip roles."
+    ],
+    "pose_id": "DOGG-DOWN-V00",
+    "focus": [
+      "pelvic continuity",
+      "support clarity",
+      "rear hand placement",
+      "family silhouette"
+    ]
+  }
+}

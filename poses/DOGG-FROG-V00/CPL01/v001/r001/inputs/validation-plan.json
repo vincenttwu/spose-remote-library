@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "requirements": [
+    "Correct fundamental posture per source",
+    "Both left/right required support regions near z=0",
+    "No significant mesh floor penetration",
+    "No floating primary supports or wrong-leg configuration",
+    "Pelvic adjacency and rear-hand contact visually inspected",
+    "No excessive clipping or interpenetration"
+  ],
+  "known_limitations": [
+    "No full signed mesh collision solver or force simulation; review images and proxy checks."
+  ],
+  "acceptance": "Optional review only. Record all geometry warnings; never stop other batch poses or next batch.",
+  "pose_id": "DOGG-FROG-V00",
+  "process_mode": "always_render_all_five"
+}

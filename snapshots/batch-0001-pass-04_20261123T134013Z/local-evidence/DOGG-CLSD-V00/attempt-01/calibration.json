@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "kind": "spose_rig_calibration_probe",
+  "mode": "scene",
+  "pose_id": "DOGG-CLSD-V00",
+  "scene_source_sha256": "98d76db9d85ac4078e252a3189d768181d1726982d0678a680c2da20f7a35e9d",
+  "scene_basename": "scene.blend",
+  "blender_version": "5.2.2 LTS",
+  "generated_at_utc": "2026-11-23T13:44:35.459064+00:00",
+  "coordinate_convention": {
+    "up": "+Z",
+    "rig_forward_reference": "-Y",
+    "units": "m"
+  },
+  "read_only": true,
+  "measurement_confidence": "approximate_world_geometry_and_rig_proxies",
+  "rig_map_sha256": "2457ba1aba01c5041e55c15543d4a2cdd297e9afc37cc94f74c28e1bc09fb281",
+  "geometry": {
+    "posture_heights": {
+      "A": {
+        "hip_z_m": 0.66899,
+        "knee_L_z_m": 0.04256,
+        "knee_R_z_m": 0.04256,
+        "knee_L_angle_deg": 90.87,
+        "knee_R_angle_deg": 90.87,
+        "head_z_m": 1.03679
+      },
+      "B": {
+        "hip_z_m": 0.46098,
+        "knee_L_z_m": 0.04165,
+        "knee_R_z_m": 0.04165,
+        "knee_L_angle_deg": 77.32,
+        "knee_R_angle_deg": 77.32,
+        "head_z_m": 0.5788
+      }
+    },
+    "head_gaze": {
+      "A": {
+        "vector_world": [
+          0.0,
+          -0.970296,
+          -0.241922
+        ],
+        "elevation_deg": -14.0,
+        "forward_dot_minus_y": 0.9703,
+        "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+      },
+      "B": {
+        "vector_world": [
+          0.0,
+          -0.99863,
+          -0.052336
+        ],
+        "elevation_deg": -3.0,
+        "forward_dot_minus_y": 0.99863,
+        "method": "RIG001_forward_-Y_rest_to_pose_delta_estimate"
+      }
+    },
+    "support_surface_min_z_m": {
+      "A": {
+        "hands.L": 0.370322,
+        "hands.R": 0.370694,
+        "feet.L": 0.004,
+        "feet.R": 0.004,
+        "knees.L": 0.00527,
+        "knees.R": 0.005269,
+        "forearms.L": 0.454907,
+        "forearms.R": 0.455243,
+        "head_side.L": 0.912529,
+        "head_side.R": 0.912515
+      },
+      "B": {
+        "hands.L": 0.037792,
+        "hands.R": 0.037791,
+        "feet.L": 0.004,
+        "feet.R": 0.004,
+        "knees.L": 0.00453,
+        "knees.R": 0.00453,
+        "forearms.L": 0.085153,
+        "forearms.R": 0.085153,
+        "head_side.L": 0.486941,
+        "head_side.R": 0.486908
+      }
+    },
+    "hand_pelvis_patches": {
+      "L": {
+        "distance_distribution": {
+          "p10_m": 0.006358,
+          "p25_m": 0.010285,
+          "p50_m": 0.018696,
+          "p75_m": 0.028785,
+          "p90_m": 0.036875,
+          "within_15mm_fraction": 0.39,
+          "within_30mm_fraction": 0.7708,
+          "min_m": 0.001053
+        },
+        "hand_patch_localization_m": 0.1,
+        "localization_method": "def-hand proximity",
+        "palm_vertices": 1636,
+        "hip_vertices": 477,
+        "note": "Unsigned nearest-neighbor distances, not grip or penetration."
+      },
+      "R": {
+        "distance_distribution": {
+          "p10_m": 0.006369,
+          "p25_m": 0.010339,
+          "p50_m": 0.018775,
+          "p75_m": 0.029357,
+          "p90_m": 0.037334,
+          "within_15mm_fraction": 0.3869,
+          "within_30mm_fraction": 0.761,
+          "min_m": 0.001168
+        },
+        "hand_patch_localization_m": 0.1,
+        "localization_method": "def-hand proximity",
+        "palm_vertices": 1636,
+        "hip_vertices": 465,
+        "note": "Unsigned nearest-neighbor distances, not grip or penetration."
+      }
+    },
+    "head_side_floor_clearance": {
+      "L": {
+        "actor": "B",
+        "side": "L",
+        "z_m": 0.486941,
+        "method": "VP001_head_neck_material_side_patch_near_head_bone",
+        "anatomy_precision": "approximate_side_of_head_not_exact_cheek"
+      },
+      "R": {
+        "actor": "B",
+        "side": "R",
+        "z_m": 0.486908,
+        "method": "VP001_head_neck_material_side_patch_near_head_bone",
+        "anatomy_precision": "approximate_side_of_head_not_exact_cheek"
+      }
+    },
+    "hip_delta_m": 0.208006
+  }
+}

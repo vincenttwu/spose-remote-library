@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOGG-V00",
+  "anchors": [
+    {
+      "id": "pelvis_alignment",
+      "actor": "A",
+      "bone": "hips",
+      "target_actor": "B",
+      "target_bone": "hips",
+      "tolerance_m": 0.18
+    },
+    {
+      "id": "left_hand_to_receiver_hip",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "target_actor": "B",
+      "target_bone": "hips",
+      "tolerance_m": 0.25
+    },
+    {
+      "id": "right_hand_to_receiver_hip",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "target_actor": "B",
+      "target_bone": "hips",
+      "tolerance_m": 0.25
+    }
+  ],
+  "notes": [
+    "Anchor distances are proxy measurements only. They do not prove surface-quality contact or absence of clipping."
+  ]
+}

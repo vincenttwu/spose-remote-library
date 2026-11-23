@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-CLSD-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline preserves narrow knees and 67% palm coverage, but B hip is 0.438m (<0.47m target), pelvis_alignment is 0.410m, and B head_aim clamped at -9 deg with flat spine.",
+  "expected_effect": "Preserve narrow knee corridor while raising B tabletop hip height, adding subtle lumbar curve and positive gaze elevation, and tightening pelvis and palm contact.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0,
+        0.9
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 95
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0,
+        0.34,
+        0.78
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -40
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -16
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "neck",
+      "field": "angle_deg",
+      "value": -30
+    },
+    {
+      "section": "pelvic_alignment",
+      "field": "target_distance_m",
+      "value": 0.02
+    },
+    {
+      "section": "palm_surface_contact",
+      "field": "target_gap_m",
+      "value": 0.008
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

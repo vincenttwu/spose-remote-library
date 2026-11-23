@@ -1,0 +1,9 @@
+{
+  "resolution": [
+    1152,
+    960
+  ],
+  "qa_regions": true,
+  "adaptive_camera": true,
+  "pose_id": "DOGG-FCDN-V00"
+}

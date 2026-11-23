@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "result": "technical_checks_passed_pending_user_review",
+  "asset": "master.blend",
+  "asset_sha256": "e4b02d8894079b54a5033b3dfe8c9a3d485d04e59faa0a4b3ad9f05932138e04",
+  "blender_version": "5.2.2 LTS",
+  "reopened": true,
+  "self_contained": true,
+  "missing_files": [],
+  "ui": {
+    "present": true,
+    "registered": true
+  },
+  "actors": {
+    "BP001": {
+      "bounds_m": {
+        "min": [
+          -0.35549116134643555,
+          -0.1768488734960556,
+          -1.5832483768463135e-08
+        ],
+        "max": [
+          0.3554914891719818,
+          0.07824275642633438,
+          1.850000023841858
+        ],
+        "dimensions": [
+          0.7109826505184174,
+          0.25509162992239,
+          1.8500000396743417
+        ]
+      },
+      "height_m": 1.8500000396743417,
+      "bone_count": 406,
+      "head_control_displacement_m": 0.016238135824203394,
+      "invalid_drivers": []
+    }
+  },
+  "pair_tests": {},
+  "visual_review": "pending_user_review",
+  "limitations": [
+    "Basic control and geometry checks; animation and all individual controls are not exhaustively validated."
+  ]
+}

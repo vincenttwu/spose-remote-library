@@ -1,0 +1,130 @@
+{
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "created_utc": "20261123T134841Z",
+  "hypothesis": "Attempt 01 widened B feet out of A knee intersection, but chest styling lifted B palms to z=0.042m and B feet still graze A knees in side view.",
+  "expected_effect": "Pull B hand_ik closer under shoulders to re-ground palms cleanly on floor, shift B feet 6cm further forward to fully clear A knees, and lift B head gaze closer to level.",
+  "visual_review_note": "Pending Attempt 02 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "foot_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.42,
+        0.11,
+        0.08
+      ],
+      "after": [
+        0.43,
+        0.05,
+        0.08
+      ],
+      "baseline": [
+        0.36,
+        0.17,
+        0.08
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "foot_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.42,
+        0.11,
+        0.08
+      ],
+      "after": [
+        -0.43,
+        0.05,
+        0.08
+      ],
+      "baseline": [
+        -0.36,
+        0.17,
+        0.08
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.L",
+        "field": "value"
+      },
+      "before": [
+        0.29,
+        -0.58,
+        0.035
+      ],
+      "after": [
+        0.29,
+        -0.5,
+        0.005
+      ],
+      "baseline": [
+        0.29,
+        -0.58,
+        0.035
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "hand_ik.R",
+        "field": "value"
+      },
+      "before": [
+        -0.29,
+        -0.58,
+        0.035
+      ],
+      "after": [
+        -0.29,
+        -0.5,
+        0.005
+      ],
+      "baseline": [
+        -0.29,
+        -0.58,
+        0.035
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "head",
+        "field": "angle_deg"
+      },
+      "before": -30,
+      "after": -45,
+      "baseline": -30
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0341 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0341 m (expected 0.0040 ± 0.0260)"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "26c1321ba2847e9e51f128df7f23ccb02f0623e79160b3a0d7621315e65bcb27",
+  "probe_status": "measured"
+}

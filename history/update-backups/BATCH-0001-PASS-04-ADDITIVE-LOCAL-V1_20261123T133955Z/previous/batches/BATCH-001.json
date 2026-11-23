@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "family": "DOGG",
+  "purpose": "pass_03_visual_geometry_correction",
+  "progression": "unconditional_attempt_all_and_record",
+  "reference_source": "SRC003/v001",
+  "pose_count": 5,
+  "calibration_note": "Tabletop correction only for tabletop and partial correction for frog; DOWN/FCDN retain own silhouettes. All need Blender measurement.",
+  "poses": [
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T122627Z.zip",
+      "pass_calibration": "pass-03",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T122628Z.zip",
+      "pass_calibration": "pass-03",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T122629Z.zip",
+      "pass_calibration": "pass-03",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T122630Z.zip",
+      "pass_calibration": "pass-03",
+      "reference_gate": "informational_only"
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T122631Z.zip",
+      "pass_calibration": "pass-03",
+      "reference_gate": "informational_only"
+    }
+  ],
+  "batch_label": "batch-0001",
+  "pass_label": "pass-03",
+  "pass_goal": "Correct surface hand/hip contact, head/lumbar presentation, deeper side-face FCDN, DOWN grounded hands, FROG actual support.",
+  "feedback_filename_pattern": "spose-remote-feedback-batch-0001-pass-02_<timestamp>.zip"
+}

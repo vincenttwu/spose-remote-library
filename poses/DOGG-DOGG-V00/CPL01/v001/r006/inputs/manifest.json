@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "DOGG-DOGG-V00",
+  "package_timestamp_utc": "20261123T140729Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "39421f950403d9b862481256fa3a31bb795f86d3f7d074e9aceb8458f3012611",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "0cbdf050d95da21045a34e4e15fab8a335484514432f681a69be7cc9f6f035f6",
+    "pose.json": "70ecb221fad0305e150e279d3185962a176247e54530d581dd530d901d48f7e0",
+    "render-config.json": "37518fa112cffc99e7622aceae6232371d36fb21280080b86a00324091500aa7",
+    "rig-targets.json": "63e943d5f7e5f531c1e7a31c327832fd132ab1aeda7ee46886152331a0575f10",
+    "validation-plan.json": "4b5da1433f801996c86c7a5956d7f14a3ca8a2b6c9eae3dce92b395ebdb5676d"
+  }
+}

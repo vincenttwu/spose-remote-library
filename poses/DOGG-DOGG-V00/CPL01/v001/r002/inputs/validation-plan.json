@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOGG-V00",
+  "requirements": [
+    "Correct fundamental posture per source",
+    "Both left/right support regions near z=0",
+    "No significant mesh floor penetration",
+    "No floating palms or wrong-leg configuration",
+    "Pelvic adjacency and rear-hand contact visually inspected",
+    "No excessive clipping or interpenetration"
+  ],
+  "known_limitations": [
+    "No full signed mesh collision solver or force simulation; review images and proxy checks."
+  ],
+  "acceptance": "Only local explicit human review; geometry hard_gate_pass must be true."
+}

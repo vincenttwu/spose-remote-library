@@ -1,0 +1,8 @@
+00:00.500  blend            | Read blend: "C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FROG-V00\CPL01\v001\r004\scene.blend"
+SPOSE_CALIBRATION_COMPLETE C:\Users\hyper\Documents\GitHub\spose-remote-library\tooling\calibration\CPL01-v001\runs\batch-0001-pass-05_20261123T142027Z\DOGG-FROG-V00.json
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+scripts disabled for "C:\Users\hyper\Documents\GitHub\spose-remote-library\poses\DOGG-FROG-V00\CPL01\v001\r004\scene.blend", skipping 'rig.004_ui.py'
+
+Blender quit
+
+---STDERR---

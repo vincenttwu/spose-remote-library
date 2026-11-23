@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "batch_label": "batch-0001",
+  "pass_label": "pass-02",
+  "run_utc": "20261123T111818Z",
+  "mode": "render_all",
+  "progression_policy": "record_and_continue_no_gates",
+  "input_count": 5,
+  "result_count": 5,
+  "blender_used": true,
+  "results": [
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T103838Z.zip",
+      "revision_folder": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r003",
+      "build_status": "draft",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 2,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.480m, actual=0.413m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": "DOGG-DOGG-V00_r003_feedback.zip",
+      "revision": 3,
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.6651,
+          "knee_L_z_m": 0.03934,
+          "knee_R_z_m": 0.03934,
+          "knee_L_angle_deg": 90.27,
+          "knee_R_angle_deg": 90.27,
+          "head_z_m": 1.0329
+        },
+        "B": {
+          "hip_z_m": 0.41303,
+          "knee_L_z_m": 0.04046,
+          "knee_R_z_m": 0.04046,
+          "knee_L_angle_deg": 74.14,
+          "knee_R_angle_deg": 74.14,
+          "head_z_m": 0.4055
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.00834,
+          "p01_distance_m": 0.034179,
+          "samples_under_1cm": 2
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.41317,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ]
+      },
+      "execution_note": "Already imported this exact package; reused revision. --rerun creates another."
+    },
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T103839Z.zip",
+      "revision_folder": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r002",
+      "build_status": "draft",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 2,
+      "issues": [
+        {
+          "code": "PELVIS_TOO_LOW",
+          "detail": "B: min_hip_z_m=0.470m, actual=0.418m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": "DOGG-CLSD-V00_r002_feedback.zip",
+      "revision": 2,
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.6651,
+          "knee_L_z_m": 0.03921,
+          "knee_R_z_m": 0.03921,
+          "knee_L_angle_deg": 90.06,
+          "knee_R_angle_deg": 90.06,
+          "head_z_m": 1.0329
+        },
+        "B": {
+          "hip_z_m": 0.41796,
+          "knee_L_z_m": 0.04169,
+          "knee_R_z_m": 0.04169,
+          "knee_L_angle_deg": 71.16,
+          "knee_R_angle_deg": 71.16,
+          "head_z_m": 0.41043
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.028579,
+          "p01_distance_m": 0.037909,
+          "samples_under_1cm": 0
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.41145,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ]
+      },
+      "execution_note": "Already imported this exact package; reused revision. --rerun creates another."
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T103840Z.zip",
+      "revision_folder": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r002",
+      "build_status": "draft",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 4,
+      "issues": [
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/L: z=0.4180 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "GROUND_SUPPORT_NOT_MET",
+          "detail": "B/hands/R: z=0.4180 m (expected 0.0040 ± 0.0260)"
+        },
+        {
+          "code": "FORWARD_FOLD_NOT_ESTABLISHED",
+          "detail": "B: head 0.910m hip 0.887m"
+        },
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": "DOGG-DOWN-V00_r002_feedback.zip",
+      "revision": 2,
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 1.15444,
+          "knee_L_z_m": 0.50933,
+          "knee_R_z_m": 0.50933,
+          "knee_L_angle_deg": 130.75,
+          "knee_R_angle_deg": 130.75,
+          "head_z_m": 1.53936
+        },
+        "B": {
+          "hip_z_m": 0.88742,
+          "knee_L_z_m": 0.515,
+          "knee_R_z_m": 0.515,
+          "knee_L_angle_deg": 131.09,
+          "knee_R_angle_deg": 131.09,
+          "head_z_m": 0.91006
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.033269,
+          "p01_distance_m": 0.044939,
+          "samples_under_1cm": 0
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.43552,
+            "tolerance_m": 0.4,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.20622,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ]
+      },
+      "execution_note": "Already imported this exact package; reused revision. --rerun creates another."
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T103841Z.zip",
+      "revision_folder": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r001",
+      "build_status": "draft",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 1,
+      "issues": [
+        {
+          "code": "CONTACT_ANCHOR_TOO_FAR",
+          "detail": "pelvis_alignment exceeds diagnostic tolerance; inspect render"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": "DOGG-FCDN-V00_r001_feedback.zip",
+      "revision": 1,
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66756,
+          "knee_L_z_m": 0.04298,
+          "knee_R_z_m": 0.04298,
+          "knee_L_angle_deg": 95.5,
+          "knee_R_angle_deg": 95.5,
+          "head_z_m": 1.04219
+        },
+        "B": {
+          "hip_z_m": 0.30118,
+          "knee_L_z_m": 0.04089,
+          "knee_R_z_m": 0.04089,
+          "knee_L_angle_deg": 46.46,
+          "knee_R_angle_deg": 46.46,
+          "head_z_m": 0.29048
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.003346,
+          "p01_distance_m": 0.03682,
+          "samples_under_1cm": 6
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.46571,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": false
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.19981,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.19981,
+            "tolerance_m": 0.27,
+            "proxy_in_tolerance": true
+          }
+        ]
+      },
+      "execution_note": "Already imported this exact package; reused revision. --rerun creates another."
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T103842Z.zip",
+      "revision_folder": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r001",
+      "build_status": "draft",
+      "accepted": false,
+      "geometry_quality": "needs_review",
+      "issue_count": 2,
+      "issues": [
+        {
+          "code": "STANDING_INSTEAD_OF_KNEELING",
+          "detail": "B/L knee joint z 0.325m while posture=quadruped"
+        },
+        {
+          "code": "STANDING_INSTEAD_OF_KNEELING",
+          "detail": "B/R knee joint z 0.325m while posture=quadruped"
+        }
+      ],
+      "previews": [
+        "previews/front.png",
+        "previews/qa-regions.png",
+        "previews/side.png",
+        "previews/three-quarter.png"
+      ],
+      "feedback_file": "DOGG-FROG-V00_r001_feedback.zip",
+      "revision": 1,
+      "stability": "needs_work",
+      "posture_heights": {
+        "A": {
+          "hip_z_m": 0.66739,
+          "knee_L_z_m": 0.03863,
+          "knee_R_z_m": 0.03863,
+          "knee_L_angle_deg": 83.27,
+          "knee_R_angle_deg": 83.27,
+          "head_z_m": 1.04124
+        },
+        "B": {
+          "hip_z_m": 0.48712,
+          "knee_L_z_m": 0.32494,
+          "knee_R_z_m": 0.32494,
+          "knee_L_angle_deg": 70.09,
+          "knee_R_angle_deg": 70.09,
+          "head_z_m": 0.48259
+        }
+      },
+      "contact_checks": {
+        "method": "sampled_evaluated_mesh_distance_and_bone_head_proxy",
+        "warning": "Unsigned proximity does not establish penetration depth or correct contact.",
+        "mesh_sample": {
+          "min_distance_m": 0.001114,
+          "p01_distance_m": 0.008174,
+          "samples_under_1cm": 124
+        },
+        "anchors": [
+          {
+            "id": "pelvis_alignment",
+            "distance_m": 0.4031,
+            "tolerance_m": 0.42,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "left_hand_to_receiver_hip",
+            "distance_m": 0.21541,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          },
+          {
+            "id": "right_hand_to_receiver_hip",
+            "distance_m": 0.21541,
+            "tolerance_m": 0.28,
+            "proxy_in_tolerance": true
+          }
+        ]
+      },
+      "execution_note": "Already imported this exact package; reused revision. --rerun creates another."
+    }
+  ],
+  "combined_feedback_zip": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\upload\\spose-remote-feedback-batch-0001-pass-02_20261123T111818Z.zip",
+  "snapshot_folder": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\snapshots\\batch-0001-pass-02_20261123T111818Z",
+  "review_folder": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\review",
+  "upload_folder": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\upload"
+}

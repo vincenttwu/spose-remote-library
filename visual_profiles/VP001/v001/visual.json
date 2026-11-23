@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "visual_profile_id": "VP001",
+  "version": "v001",
+  "status": "proposed_pending_review",
+  "purpose": "Distinguish actors and broad body regions for pose reading; not a clinical muscle atlas.",
+  "actor_palettes": {
+    "A": {
+      "palette_id": "COOL01",
+      "family": "cool_blue_teal",
+      "base_srgb_hex": "#7199A9",
+      "regions": {
+        "head_neck": "#95B8C6",
+        "chest_back": "#497A94",
+        "abdomen": "#83A8B5",
+        "pelvis": "#34576F",
+        "shoulders": "#315B78",
+        "upper_arms": "#6B9AB3",
+        "forearms": "#A7C8D2",
+        "hands": "#456C7F",
+        "thighs": "#6B9AA5",
+        "calves": "#B0CCD0",
+        "feet": "#456C7F"
+      }
+    },
+    "B": {
+      "palette_id": "WARM01",
+      "family": "warm_ochre_clay",
+      "base_srgb_hex": "#BC9873",
+      "regions": {
+        "head_neck": "#D6BEA1",
+        "chest_back": "#A6784E",
+        "abdomen": "#D1AD87",
+        "pelvis": "#795134",
+        "shoulders": "#815A3C",
+        "upper_arms": "#BB956C",
+        "forearms": "#E3CBA6",
+        "hands": "#9A7048",
+        "thighs": "#B58C64",
+        "calves": "#E0C3A0",
+        "feet": "#9A7048"
+      }
+    }
+  },
+  "region_assignment": "Dominant deformation-region weights aggregated per disconnected mannequin piece, with small upper-arm shoulder pieces classified as shoulders; identical face mapping for A and B.",
+  "native_texture_status": "Missing mannequin_D.png and mannequin guides_D.png; not required by this material implementation.",
+  "control": {
+    "bone": "muscle group control",
+    "channel": "location.x",
+    "plain_value": 0.0,
+    "regions_value": 0.27,
+    "factor_expression": "min(1.0,max(0.0,overlay/0.27))",
+    "independent_per_actor": true
+  },
+  "modes": {
+    "plain": "Actor identity color only",
+    "regions": "Actor palette with stable region shades"
+  },
+  "default_qa_mode": "regions",
+  "rules": [
+    "Never swap actor palettes between poses.",
+    "Do not use rainbow anatomy colors that erase actor identity.",
+    "Use the same semantic region map across body profiles.",
+    "Color changes must not alter geometry, pose, measurements, or rig controls.",
+    "Record visual profile version, actor palette IDs, appearance mode, and slider values in output metadata."
+  ],
+  "enforcement": "Required metadata and QA checks for future production; this proposal is not yet applied to the main pair template.",
+  "approved_at": null,
+  "study": "pairs/CPL01/v001/studies/VP001-v001/appearance-study.blend",
+  "tested_control_samples": [
+    0.0,
+    0.135,
+    0.27
+  ]
+}

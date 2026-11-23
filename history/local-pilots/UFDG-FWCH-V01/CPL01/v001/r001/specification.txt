@@ -1,0 +1,17 @@
+GEOMETRY ROOT — [ACTOR_1] behind [ACTOR_2] in a deep wide-footed frog squat: both feet grounded, knees wide and strongly bent, pelvis oriented toward [ACTOR_2], torso angled forward sufficiently for the specified upper-body arm contact. Keep distinct feet, shins, knees, pelvis and forearm paths; never reinterpret the rear as kneeling.
+
+FRONT BASE FWCH — Front knees approximately hip-width; arms extend forward along floor and lower the chest, with pelvis elevated relative to chest to a moderate degree. A gently curved back, not a forced arch.
+
+FLOOR SUPPORT — Both front knees and shins rest on [FLOOR]; both palms reach long forward on [FLOOR], with the low torso and chest near or lightly resting against [FLOOR]. Knees remain approximately hip-width, distinct from the wide child-like base.
+
+FAMILY INVARIANT — Front hip hinge, gentle inward lower-back contour and mild anterior pelvic tilt where compatible; rear deep wide-footed squat, both rear feet grounded, never rear kneeling; one continuous floor and no furniture.
+
+V01 STRUCTURAL CONTACT VARIATION — Rear forearms travel beneath the front upper arms and turn inward at the underarm/upper-rib line, without displacing the front load-bearing support contacts.
+
+FRONT ARM / REAR ARM COMPATIBILITY — Front support remains as named in the base; back-directed arm movement is absent in this variant. Rear forearms travel beneath the front upper arms and turn inward at the underarm/upper-rib line, without displacing the front load-bearing support contacts.
+
+SPATIAL CLEARANCE — Front hips can sit above chest within achievable knee and torso range; keep rear squat feet visible, head clear and limb entry paths plausible. No support contact may vanish without the specified load transfer.
+
+CUSTOM SOURCE — Text-only custom extension concept derived from DOGG floor-posture categories and the USDG/UADG custom rear-arm taxonomy; no photo, generated image, physical trial or successful render is asserted.
+
+((UFDG-FWCH-V01))

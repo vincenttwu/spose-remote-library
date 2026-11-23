@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-DOWN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline B chest styling (-25 deg) arches upper torso up so B head (0.602m) sits above squatting B hip (0.545m) and stretches B palms 6.5cm off floor, while low B hips stay below standing A reach (0 pct palm coverage).",
+  "expected_effect": "Relax B chest to -5 deg, raise B torso z to 0.70m and pitch to 122 deg for true standing forward fold (head below hip, palms flat on floor), extend styling B head to -55 deg to hold forward gaze, and lean A slightly closer to contact B hips.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0.0,
+        0.0,
+        0.7
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 122
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.23,
+        -0.31,
+        0.004
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.23,
+        -0.31,
+        0.004
+      ]
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -5
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -55
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "value",
+      "value": [
+        0.0,
+        0.21,
+        0.81
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 44
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.17,
+        0.06,
+        -0.015
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.17,
+        0.06,
+        -0.015
+      ]
+    },
+    {
+      "section": "palm_surface_contact",
+      "field": "target_gap_m",
+      "value": 0.008
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

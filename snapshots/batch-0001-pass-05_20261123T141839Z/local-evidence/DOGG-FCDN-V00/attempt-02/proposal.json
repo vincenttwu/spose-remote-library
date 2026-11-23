@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "hypothesis": "Attempt 01 eliminated Attempt 00 upturned hands and laid forearms/hands naturally flat beside B low sideways head, but B sampled min_z dipped slightly to -0.0158m.",
+  "expected_effect": "Raise B hand_ik z slightly (+1.6cm) to bring B body_min_z above 0 while keeping forearms/hands flat on the floor and low sideways head unchanged.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.26,
+        -0.68,
+        0.046
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.26,
+        -0.68,
+        0.046
+      ]
+    }
+  ],
+  "visual_review_note": "Pending Attempt 02 render"
+}

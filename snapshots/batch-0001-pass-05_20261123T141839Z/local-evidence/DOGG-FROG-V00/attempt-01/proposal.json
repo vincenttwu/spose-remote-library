@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline styling B head (-18 deg) with torso pitch 102 deg left pre-aim gaze at -84 deg so head_aim clamped at -14 deg downward despite neck_assist, while chest -15 deg kept B palms near 0.029m.",
+  "expected_effect": "Set styling B head to -38 deg and ease B torso pitch to 96 deg so head_aim reaches +12 deg forward-up gaze, ease chest to -8 deg and shift hand_ik 5cm closer under shoulders to plant palms flat near Z=0 while keeping wide feet clear of A knees.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "torso",
+      "field": "pitch_x_deg",
+      "value": 96
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.29,
+        -0.45,
+        0.004
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.29,
+        -0.45,
+        0.004
+      ]
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "chest",
+      "field": "angle_deg",
+      "value": -8
+    },
+    {
+      "section": "styling_controls",
+      "actor": "B",
+      "bone": "head",
+      "field": "angle_deg",
+      "value": -38
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

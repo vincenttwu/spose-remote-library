@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-23T16:10:00+08:00",
+  "milestones": [
+    {
+      "id": "library_scaffold",
+      "status": "complete",
+      "notes": "Structure, configuration, and empty tracker initialized."
+    },
+    {
+      "id": "rig_inspection",
+      "status": "complete",
+      "notes": "RIG001 inspection/control map saved; basic control tests and generated UI registration passed on Blender 5.2.2 LTS."
+    },
+    {
+      "id": "body_calibration",
+      "status": "draft_pending_review",
+      "notes": "BP001 master saved/reopened, measured 1.85 m, front/side/three-quarter previews prepared. User shape review pending."
+    },
+    {
+      "id": "pair_template",
+      "status": "draft_pending_review",
+      "notes": "Provisional CPL01 saved/reopened at 1.85 m and 1.77 m. Normalized geometry and rig/slider independence passed. User review pending."
+    },
+    {
+      "id": "production",
+      "status": "pending",
+      "notes": "Choose eligible scope and enqueue only after pilot approval."
+    },
+    {
+      "id": "remote_pose_pipeline",
+      "status": "scaffold_ready_unverified_in_blender",
+      "notes": "Data-only importer, Blender builder, render/contact proxies and feedback exporter present; offline scripts tested only; first local Blender test pending."
+    },
+    {
+      "id": "remote_v00_set",
+      "status": "pending_0_of_276_accepted",
+      "notes": "Global V00-first milestone: all 276 V00 across all 28 families must be explicitly accepted before any V01-V10 work; no remote base is yet accepted."
+    },
+    {
+      "id": "portable_cold_start_handoff",
+      "status": "implemented_offline_test_pending",
+      "notes": "Small context-only ZIP with V00 rows and dependencies, rig maps, docs, roadmap and lightweight state; excludes scenes/large data."
+    },
+    {
+      "id": "v00_roadmap_and_review",
+      "status": "implemented_offline_test_pending",
+      "notes": "ROADMAP.md/JSON generated from source+SQLite; explicit manual review command updates accepted states; no auto-approval."
+    },
+    {
+      "id": "variations_phase",
+      "status": "locked",
+      "notes": "V01-V10 deferred globally until all 276 V00 accepted and user explicitly authorizes the new phase."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "project_id": "SPOSE-REMOTE-LIBRARY",
+  "created_at": "2026-11-23T14:05:02+08:00",
+  "timezone": "Asia/Taipei",
+  "phase": "global_v00_development_and_cold_start_handoff_ready",
+  "default_pair": {
+    "pair_id": "CPL01",
+    "version": "v001",
+    "config": "pairs/CPL01/v001/pair.json"
+  },
+  "source_config": "source/dataset.json",
+  "tracker": "tracking/progress.sqlite",
+  "units": "meters",
+  "up_axis": "+Z",
+  "ground_z_m": 0,
+  "left_right": "character_perspective",
+  "forward_axis": "-Y",
+  "blender_version_observed": "5.2.2 LTS",
+  "blender_version_validated": "5.2.2 LTS",
+  "default_pair_is_approved": false,
+  "output_pattern": "poses/{pose_id}/{pair_id}/{pair_version}/r{revision:03d}/",
+  "delivery": {
+    "self_contained_blend": false,
+    "save_source_files": false,
+    "previews": [
+      "front",
+      "side",
+      "three-quarter",
+      "qa-regions"
+    ],
+    "modular_pose_inputs": true,
+    "save_blend_opt_in": true
+  },
+  "production_scope": "V00_development_only",
+  "production_enabled": false,
+  "library_version": "0.8.0-remote",
+  "documentation": {
+    "agent_instructions": "AGENTS.md",
+    "required_cold_start": "CONTINUATION.md",
+    "changelog": "CHANGELOG.md",
+    "directory_map": "README.md",
+    "operational_skill": "SKILL.md",
+    "workflow": "WORKFLOW.md",
+    "roadmap_human": "ROADMAP.md",
+    "roadmap_machine": "ROADMAP.json",
+    "cold_start": "docs/COLD-START.md",
+    "handoff_design": "docs/HANDOFF-DESIGN.md",
+    "tracking_roadmap": "docs/TRACKING-AND-ROADMAP.md",
+    "pose_module_feedback": "docs/POSE-MODULE-AND-FEEDBACK.md"
+  },
+  "compatibility_validation_scope": "Source rig load, native UI registration, nine basic control/slider tests, saved asset reopen, measured heights, and pair isolation; not exhaustive animation validation.",
+  "visual_profile": {
+    "visual_profile_id": "VP001",
+    "version": "v001",
+    "config": "visual_profiles/VP001/v001/visual.json",
+    "status": "proposed_pending_review"
+  },
+  "appearance_contract": {
+    "required_for_pose_outputs": true,
+    "qa_preview_mode": "regions",
+    "technical_metadata_validator": "tooling/scripts/validate_appearance_record.py",
+    "palette_approval_required_before_acceptance": true
+  },
+  "reference_source_configs": [
+    "source/dataset-SRC002-historical.json",
+    "source/dataset-original.json"
+  ],
+  "pilot_scope": {
+    "source_id": "SRC003",
+    "pose_ids": [],
+    "mode": "development_unapproved_v00"
+  },
+  "remote_pose_package_schema_version": 1,
+  "pose_packages_dir": "incoming",
+  "package_scripts_dir": "scripts",
+  "roadmap": {
+    "policy": "ALL_V00_BEFORE_ANY_VARIATION",
+    "generator": "scripts/update_roadmap.py",
+    "source_of_truth": "tracking/progress.sqlite",
+    "human": "ROADMAP.md",
+    "machine": "ROADMAP.json",
+    "variation_unlock_requires_explicit_user_approval": true
+  },
+  "portable_handoff": {
+    "entrypoint": "scripts/package-library-for-remote.py",
+    "checker": "scripts/check_handoff.py",
+    "offline_pose_packager": "scripts/package_pose_from_handoff.py",
+    "archive_root": "remote/",
+    "context_only": true
+  },
+  "variation_phase_authorized": false,
+  "remote_pipeline_blender_tested": false
+}

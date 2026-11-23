@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "pose_id": "UFDG-FWCH-V01",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "revision": 1,
+  "result": "draft_basic_checks_passed_user_contact_review_pending",
+  "scene_sha256": "b4dc9962482c3e2f60e83fd971a45c0e4ba0423eb0df274c750e9d49f7923d65",
+  "blender_version": "5.2.2 LTS",
+  "checks": {
+    "blend_reopens": "passed",
+    "expected_rigs_present": "passed",
+    "character_proportions_preserved": "passed",
+    "external_dependencies_resolved": "passed",
+    "previews_rendered": "passed",
+    "visual_review": "agent_checked_draft_user_review_pending",
+    "output_checksums_recorded": "passed",
+    "actor_palette_identity": "passed",
+    "appearance_does_not_change_geometry": "passed",
+    "appearance_controls_independent": "material_targets_checked",
+    "region_qa_preview": "passed",
+    "appearance_metadata": "passed"
+  },
+  "support_region_checks": {
+    "A_feet_L": {
+      "min_surface_z_m": -6.777187809348106e-05,
+      "tolerance_m": 0.005,
+      "passed": true
+    },
+    "A_feet_R": {
+      "min_surface_z_m": -6.791763007640839e-05,
+      "tolerance_m": 0.005,
+      "passed": true
+    },
+    "B_hands_L": {
+      "min_surface_z_m": 0.0009999033063650131,
+      "tolerance_m": 0.005,
+      "passed": true
+    },
+    "B_hands_R": {
+      "min_surface_z_m": 0.0010000348556786776,
+      "tolerance_m": 0.005,
+      "passed": true
+    },
+    "B_calves_L": {
+      "min_surface_z_m": 0.0010047752875834703,
+      "tolerance_m": 0.005,
+      "passed": true
+    },
+    "B_calves_R": {
+      "min_surface_z_m": 0.0010047093965113163,
+      "tolerance_m": 0.005,
+      "passed": true
+    }
+  },
+  "limb_length_ratios": {
+    "A": {
+      "ORG-upper_arm.L": 0.999999720893532,
+      "ORG-forearm.L": 0.9999997460224421,
+      "ORG-thigh.L": 0.9999998423251092,
+      "ORG-shin.L": 0.9999999247035616,
+      "ORG-upper_arm.R": 0.9999996895136744,
+      "ORG-forearm.R": 0.9999995842577808,
+      "ORG-thigh.R": 0.999999853648271,
+      "ORG-shin.R": 1.0000000169050047
+    },
+    "B": {
+      "ORG-upper_arm.L": 0.9999998814135573,
+      "ORG-forearm.L": 0.9999999497048877,
+      "ORG-thigh.L": 1.0000000150033146,
+      "ORG-shin.L": 1.0000001276176986,
+      "ORG-upper_arm.R": 1.0000001650391033,
+      "ORG-forearm.R": 1.0000004924436867,
+      "ORG-thigh.R": 0.9999999130948691,
+      "ORG-shin.R": 0.9999999547611906
+    }
+  },
+  "template_limb_length_ratios": {
+    "A": {
+      "ORG-upper_arm.L": 1.0000000512957103,
+      "ORG-forearm.L": 1.0000000352750706,
+      "ORG-thigh.L": 1.000000003259959,
+      "ORG-shin.L": 0.9999999981130293
+    },
+    "B": {
+      "ORG-upper_arm.L": 1.0000000512117329,
+      "ORG-forearm.L": 1.0000000352750706,
+      "ORG-thigh.L": 1.000000332306074,
+      "ORG-shin.L": 1.0000003939202622
+    }
+  },
+  "source_signature_matches": true,
+  "source_catalog_hash_matches": true,
+  "cross_actor_surface_overlap_candidates": {
+    "hands / shoulders": 264,
+    "hands / chest_back": 530
+  },
+  "contact_validation": "review_required; BVH overlaps are surface candidates, not a penetration-depth or physics test",
+  "region_bounds": {
+    "A": {
+      "abdomen.L": {
+        "min_z": 0.4826340675354004,
+        "max_z": 0.7047991752624512
+      },
+      "abdomen.R": {
+        "min_z": 0.48201921582221985,
+        "max_z": 0.7024766206741333
+      },
+      "pelvis.L": {
+        "min_z": 0.47987958788871765,
+        "max_z": 0.7336084842681885
+      },
+      "pelvis.R": {
+        "min_z": 0.48051032423973083,
+        "max_z": 0.7336084842681885
+      },
+      "thighs.L": {
+        "min_z": 0.39784470200538635,
+        "max_z": 0.6666340827941895
+      },
+      "calves.L": {
+        "min_z": 0.06870663166046143,
+        "max_z": 0.4552721679210663
+      },
+      "feet.L": {
+        "min_z": -6.777187809348106e-05,
+        "max_z": 0.08871418982744217
+      },
+      "chest_back.L": {
+        "min_z": 0.4741159975528717,
+        "max_z": 0.723900556564331
+      },
+      "chest_back.R": {
+        "min_z": 0.47324466705322266,
+        "max_z": 0.723900556564331
+      },
+      "head_neck.R": {
+        "min_z": 0.4921497404575348,
+        "max_z": 0.7279599905014038
+      },
+      "head_neck.L": {
+        "min_z": 0.4953842759132385,
+        "max_z": 0.7273821830749512
+      },
+      "forearms.L": {
+        "min_z": 0.18429742753505707,
+        "max_z": 0.43614521622657776
+      },
+      "hands.L": {
+        "min_z": 0.09703855961561203,
+        "max_z": 0.21733342111110687
+      },
+      "shoulders.L": {
+        "min_z": 0.5820860862731934,
+        "max_z": 0.677111804485321
+      },
+      "upper_arms.L": {
+        "min_z": 0.4066363573074341,
+        "max_z": 0.62259840965271
+      },
+      "thighs.R": {
+        "min_z": 0.3978445827960968,
+        "max_z": 0.6666340231895447
+      },
+      "calves.R": {
+        "min_z": 0.06870651990175247,
+        "max_z": 0.4552721083164215
+      },
+      "feet.R": {
+        "min_z": -6.791763007640839e-05,
+        "max_z": 0.08871405571699142
+      },
+      "forearms.R": {
+        "min_z": 0.18429742753505707,
+        "max_z": 0.4361451268196106
+      },
+      "hands.R": {
+        "min_z": 0.0970391109585762,
+        "max_z": 0.21733300387859344
+      },
+      "shoulders.R": {
+        "min_z": 0.582085907459259,
+        "max_z": 0.6771116256713867
+      },
+      "upper_arms.R": {
+        "min_z": 0.40663641691207886,
+        "max_z": 0.6225982904434204
+      }
+    },
+    "B": {
+      "abdomen.L": {
+        "min_z": 0.13885430991649628,
+        "max_z": 0.405932754278183
+      },
+      "abdomen.R": {
+        "min_z": 0.13839870691299438,
+        "max_z": 0.4036639630794525
+      },
+      "pelvis.L": {
+        "min_z": 0.19531694054603577,
+        "max_z": 0.46160563826560974
+      },
+      "pelvis.R": {
+        "min_z": 0.19495174288749695,
+        "max_z": 0.46160563826560974
+      },
+      "thighs.L": {
+        "min_z": 0.01712891273200512,
+        "max_z": 0.3929802179336548
+      },
+      "calves.L": {
+        "min_z": 0.0010047752875834703,
+        "max_z": 0.12644410133361816
+      },
+      "feet.L": {
+        "min_z": 0.0023108762688934803,
+        "max_z": 0.17224925756454468
+      },
+      "chest_back.L": {
+        "min_z": 0.10094078630208969,
+        "max_z": 0.34774139523506165
+      },
+      "chest_back.R": {
+        "min_z": 0.10094078630208969,
+        "max_z": 0.3480687439441681
+      },
+      "head_neck.L": {
+        "min_z": 0.03589777275919914,
+        "max_z": 0.23111291229724884
+      },
+      "forearms.L": {
+        "min_z": 0.028997523710131645,
+        "max_z": 0.15528637170791626
+      },
+      "hands.L": {
+        "min_z": 0.0009999033063650131,
+        "max_z": 0.07810870558023453
+      },
+      "shoulders.L": {
+        "min_z": 0.16295088827610016,
+        "max_z": 0.26334238052368164
+      },
+      "upper_arms.L": {
+        "min_z": 0.09702906757593155,
+        "max_z": 0.24343086779117584
+      },
+      "thighs.R": {
+        "min_z": 0.017128845676779747,
+        "max_z": 0.39298030734062195
+      },
+      "calves.R": {
+        "min_z": 0.0010047093965113163,
+        "max_z": 0.1264440417289734
+      },
+      "feet.R": {
+        "min_z": 0.002310793846845627,
+        "max_z": 0.1722491830587387
+      },
+      "head_neck.R": {
+        "min_z": 0.03638221323490143,
+        "max_z": 0.2305016666650772
+      },
+      "forearms.R": {
+        "min_z": 0.028996996581554413,
+        "max_z": 0.15528467297554016
+      },
+      "hands.R": {
+        "min_z": 0.0010000348556786776,
+        "max_z": 0.07810897380113602
+      },
+      "shoulders.R": {
+        "min_z": 0.16295088827610016,
+        "max_z": 0.26334238052368164
+      },
+      "upper_arms.R": {
+        "min_z": 0.0970277488231659,
+        "max_z": 0.2434304803609848
+      }
+    }
+  },
+  "limitations": [
+    "Calf-region minimum surface height is a knee/shin floor-contact proxy, not a measured full contact patch.",
+    "Upper-arm/rib contact fit and interpenetration need visual review.",
+    "No balance, load, physical safety, or dynamic simulation validation is asserted."
+  ],
+  "validated_at": null,
+  "appearance_metadata_report": {
+    "appearance_metadata": "passed",
+    "visual_profile": "VP001/v001",
+    "qa_preview_exists": true,
+    "pixel_content_verified": false,
+    "blender_materials_verified": false
+  },
+  "checked_at": "2026-11-23T15:18:38+08:00"
+}

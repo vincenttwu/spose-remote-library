@@ -1,0 +1,18 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "pair.json": "723dc527082890d56382296f33e0c8d34742e27b7aa17c4bec9cdb5973b1ed50",
+    "template.blend": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "validation.json": "9eec4ffa07a31715a94d971ba9b00614b97bf95295a26a88d80022654d55dc48",
+    "previews/front.png": "1071637d5dd25366a03c2d92d419338abc9b1db928a19cc6c13b07cfab9bd458",
+    "previews/side-a.png": "ccaa6eafc1eee8aae97fbe510894d44ed6125a82b58e288e914162185c9550a8",
+    "previews/side-b.png": "3c29f3da51a05e610572792d8d1131670a457a5b3b4e36fcd64cd54ca7816b30",
+    "previews/three-quarter.png": "6e8f3f7e58930ae949d492f2eb9cac886ad5524ded364e7dd36dce4ebaa3bc03",
+    "studies/VP001-v001/appearance-study.blend": "aa36d89d3f44b2864741661d031dd65afe345326087bcfc6cea5a8299aa25fad",
+    "studies/VP001-v001/appearance-validation.json": "a0fe827a758b3b6f0a46378ef31a81d788920ddf8aba57ce19eeb8dffd25161f",
+    "studies/VP001-v001/plain-front.png": "3de8b1548d904855a0f903900667a818504e1569dc9ce4948c205cfed7bf735d",
+    "studies/VP001-v001/regions-front.png": "cc5551955d62ac7fc7da24eab95e97b063afed3de125e1b0dd343bbc8985991e",
+    "studies/VP001-v001/regions-three-quarter.png": "2697d6a6280e2c1d6b533113dca1cb136ba7fbf99837d7c3cab3c51358b7cc8c",
+    "studies/VP001-v001/study.json": "cc4f1c09d8a13231732b32ef4c52aaeefac990366c2a177a67b50d5e316096c7"
+  }
+}

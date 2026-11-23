@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FCDN-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "hypothesis": "Baseline forearm recalibration lifted hand_ik by +15.8cm to raise dipping elbows, causing B hands to stick awkwardly upward into the air above B sideways head.",
+  "expected_effect": "Raise B elbow poles (upper_arm_ik_target z 0.065 -> 0.14) and slide B hand_ik forward so forearms clear floor naturally without hand_ik flying upward, keeping low sideways head (2.4cm) and A palm contact intact.",
+  "changes": [
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "upper_arm_ik_target.L",
+      "field": "value",
+      "value": [
+        0.42,
+        -0.5,
+        0.14
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "upper_arm_ik_target.R",
+      "field": "value",
+      "value": [
+        -0.42,
+        -0.5,
+        0.14
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "field": "value",
+      "value": [
+        0.26,
+        -0.68,
+        0.03
+      ]
+    },
+    {
+      "section": "controls",
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "field": "value",
+      "value": [
+        -0.26,
+        -0.68,
+        0.03
+      ]
+    }
+  ],
+  "visual_review_note": "Pending Attempt 01 render"
+}

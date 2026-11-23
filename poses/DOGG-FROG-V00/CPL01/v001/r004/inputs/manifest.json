@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "DOGG-FROG-V00",
+  "package_timestamp_utc": "20261123T140733Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "aded345382334df26a2e06d7c288ea9e1427dde3a97282b0e2e41ef835180c81",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "c60ad86d802281f931a2a465c8df69a8f79e22fc881f45aa09b9db04a5282fca",
+    "pose.json": "c55065a5f9e0fd8a128ce74162c03ee40f189ed4f041e8caa05956ddb186f50d",
+    "render-config.json": "d7754bebe20e15dbb824791630e0552ed334cb3d30bd1b75bdf838dda8c82223",
+    "rig-targets.json": "52078736ec463b5c3758b6fe8f620c435864d890b5d86c4914361f171f00adbf",
+    "validation-plan.json": "971173868b874f9b0fe297694a8ddc870fde3414e2b7f3ff9e14a38855bff686"
+  }
+}

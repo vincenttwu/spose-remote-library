@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "batch_id": "BATCH-0001-DOGG-V00-FIVEPACK",
+  "family": "DOGG",
+  "purpose": "pass05_pass04_local_selected_seeds_with_targeted_refinement",
+  "progression": "unconditional_attempt_all_and_record",
+  "reference_source": "SRC003/v001",
+  "pose_count": 5,
+  "calibration_note": "Pass05 baseline starts from locally selected Pass04 attempt02 data, not the remote Pass04 baseline.",
+  "poses": [
+    {
+      "pose_id": "DOGG-DOGG-V00",
+      "package": "DOGG-DOGG-V00_20261123T140729Z.zip",
+      "reference_gate": "informational_only",
+      "source_selected_attempt": "pass-04-local-attempt-02"
+    },
+    {
+      "pose_id": "DOGG-CLSD-V00",
+      "package": "DOGG-CLSD-V00_20261123T140730Z.zip",
+      "reference_gate": "informational_only",
+      "source_selected_attempt": "pass-04-local-attempt-02"
+    },
+    {
+      "pose_id": "DOGG-DOWN-V00",
+      "package": "DOGG-DOWN-V00_20261123T140731Z.zip",
+      "reference_gate": "informational_only",
+      "source_selected_attempt": "pass-04-local-attempt-02"
+    },
+    {
+      "pose_id": "DOGG-FCDN-V00",
+      "package": "DOGG-FCDN-V00_20261123T140732Z.zip",
+      "reference_gate": "informational_only",
+      "source_selected_attempt": "pass-04-local-attempt-02"
+    },
+    {
+      "pose_id": "DOGG-FROG-V00",
+      "package": "DOGG-FROG-V00_20261123T140733Z.zip",
+      "reference_gate": "informational_only",
+      "source_selected_attempt": "pass-04-local-attempt-02"
+    }
+  ],
+  "batch_label": "batch-0001",
+  "pass_label": "pass-05",
+  "pass_goal": "Carry forward Pass04 locally selected controls; address DOWN support/fold, FROG gaze/hand support, FCDN forearm penetration, and preserve DOGG/CLSD gains.",
+  "feedback_filename_pattern": "spose-remote-feedback-batch-0001-pass-05_<timestamp>.zip",
+  "local_calibration": {
+    "enabled": true,
+    "max_refinement_attempts": 2,
+    "evidence_mode": "compact",
+    "baseline_attempt_index": 0,
+    "human_visual_scoring_advisory": true,
+    "no_automatic_promotion": true,
+    "guidance": {
+      "priorities": [
+        "Assess each pose baseline against prior selected Pass04 visuals; do not score only the newest attempt.",
+        "DOWN: actual B palms at floor, B head below hips while face forwards; use shoulder/elbow reach measurement",
+        "FROG: world-space B head elevation forward/up, palms on floor, preserve wide feet and no collisions",
+        "FCDN: forearms do not penetrate floor, low side-facing head preserved, hands not mandatory load-bearing",
+        "DOGG/CLSD: preserve head elevation and contact, improve visual pelvis/hand quality only when evidence supports it"
+      ],
+      "non_fcdn_head": "Face should orient forward and slightly upward, verified from side and three-quarter views; do not blindly trust bone axis.",
+      "fcdn_head": "Keep low, sideways face near the floor, no head-up presentation.",
+      "contact": "Use palm patch median, coverage and visual review together. A near-zero vertex gap is not convincing contact.",
+      "measurement_only": "All geometry and quality scores are references, never gates",
+      "per_attempt_position_limit_m": 0.09,
+      "baseline_total_position_limit_m": 0.16,
+      "per_attempt_rotation_limit_deg": 20,
+      "baseline_total_rotation_limit_deg": 35,
+      "selection_policy": "Pick best visual+measured attempt 00, 01, or 02 independently; attempt02 is NEVER automatic winner; document contact/support/gaze regression.",
+      "pose_specific_reference_targets": {
+        "DOGG-DOGG-V00": {
+          "head_elevation_deg": [
+            8,
+            18
+          ],
+          "front_pelvis_min_z_m": 0.47,
+          "hand_pelvis_patch_p50_max_m": 0.03,
+          "floor_palm_max_z_m": 0.03,
+          "priority": "Preserve prior local selected posture and hand coverage. Improve only verified defects."
+        },
+        "DOGG-CLSD-V00": {
+          "head_elevation_deg": [
+            8,
+            18
+          ],
+          "front_pelvis_min_z_m": 0.47,
+          "hand_pelvis_patch_p50_max_m": 0.03,
+          "floor_palm_max_z_m": 0.03,
+          "priority": "Preserve narrow front-knee stance; do not transform it into DOGG standard."
+        },
+        "DOGG-DOWN-V00": {
+          "head_elevation_deg": [
+            0,
+            15
+          ],
+          "head_forward_dot_minus_y_min": 0.5,
+          "front_palm_z_max_m": 0.03,
+          "head_below_hip_min_m": 0.045,
+          "priority": "Complete forward standing fold and hand support without flipping face backwards."
+        },
+        "DOGG-FCDN-V00": {
+          "head_side_z_max_m": 0.04,
+          "forearm_z_min_m": -0.005,
+          "forearm_z_max_m": 0.035,
+          "priority": "Keep low side-facing head. Correct forearm penetration, do not raise head."
+        },
+        "DOGG-FROG-V00": {
+          "head_elevation_deg": [
+            8,
+            18
+          ],
+          "head_forward_dot_minus_y_min": 0.5,
+          "front_palm_z_max_m": 0.03,
+          "priority": "Keep wide feet and no leg collision. Head must face forward/up; no knee-floor requirement."
+        }
+      },
+      "verification_protocol": {
+        "per_pose": "Compare attempt 00 vs attempted 01/02 in matched side and 3/4 camera images; confirm contact distribution, support, head direction, pose silhouette and clipping. A single numeric pass is not a visual guarantee.",
+        "selection": "Choose best attempt 00/01/02 individually. Never automatically choose latest attempt.",
+        "evidence": "Record actual changed controls, hypothesis, measured improvement and regressions, visual reason, truthful local score.",
+        "no_gates": true
+      }
+    }
+  }
+}

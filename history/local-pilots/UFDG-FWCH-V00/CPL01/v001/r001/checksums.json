@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "algorithm": "sha256",
+  "files": {
+    "pose.json": "604c716c0bb7e6e68f92217aa3812fab7289b2b918b5a01e457ddf1b743502cc",
+    "scene.blend": "d0e7a35ab2102e2df4730d0048fb693d9e77a31df9d7306be7a505c32e7b8ec9",
+    "specification.txt": "6894546c2698528d9ba1b81bf474c30bde29b4416bcfea2b5ed0dbaa49ade44d",
+    "validation.json": "cd266678a04a894c2e00726221513c34ac8c897e9eff9d1e040d0f01b407de71",
+    "working-measurements.json": "017d2b1c97ac51f888d6927b63f985acd70f03a5098b69c1756ae9d41a2d5c82",
+    "previews/front.png": "677f538f06f17f841660115c1d5cdeb076f2be2c36bd26e7483381eddc0669bd",
+    "previews/side.png": "961ce72a4b4644526d886972177614333a63c8199792157c4400631124f2d138",
+    "previews/three-quarter.png": "bf44269025a2913575ccbab5971a30e5800eba1fe7b65a590fc2795dcc26bdea"
+  }
+}

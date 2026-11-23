@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "kind": "spose_infrastructure_install_receipt",
+  "release_id": "INFRA-0002-REGISTRY-NONLINEAR",
+  "installed_utc": "20261123T145450Z",
+  "changes": [
+    {
+      "target": "AGENTS.md",
+      "current_sha256": "f59f6816ea56ca9a65d0845409855f5147096dd425eca9ccc2d045c3b93991fe",
+      "new_sha256": "e79473c5ad9db2a77d915aa1114bf2eda397adb0e130f7b04ebad101a478938d",
+      "source": "updates/AGENTS.md",
+      "backup": "previous\\AGENTS.md"
+    },
+    {
+      "target": "CHANGELOG.md",
+      "current_sha256": "1d94c219b6a6b7830dbd990e812a42427a98a8f7c1d8f15e33532dba50be6436",
+      "new_sha256": "29a11ef377c1b8b803567bb093335be1fecc0c2326b0744520d9be27c7c96d41",
+      "source": "updates/CHANGELOG.md",
+      "backup": "previous\\CHANGELOG.md"
+    },
+    {
+      "target": "GUIDE.md",
+      "current_sha256": "b457caeb63fd5899684026edc7f960ce9123fdb2b318484fc4e697c5af225540",
+      "new_sha256": "e9ed5320945363ac845f22445aa99ec37043181d0be6d693c3135bab70fa11de",
+      "source": "updates/GUIDE.md",
+      "backup": "previous\\GUIDE.md"
+    },
+    {
+      "target": "README.md",
+      "current_sha256": "cca360381317439d215ad674fb5e2cd9f8cfe423ac5f60161c3389edf5e57e6e",
+      "new_sha256": "a877786780605f5c2591a8d239e84a34f85a51f320bf2dda87a4455c08ba0873",
+      "source": "updates/README.md",
+      "backup": "previous\\README.md"
+    },
+    {
+      "target": "SKILL.md",
+      "current_sha256": "7629fc1183532e2c262fd6ca02270d9bc5e944c15698a83c125eeea2bf9aa5b6",
+      "new_sha256": "6a9c05d53a3eacc9ea7acb8f706e1f895713328df3cda24f8dbf5ade0b4dd168",
+      "source": "updates/SKILL.md",
+      "backup": "previous\\SKILL.md"
+    },
+    {
+      "target": "WORKFLOW.md",
+      "current_sha256": "110c74b1b37cc7f436dc3be96566f420434aec26181ea3bd46feee50d702a3f2",
+      "new_sha256": "fce7c7b7c9fad8e40886a52830f53b551ab239aee3731df1e0a818f37fa23794",
+      "source": "updates/WORKFLOW.md",
+      "backup": "previous\\WORKFLOW.md"
+    },
+    {
+      "target": "docs/COLD-START.md",
+      "current_sha256": "f35fab32897df8211547cffa7cdd7c81af8d33521d4f42f9cb87e8fcc57d0613",
+      "new_sha256": "a2afccf646c88580abf36c8420f9d867ad75efa1e0f1f5aa5a12a56dcae6b92d",
+      "source": "updates/docs/COLD-START.md",
+      "backup": "previous\\docs\\COLD-START.md"
+    },
+    {
+      "target": "docs/FEEDBACK-CONTRACT.md",
+      "current_sha256": "04b86fe67e94f340380553b207829a6a31fed2014d0aa6b9163b6faae80cbfbe",
+      "new_sha256": "a6c38066b45ae41dd67fe84bff16395f78d911c2947cc783aca8b30b8a54a7a9",
+      "source": "updates/docs/FEEDBACK-CONTRACT.md",
+      "backup": "previous\\docs\\FEEDBACK-CONTRACT.md"
+    },
+    {
+      "target": "docs/MAINTENANCE.md",
+      "current_sha256": "fcd3c43983a68a990acca91b7ec422dd0639e428901f30a7956b9670653b81d4",
+      "new_sha256": "ec6c747f819846f7330182bd0954d9268648550eb27ba3b75fcf88b2dbded1e7",
+      "source": "updates/docs/MAINTENANCE.md",
+      "backup": "previous\\docs\\MAINTENANCE.md"
+    },
+    {
+      "target": "docs/REGISTRY-OPERATIONS.md",
+      "current_sha256": null,
+      "new_sha256": "63a14c9d27f1d5f55796207f115339b65530b50c18e0a906f00f9e91e4f11e24",
+      "source": "updates/docs/REGISTRY-OPERATIONS.md",
+      "backup": null
+    },
+    {
+      "target": "docs/REGISTRY-SCHEMA.md",
+      "current_sha256": null,
+      "new_sha256": "84a408b31a09253ee1f64c0f947eadb96a007547dd5f9ccb99911f90c0d26eee",
+      "source": "updates/docs/REGISTRY-SCHEMA.md",
+      "backup": null
+    },
+    {
+      "target": "scripts/activate_batch.py",
+      "current_sha256": null,
+      "new_sha256": "bee133cc509c43aa9612267a46859269de471f11a4b98cdba86844c9960a40f0",
+      "source": "updates/scripts/activate_batch.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/export_registry.py",
+      "current_sha256": null,
+      "new_sha256": "1201f9e85e4bb46dd02a89193c68c56ae89eeaf2f1bc07860f3c728da1be30cd",
+      "source": "updates/scripts/export_registry.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/feedback_bundle.py",
+      "current_sha256": "ddec4d6774b6b8eca82ec095e4baef6df9f3a4f2097eb4e140fb57aed518882b",
+      "new_sha256": "63c856257eb864f942569e045418675c3a89a889f42e56ea4dcaf50a20030509",
+      "source": "updates/scripts/feedback_bundle.py",
+      "backup": "previous\\scripts\\feedback_bundle.py"
+    },
+    {
+      "target": "scripts/local_refinement.py",
+      "current_sha256": "f10b0f1bd389e7c6f1b00f9a79489718e507bfd25ad9c250ac559ddddceb371e",
+      "new_sha256": "1dd74b471b51b644d5be7f6c7fc0c91e4ff04351e3167e2f27e746c6cc39ecfd",
+      "source": "updates/scripts/local_refinement.py",
+      "backup": "previous\\scripts\\local_refinement.py"
+    },
+    {
+      "target": "scripts/migrate_registry.py",
+      "current_sha256": null,
+      "new_sha256": "eedeede1c8d83e124385cdcb93c982d01f5c9f70de0d05c23ed86f27e141bd93",
+      "source": "updates/scripts/migrate_registry.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/registry.py",
+      "current_sha256": null,
+      "new_sha256": "422d8348f73c9121cc36f573b47c8e269cdfdc65631a1607c0ef1d339ce4298e",
+      "source": "updates/scripts/registry.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/run_registered_batch.py",
+      "current_sha256": null,
+      "new_sha256": "3041231e50bc034aac0bb6e8920feb20f49a16f09db08070e8ea17f5844b4750",
+      "source": "updates/scripts/run_registered_batch.py",
+      "backup": null
+    },
+    {
+      "target": "scripts/update_continuation.py",
+      "current_sha256": "ab735f720badc6c64ccc4dcbb2e55f95042c7905611841fe8ee887ece06865ab",
+      "new_sha256": "f34dc01750f86ebceee4db9046f5a7155e7fa0ea63761042ad05a0e794a5d1db",
+      "source": "updates/scripts/update_continuation.py",
+      "backup": "previous\\scripts\\update_continuation.py"
+    }
+  ],
+  "bundle_manifest_sha256": "486a34462f6f664f91199d76c310d37348d49866ef4b30cd92d229409d5a8bcb",
+  "notes": "No Blender pose revisions, source CSV or tracking database touched."
+}

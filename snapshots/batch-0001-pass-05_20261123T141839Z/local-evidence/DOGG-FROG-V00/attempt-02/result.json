@@ -1,0 +1,41 @@
+{
+  "pose_id": "DOGG-FROG-V00",
+  "attempt": 2,
+  "base_attempt": 1,
+  "created_utc": "20261123T142554Z",
+  "hypothesis": "Attempt 01 achieved +12.0 deg forward-up gaze and kept wide feet clear of A knees, but easing B torso pitch to 96 deg lifted B shoulders/hips so B palms hovered at z=0.050m.",
+  "expected_effect": "Lower B torso z by 5cm (0.55 -> 0.50m) to ground B palms flat near Z=0 while preserving +12.0 deg gaze, wide foot clearance, and 72 pct palm coverage.",
+  "visual_review_note": "Pending Attempt 02 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0.02,
+        0.55
+      ],
+      "after": [
+        0.0,
+        0.02,
+        0.5
+      ],
+      "baseline": [
+        0,
+        0.02,
+        0.55
+      ]
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [],
+  "preview_count": 4,
+  "rig_targets_sha256": "f09e6bd9df10a40fce9383c6da54afd19c8b325c1da3534834108c2155e2cb86",
+  "probe_status": "measured"
+}

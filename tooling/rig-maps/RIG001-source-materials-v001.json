@@ -1,0 +1,204 @@
+{
+  "images": [
+    {
+      "name": "mannequin guides_D.png",
+      "path": "//..\\mannequin guides_D.png",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "mannequin_D.png",
+      "path": "//..\\mannequin_D.png",
+      "packed": false,
+      "size": [
+        0,
+        0
+      ],
+      "source": "FILE"
+    },
+    {
+      "name": "Viewer Node",
+      "path": "",
+      "packed": false,
+      "size": [
+        256,
+        256
+      ],
+      "source": "VIEWER"
+    }
+  ],
+  "node_groups": [
+    {
+      "owner": "Adjustable Mannequin",
+      "nodes": [
+        {
+          "name": "Group",
+          "type": "GROUP",
+          "image": null,
+          "group": "Adjustable Mannequin Guides"
+        }
+      ],
+      "drivers": [
+        {
+          "path": "nodes[\"Group\"].inputs[1].default_value",
+          "expression": "location",
+          "variables": [
+            {
+              "name": "location",
+              "targets": [
+                {
+                  "id": "Adjustable Mannequin Menu",
+                  "path": "pose.bones[\"muscle group control\"].location[0]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "path": "nodes[\"Group\"].inputs[2].default_value",
+          "expression": "location",
+          "variables": [
+            {
+              "name": "location",
+              "targets": [
+                {
+                  "id": "Adjustable Mannequin Menu",
+                  "path": "pose.bones[\"guide lines control\"].location[0]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "Cycles Outline",
+      "nodes": [
+        {
+          "name": "Group",
+          "type": "GROUP",
+          "image": null,
+          "group": "Cycles Outline"
+        }
+      ],
+      "drivers": []
+    },
+    {
+      "owner": "Adjustable Mannequin Guides",
+      "nodes": [
+        {
+          "name": "Image Texture.002",
+          "type": "TEX_IMAGE",
+          "image": "mannequin guides_D.png",
+          "group": null
+        },
+        {
+          "name": "Image Texture",
+          "type": "TEX_IMAGE",
+          "image": "mannequin_D.png",
+          "group": null
+        }
+      ],
+      "drivers": [
+        {
+          "path": "nodes[\"Mix.004\"].inputs[0].default_value",
+          "expression": "location",
+          "variables": [
+            {
+              "name": "location",
+              "targets": [
+                {
+                  "id": "Adjustable Mannequin Menu",
+                  "path": "pose.bones[\"head style\"].location[0]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "material_slots": [
+    "Adjustable Mannequin",
+    "Cycles Outline"
+  ],
+  "vertex_groups": [
+    "trapezius",
+    "DEF-spine",
+    "DEF-spine.001",
+    "DEF-spine.002",
+    "DEF-spine.003",
+    "DEF-spine.004",
+    "DEF-spine.006",
+    "DEF-pelvis.L",
+    "DEF-pelvis.R",
+    "DEF-thigh.L",
+    "DEF-thigh.L.001",
+    "DEF-shin.L",
+    "DEF-shin.L.001",
+    "DEF-foot.L",
+    "DEF-toe.L",
+    "DEF-thigh.R",
+    "DEF-thigh.R.001",
+    "DEF-shin.R",
+    "DEF-shin.R.001",
+    "DEF-foot.R",
+    "DEF-toe.R",
+    "DEF-shoulder.L",
+    "DEF-upper_arm.L",
+    "DEF-upper_arm.L.001",
+    "DEF-forearm.L",
+    "DEF-forearm.L.001",
+    "DEF-hand.L",
+    "DEF-f_index.01.L",
+    "DEF-f_index.02.L",
+    "DEF-f_index.03.L",
+    "DEF-thumb.01.L",
+    "DEF-thumb.02.L",
+    "DEF-thumb.03.L",
+    "DEF-palm.01.L",
+    "DEF-f_middle.01.L",
+    "DEF-f_middle.02.L",
+    "DEF-f_middle.03.L",
+    "DEF-palm.02.L",
+    "DEF-f_ring.01.L",
+    "DEF-f_ring.02.L",
+    "DEF-f_ring.03.L",
+    "DEF-palm.03.L",
+    "DEF-f_pinky.01.L",
+    "DEF-f_pinky.02.L",
+    "DEF-f_pinky.03.L",
+    "DEF-palm.04.L",
+    "DEF-shoulder.R",
+    "DEF-upper_arm.R",
+    "DEF-upper_arm.R.001",
+    "DEF-forearm.R",
+    "DEF-forearm.R.001",
+    "DEF-hand.R",
+    "DEF-f_index.01.R",
+    "DEF-f_index.02.R",
+    "DEF-f_index.03.R",
+    "DEF-thumb.01.R",
+    "DEF-thumb.02.R",
+    "DEF-thumb.03.R",
+    "DEF-palm.01.R",
+    "DEF-f_middle.01.R",
+    "DEF-f_middle.02.R",
+    "DEF-f_middle.03.R",
+    "DEF-palm.02.R",
+    "DEF-f_ring.01.R",
+    "DEF-f_ring.02.R",
+    "DEF-f_ring.03.R",
+    "DEF-palm.03.R",
+    "DEF-f_pinky.01.R",
+    "DEF-f_pinky.02.R",
+    "DEF-f_pinky.03.R",
+    "DEF-palm.04.R",
+    "DEF-breast.L",
+    "DEF-breast.R"
+  ]
+}

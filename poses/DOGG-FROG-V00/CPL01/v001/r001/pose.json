@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "pose_id": "DOGG-FROG-V00",
+  "pair_id": "CPL01",
+  "pair_version": "v001",
+  "revision": 1,
+  "status": "draft",
+  "source_id": "SRC003",
+  "source_checkpoint": "20261122T013728Z",
+  "source_row_sha256": "aded345382334df26a2e06d7c288ea9e1427dde3a97282b0e2e41ef835180c81",
+  "source_parent_pose_id": "DOGG-FROG-V00",
+  "source_generation_gate": "PASS",
+  "source_catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+  "rig_map_id": "RIG001",
+  "rig_map_version": "v001",
+  "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+  "body_profile_id": "BP001",
+  "body_profile_version": "v001",
+  "accepted_at": null,
+  "issues": [
+    {
+      "code": "STANDING_INSTEAD_OF_KNEELING",
+      "detail": "B/L knee joint z 0.325m while posture=quadruped"
+    },
+    {
+      "code": "STANDING_INSTEAD_OF_KNEELING",
+      "detail": "B/R knee joint z 0.325m while posture=quadruped"
+    }
+  ],
+  "stability": "needs_work",
+  "geometry_reference_pass": false,
+  "usable_as_draft": true,
+  "appearance": {
+    "visual_profile_id": "VP001",
+    "visual_profile_version": "v001",
+    "actor_palette_ids": {
+      "A": "COOL01",
+      "B": "WARM01"
+    },
+    "mode": "regions",
+    "qa_regions_preview": "previews/qa-regions.png"
+  },
+  "artifacts": {
+    "scene": null,
+    "previews": [
+      "previews/front.png",
+      "previews/qa-regions.png",
+      "previews/side.png",
+      "previews/three-quarter.png"
+    ],
+    "validation": "validation.json",
+    "inputs": "inputs/"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "pose_id": "DOGG-CLSD-V00",
+  "attempt": 1,
+  "base_attempt": 0,
+  "created_utc": "20261123T134420Z",
+  "hypothesis": "Baseline preserves narrow knees and 67% palm coverage, but B hip is 0.438m (<0.47m target), pelvis_alignment is 0.410m, and B head_aim clamped at -9 deg with flat spine.",
+  "expected_effect": "Preserve narrow knee corridor while raising B tabletop hip height, adding subtle lumbar curve and positive gaze elevation, and tightening pelvis and palm contact.",
+  "visual_review_note": "Pending Attempt 01 render",
+  "status": "rendered",
+  "applied_changes": [
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0,
+        0.845
+      ],
+      "after": [
+        0,
+        0,
+        0.9
+      ],
+      "baseline": [
+        0,
+        0,
+        0.845
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "torso",
+        "field": "pitch_x_deg"
+      },
+      "before": 101,
+      "after": 95,
+      "baseline": 101
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "A",
+        "bone": "torso",
+        "field": "value"
+      },
+      "before": [
+        0,
+        0.37,
+        0.78
+      ],
+      "after": [
+        0,
+        0.34,
+        0.78
+      ],
+      "baseline": [
+        0,
+        0.37,
+        0.78
+      ]
+    },
+    {
+      "selector": {
+        "section": "controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -28,
+      "after": -40,
+      "baseline": -28
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "chest",
+        "field": "angle_deg"
+      },
+      "before": -6,
+      "after": -16,
+      "baseline": -6
+    },
+    {
+      "selector": {
+        "section": "styling_controls",
+        "actor": "B",
+        "bone": "neck",
+        "field": "angle_deg"
+      },
+      "before": -16,
+      "after": -30,
+      "baseline": -16
+    },
+    {
+      "selector": {
+        "section": "pelvic_alignment",
+        "field": "target_distance_m"
+      },
+      "before": 0.032,
+      "after": 0.02,
+      "baseline": 0.032
+    },
+    {
+      "selector": {
+        "section": "palm_surface_contact",
+        "field": "target_gap_m"
+      },
+      "before": 0.012,
+      "after": 0.008,
+      "baseline": 0.012
+    }
+  ],
+  "blender_returncode": 0,
+  "builder_rendered": true,
+  "builder_issues": [
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/L: z=0.0378 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "GROUND_SUPPORT_NOT_MET",
+      "detail": "B/hands/R: z=0.0378 m (expected 0.0040 ± 0.0260)"
+    },
+    {
+      "code": "PELVIS_TOO_LOW",
+      "detail": "B: min_hip_z_m=0.470m, actual=0.461m"
+    }
+  ],
+  "preview_count": 4,
+  "rig_targets_sha256": "cd446d13c2fbf326a049b3482fe612e655e86518a21712689df5fb1fee76a0c4",
+  "probe_status": "measured"
+}

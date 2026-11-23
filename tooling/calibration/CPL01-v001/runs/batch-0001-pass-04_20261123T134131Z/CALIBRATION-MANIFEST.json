@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "kind": "spose-calibration-run",
+  "run_utc": "20261123T134131Z",
+  "batch_label": "batch-0001",
+  "pass_label": "pass-04",
+  "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+  "rig_map_sha256": "2457ba1aba01c5041e55c15543d4a2cdd297e9afc37cc94f74c28e1bc09fb281",
+  "blender_executable": "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+  "note": "Read-only measurements; pose-specific scenes are inspected without saving any .blend",
+  "entries": [
+    {
+      "name": "neutral-rig",
+      "mode": "neutral",
+      "pose_id": null,
+      "status": "measured",
+      "source_scene": "pairs\\CPL01\\v001\\template.blend",
+      "returncode": 0,
+      "file": "neutral-rig.json",
+      "sha256": "5a09a0ad8d81a4e6c04fcbbcfc109be59ab414759b5d7ef2181203140b49d557"
+    },
+    {
+      "name": "DOGG-DOGG-V00",
+      "mode": "scene",
+      "pose_id": "DOGG-DOGG-V00",
+      "status": "measured",
+      "source_scene": "poses\\DOGG-DOGG-V00\\CPL01\\v001\\r005\\scene.blend",
+      "returncode": 0,
+      "file": "DOGG-DOGG-V00.json",
+      "sha256": "13e1ae2bc2116b6a5c3a9d059c652c60729512729bbccaa72f621238da842096"
+    },
+    {
+      "name": "DOGG-CLSD-V00",
+      "mode": "scene",
+      "pose_id": "DOGG-CLSD-V00",
+      "status": "measured",
+      "source_scene": "poses\\DOGG-CLSD-V00\\CPL01\\v001\\r004\\scene.blend",
+      "returncode": 0,
+      "file": "DOGG-CLSD-V00.json",
+      "sha256": "adb756c0f5016916a7fd646ced7f00f1325a867d950b919620a4be5a6e070f5d"
+    },
+    {
+      "name": "DOGG-DOWN-V00",
+      "mode": "scene",
+      "pose_id": "DOGG-DOWN-V00",
+      "status": "measured",
+      "source_scene": "poses\\DOGG-DOWN-V00\\CPL01\\v001\\r004\\scene.blend",
+      "returncode": 0,
+      "file": "DOGG-DOWN-V00.json",
+      "sha256": "4eecf2d691296b9884bae80a3f516ef7cefb578d10426d95ee6e6338318a133c"
+    },
+    {
+      "name": "DOGG-FCDN-V00",
+      "mode": "scene",
+      "pose_id": "DOGG-FCDN-V00",
+      "status": "measured",
+      "source_scene": "poses\\DOGG-FCDN-V00\\CPL01\\v001\\r003\\scene.blend",
+      "returncode": 0,
+      "file": "DOGG-FCDN-V00.json",
+      "sha256": "92fbc7c9ce5aa28b04c7fc434c09dc51baddb5bef9bcaab1d8aab8a09681a59e"
+    },
+    {
+      "name": "DOGG-FROG-V00",
+      "mode": "scene",
+      "pose_id": "DOGG-FROG-V00",
+      "status": "measured",
+      "source_scene": "poses\\DOGG-FROG-V00\\CPL01\\v001\\r003\\scene.blend",
+      "returncode": 0,
+      "file": "DOGG-FROG-V00.json",
+      "sha256": "6dd2d25a640f555fdde304f0c86a8b3e722b47c5086dec91e57d720a67011fb4"
+    }
+  ],
+  "files_sha256": {
+    "DOGG-CLSD-V00.json": "adb756c0f5016916a7fd646ced7f00f1325a867d950b919620a4be5a6e070f5d",
+    "DOGG-DOGG-V00.json": "13e1ae2bc2116b6a5c3a9d059c652c60729512729bbccaa72f621238da842096",
+    "DOGG-DOWN-V00.json": "4eecf2d691296b9884bae80a3f516ef7cefb578d10426d95ee6e6338318a133c",
+    "DOGG-FCDN-V00.json": "92fbc7c9ce5aa28b04c7fc434c09dc51baddb5bef9bcaab1d8aab8a09681a59e",
+    "DOGG-FROG-V00.json": "6dd2d25a640f555fdde304f0c86a8b3e722b47c5086dec91e57d720a67011fb4",
+    "neutral-rig.json": "5a09a0ad8d81a4e6c04fcbbcfc109be59ab414759b5d7ef2181203140b49d557"
+  },
+  "measurements_completed": 6,
+  "poses_measured": 5,
+  "all_requested_pose_probes_attempted": true
+}
