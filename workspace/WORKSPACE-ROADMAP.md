@@ -5,8 +5,8 @@
 
 **Direction:** Reverse catalog order (`UFDG` -> `UADG` -> `USDG` -> ... -> `DOGG`)  
 **Catalog:** `SRC003/v001` · 28 families · 276 V00 bases  
-**Workspace rendered:** 9/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
-**Updated (UTC):** `2026-11-23T16:50:03Z`
+**Workspace rendered:** 14/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
+**Updated (UTC):** `2026-11-23T17:12:01Z`
 
 ## Family Order (Backward Queue)
 
@@ -14,7 +14,7 @@
 |---:|---|---:|---:|---:|---:|---:|---|
 | 1 | `UFDG` | 5 | 3 | 5 | 0 | 0 | `pass-03:audited` |
 | 2 | `UADG` | 4 | 2 | 4 | 0 | 0 | `pass-02:audited` |
-| 3 | `USDG` | 5 | 0 | 0 | 0 | 0 | `queued` |
+| 3 | `USDG` | 5 | 1 | 5 | 0 | 0 | `pass-01:audited` |
 | 4 | `OFEL` | 20 | 0 | 0 | 0 | 0 | `queued` |
 | 5 | `OCUN` | 30 | 0 | 0 | 0 | 0 | `queued` |
 | 6 | `OSIX` | 11 | 0 | 0 | 0 | 0 | `queued` |
@@ -58,13 +58,13 @@
 - [x] `UADG-RELV-V00` — Rear elevated-leg hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
 - [x] `UADG-DUAL-V00` — Dual-platform asymmetric hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
 
-### USDG — 5 V00 poses (workspace passes: none)
+### USDG — 5 V00 poses (workspace passes: `pass-01` (audited))
 
-- [ ] `USDG-EDGE-V00` — Edge-supported standing hinge · ws: `not_started` · source `PASS`
-- [ ] `USDG-SURF-V00` — Torso-supported standing hinge · ws: `not_started` · source `PASS`
-- [ ] `USDG-WALL-V00` — Wall-supported standing hinge · ws: `not_started` · source `PASS`
-- [ ] `USDG-LOW-V00` — Low-surface standing hinge · ws: `not_started` · source `PASS`
-- [ ] `USDG-PULL-V00` — Rear-assisted hands-back standing hinge · ws: `not_started` · source `REVIEW`
+- [x] `USDG-EDGE-V00` — Edge-supported standing hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `USDG-SURF-V00` — Torso-supported standing hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `USDG-WALL-V00` — Wall-supported standing hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `USDG-LOW-V00` — Low-surface standing hinge · ws: `pass-01 rendered (1 issues)` · source `PASS`
+- [x] `USDG-PULL-V00` — Rear-assisted hands-back standing hinge · ws: `pass-01 rendered (0 issues)` · source `REVIEW`
 
 ### OFEL — 20 V00 poses (workspace passes: none)
 

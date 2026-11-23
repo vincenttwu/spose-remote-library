@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "geometry_contract_version": 2,
+  "engine": "rigify_floor_v2",
+  "pose_id": "USDG-LOW-V00",
+  "control_order": "root_then_torso_then_ik_then_contacts",
+  "pass_label": "workspace-pass-01",
+  "calibration_is_advisory": true,
+  "controls": [
+    {
+      "actor": "B",
+      "object_role": "root",
+      "space": "OBJECT_WORLD_LOCATION_M",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "actor": "A",
+      "object_role": "root",
+      "space": "OBJECT_WORLD_LOCATION_M",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "torso",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.0,
+        0.0,
+        0.96
+      ],
+      "pitch_x_deg": 110
+    },
+    {
+      "actor": "B",
+      "bone": "foot_ik.L",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.17,
+        0.02,
+        0.091
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": 6
+    },
+    {
+      "actor": "B",
+      "bone": "foot_ik.R",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        -0.17,
+        0.02,
+        0.091
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": -6
+    },
+    {
+      "actor": "B",
+      "bone": "thigh_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.19,
+        -0.52,
+        0.54
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "thigh_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.19,
+        -0.52,
+        0.54
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "space": "POSE_WORLD_HAND_FRAME",
+      "value": [
+        0.21,
+        -0.66,
+        0.5
+      ],
+      "direction_world": [
+        0.0,
+        -0.96,
+        -0.28
+      ],
+      "normal_world": [
+        -0.32,
+        0.28,
+        -0.9
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "space": "POSE_WORLD_HAND_FRAME",
+      "value": [
+        -0.21,
+        -0.66,
+        0.5
+      ],
+      "direction_world": [
+        0.0,
+        -0.96,
+        -0.28
+      ],
+      "normal_world": [
+        0.32,
+        0.28,
+        -0.9
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "upper_arm_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.3,
+        -0.5,
+        0.72
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "upper_arm_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.3,
+        -0.5,
+        0.72
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "neck",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -28
+    },
+    {
+      "actor": "B",
+      "bone": "head",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -34
+    },
+    {
+      "actor": "A",
+      "bone": "torso",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.0,
+        0.3,
+        0.96
+      ],
+      "pitch_x_deg": 70
+    },
+    {
+      "actor": "A",
+      "bone": "foot_ik.L",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.24,
+        0.34,
+        0.095
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": 12
+    },
+    {
+      "actor": "A",
+      "bone": "foot_ik.R",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        -0.24,
+        0.34,
+        0.095
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": -12
+    },
+    {
+      "actor": "A",
+      "bone": "thigh_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.28,
+        -0.12,
+        0.54
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "thigh_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.28,
+        -0.12,
+        0.54
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "upper_arm_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.54,
+        -0.08,
+        1.0
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "upper_arm_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.54,
+        -0.08,
+        1.0
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "neck",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -34
+    },
+    {
+      "actor": "A",
+      "bone": "head",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -38
+    },
+    {
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "space": "POSE_RELATIVE_BONE_HEAD_HAND",
+      "value": [
+        0.118,
+        0.08,
+        0.045
+      ],
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.L",
+      "direction_world": [
+        -0.42,
+        -0.84,
+        -0.34
+      ],
+      "normal_world": [
+        -0.82,
+        0.22,
+        -0.53
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "space": "POSE_RELATIVE_BONE_HEAD_HAND",
+      "value": [
+        -0.118,
+        0.08,
+        0.045
+      ],
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.R",
+      "direction_world": [
+        0.42,
+        -0.84,
+        -0.34
+      ],
+      "normal_world": [
+        0.82,
+        0.22,
+        -0.53
+      ]
+    }
+  ],
+  "styling_controls": [
+    {
+      "actor": "B",
+      "bone": "chest",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -8
+    },
+    {
+      "actor": "A",
+      "bone": "chest",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -12
+    }
+  ],
+  "head_aim": {
+    "actor": "B",
+    "target_elevation_deg": -8,
+    "max_delta_deg": 60,
+    "reference": "RIG001_forward_-Y_world_rest_to_pose_delta",
+    "objective": "face_forward_low_fold"
+  },
+  "floor_calibration": [
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "L",
+      "adjust_bone": "foot_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "R",
+      "adjust_bone": "foot_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "L",
+      "adjust_bone": "foot_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "R",
+      "adjust_bone": "foot_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    }
+  ],
+  "pelvic_alignment": {
+    "actor": "A",
+    "target_actor": "B",
+    "region": "pelvis",
+    "target_distance_m": 0.065,
+    "max_forward_shift_m": 0.1,
+    "iterations": 6
+  },
+  "support_assertions": [
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    }
+  ],
+  "posture_assertions": [
+    {
+      "actor": "A",
+      "kind": "standing",
+      "min_knee_joint_z_m": 0.32,
+      "min_hip_z_m": 0.78,
+      "max_hip_z_m": 1.24
+    },
+    {
+      "actor": "B",
+      "kind": "forward_fold_standing",
+      "min_knee_joint_z_m": 0.32,
+      "min_hip_z_m": 0.74,
+      "max_hip_z_m": 1.2,
+      "min_head_drop_below_hip_m": 0.08
+    }
+  ]
+}
