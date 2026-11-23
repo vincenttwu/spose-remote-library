@@ -6,14 +6,14 @@
 **Direction:** Reverse catalog order (`UFDG` -> `UADG` -> `USDG` -> ... -> `DOGG`)  
 **Catalog:** `SRC003/v001` · 28 families · 276 V00 bases  
 **Workspace rendered:** 9/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
-**Updated (UTC):** `2026-11-23T16:41:31Z`
+**Updated (UTC):** `2026-11-23T16:50:03Z`
 
 ## Family Order (Backward Queue)
 
 | Order | Family | V00 Total | Workspace Passes | WS Rendered | WS Promoted | Main Lib Built | Status |
 |---:|---|---:|---:|---:|---:|---:|---|
 | 1 | `UFDG` | 5 | 3 | 5 | 0 | 0 | `pass-03:audited` |
-| 2 | `UADG` | 4 | 1 | 4 | 0 | 0 | `pass-01:audited` |
+| 2 | `UADG` | 4 | 2 | 4 | 0 | 0 | `pass-02:audited` |
 | 3 | `USDG` | 5 | 0 | 0 | 0 | 0 | `queued` |
 | 4 | `OFEL` | 20 | 0 | 0 | 0 | 0 | `queued` |
 | 5 | `OCUN` | 30 | 0 | 0 | 0 | 0 | `queued` |
@@ -51,12 +51,12 @@
 - [x] `UFDG-QUAD-V00` — Standard quadruped with rear frog squat · ws: `pass-03 rendered (0 issues)` · source `PASS`
 - [x] `UFDG-FFRG-V00` — Front frog with rear frog squat · ws: `pass-03 rendered (0 issues)` · source `PASS`
 
-### UADG — 4 V00 poses (workspace passes: `pass-01` (audited))
+### UADG — 4 V00 poses (workspace passes: `pass-01` (audited), `pass-02` (audited))
 
-- [x] `UADG-FELV-V00` — Asymmetric front-leg elevated hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
-- [x] `UADG-FASS-V00` — Rear-assisted front-leg hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
-- [x] `UADG-RELV-V00` — Rear elevated-leg hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
-- [x] `UADG-DUAL-V00` — Dual-platform asymmetric hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `UADG-FELV-V00` — Asymmetric front-leg elevated hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
+- [x] `UADG-FASS-V00` — Rear-assisted front-leg hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
+- [x] `UADG-RELV-V00` — Rear elevated-leg hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
+- [x] `UADG-DUAL-V00` — Dual-platform asymmetric hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
 
 ### USDG — 5 V00 poses (workspace passes: none)
 

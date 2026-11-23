@@ -13,7 +13,7 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T16:41:31Z",
+  "updated_utc": "2026-11-23T16:50:03Z",
   "families": {
     "UFDG": {
       "passes": {
@@ -341,6 +341,77 @@
           "audit_completed": true,
           "audit_score": 4.5,
           "audit_notes": "UADG Pass 01 blind QA: 4.5/10 (RELV 6.0, DUAL 5.0, FELV 4.0, FASS 3.0). P0 rework needed for FASS leg-cradle contact + foot collision, FELV knee-through-wrist clip, DUAL shared sofa foot Z mismatch + B elbow-knee graze, and systemic softer standing knees / closer A lean / edge-braced B palms.",
+          "promoted": false,
+          "promotion_ref": null
+        },
+        "pass-02": {
+          "pass_dir": "batches/UADG/pass-02",
+          "status": "audited",
+          "plan_file": "batches/UADG/pass-02/plan.json",
+          "audit_md": "batches/UADG/pass-02/AUDIT.md",
+          "pass_summary": "batches/UADG/pass-02/pass-summary.json",
+          "audit_bundle_zip": "batches/UADG/pass-02/audit-bundle.zip",
+          "package_count": 4,
+          "packages": [
+            {
+              "file": "batches/UADG/pass-02/packages/UADG-DUAL-V00_20261123T164500Z.zip",
+              "pose_id": "UADG-DUAL-V00",
+              "sha256": "64417b6d5567695fc6b1cab777825444d6b7bf4f7ccd69d544d06b56522bc731",
+              "bytes": 3803
+            },
+            {
+              "file": "batches/UADG/pass-02/packages/UADG-FASS-V00_20261123T164500Z.zip",
+              "pose_id": "UADG-FASS-V00",
+              "sha256": "4fec838bbb3e733c58b24b6ca30e322ce3d342b70f8d1d2b938ae2bfe41a5436",
+              "bytes": 3902
+            },
+            {
+              "file": "batches/UADG/pass-02/packages/UADG-FELV-V00_20261123T164500Z.zip",
+              "pose_id": "UADG-FELV-V00",
+              "sha256": "799029f6add10367d6fea5aa3d6ea8566fdf0b1176cf3438d31f672656df4eb2",
+              "bytes": 3836
+            },
+            {
+              "file": "batches/UADG/pass-02/packages/UADG-RELV-V00_20261123T164500Z.zip",
+              "pose_id": "UADG-RELV-V00",
+              "sha256": "63ea4d108fcf479541d46248fe6c946db25b2efa2da1dc83de5bb30a31263bfc",
+              "bytes": 3819
+            }
+          ],
+          "rendered_count": 4,
+          "renders": {
+            "UADG-DUAL-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-02/renders/UADG-DUAL-V00/blender-result.json"
+            },
+            "UADG-FASS-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-02/renders/UADG-FASS-V00/blender-result.json"
+            },
+            "UADG-FELV-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-02/renders/UADG-FELV-V00/blender-result.json"
+            },
+            "UADG-RELV-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UADG/pass-02/renders/UADG-RELV-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 6.4,
+          "audit_notes": "UADG Pass 02 blind QA: 6.4/10 (+1.9 vs Pass 01). All Pass 01 P0s resolved (RELV 7.0, DUAL 7.0, FELV 6.0, FASS 5.5). Targeted Pass 03 recommended for softer standing knees, closer A torso lean, shoulder fingertip clearance, and FASS cradle-hand polish.",
           "promoted": false,
           "promotion_ref": null
         }
