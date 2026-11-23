@@ -13,7 +13,7 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T15:43:18Z",
+  "updated_utc": "2026-11-23T16:31:00Z",
   "families": {
     "UFDG": {
       "passes": {
@@ -182,6 +182,90 @@
           "audit_completed": true,
           "audit_score": 6.7,
           "audit_notes": "Pass 02 blind QA: 6.7/10 (+2.0 vs Pass 01). All Pass 01 P0s solved (ELBW 7.5, WCHD 6.8, FWCH 6.8, FFRG 6.8); targeted Pass 03 needed for A face-to-back clip (severe in QUAD 5.5) and B flat floor palms.",
+          "promoted": false,
+          "promotion_ref": null
+        },
+        "pass-03": {
+          "pass_dir": "batches/UFDG/pass-03",
+          "status": "audited",
+          "plan_file": "batches/UFDG/pass-03/plan.json",
+          "audit_md": "batches/UFDG/pass-03/AUDIT.md",
+          "pass_summary": "batches/UFDG/pass-03/pass-summary.json",
+          "audit_bundle_zip": "batches/UFDG/pass-03/audit-bundle.zip",
+          "package_count": 5,
+          "packages": [
+            {
+              "file": "batches/UFDG/pass-03/packages/UFDG-ELBW-V00_20261123T162501Z.zip",
+              "pose_id": "UFDG-ELBW-V00",
+              "sha256": "ff89f1d8b976ac79da37302366f1b6073bd5581acb1e9807108ec7a1ace3182e",
+              "bytes": 3834
+            },
+            {
+              "file": "batches/UFDG/pass-03/packages/UFDG-FFRG-V00_20261123T162501Z.zip",
+              "pose_id": "UFDG-FFRG-V00",
+              "sha256": "fba0a274ef6604aed14d7fc888ced1dad9ad6e9d222163e61a73a7321a15e339",
+              "bytes": 3746
+            },
+            {
+              "file": "batches/UFDG/pass-03/packages/UFDG-FWCH-V00_20261123T162501Z.zip",
+              "pose_id": "UFDG-FWCH-V00",
+              "sha256": "92154e7abb8eac782b40dd5ec6ac79d512d35207b25d5b39354efddc123f7ddc",
+              "bytes": 3786
+            },
+            {
+              "file": "batches/UFDG/pass-03/packages/UFDG-QUAD-V00_20261123T162501Z.zip",
+              "pose_id": "UFDG-QUAD-V00",
+              "sha256": "4cafb896dc93e0feaba31366f9f370255374275842b93884c07f7a42924245c3",
+              "bytes": 3792
+            },
+            {
+              "file": "batches/UFDG/pass-03/packages/UFDG-WCHD-V00_20261123T162501Z.zip",
+              "pose_id": "UFDG-WCHD-V00",
+              "sha256": "369adc953f5cee445fff4c2966924da1ac120ec0c20653855ad22bc8e7a5a474",
+              "bytes": 3799
+            }
+          ],
+          "rendered_count": 5,
+          "renders": {
+            "UFDG-ELBW-V00": {
+              "rendered": true,
+              "issue_count": 1,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-03/renders/UFDG-ELBW-V00/blender-result.json"
+            },
+            "UFDG-FFRG-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-03/renders/UFDG-FFRG-V00/blender-result.json"
+            },
+            "UFDG-FWCH-V00": {
+              "rendered": true,
+              "issue_count": 1,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-03/renders/UFDG-FWCH-V00/blender-result.json"
+            },
+            "UFDG-QUAD-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-03/renders/UFDG-QUAD-V00/blender-result.json"
+            },
+            "UFDG-WCHD-V00": {
+              "rendered": true,
+              "issue_count": 1,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-03/renders/UFDG-WCHD-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 8.1,
+          "audit_notes": "Pass 03 blind QA: 8.1/10 (+1.4 vs Pass 02, +3.4 vs Pass 01). Zero P0/P1 defects (QUAD 8.4, FFRG 8.2, WCHD 8.0, ELBW 7.9, FWCH 7.8). Ready for user review / optional promotion; only minor P2 side-view palm-heel hover remains.",
           "promoted": false,
           "promotion_ref": null
         }

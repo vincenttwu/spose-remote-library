@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "geometry_contract_version": 2,
+  "engine": "rigify_floor_v2",
+  "pose_id": "UFDG-FFRG-V00",
+  "control_order": "root_then_torso_then_ik_then_contacts",
+  "pass_label": "workspace-pass-03",
+  "calibration_is_advisory": true,
+  "controls": [
+    {
+      "actor": "B",
+      "object_role": "root",
+      "space": "OBJECT_WORLD_LOCATION_M",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "torso",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.0,
+        0.0,
+        0.44
+      ],
+      "pitch_x_deg": 106
+    },
+    {
+      "actor": "B",
+      "bone": "foot_ik.L",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.34,
+        0.06,
+        0.088
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": 28
+    },
+    {
+      "actor": "B",
+      "bone": "foot_ik.R",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        -0.34,
+        0.06,
+        0.088
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": -28
+    },
+    {
+      "actor": "B",
+      "bone": "thigh_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.68,
+        -0.26,
+        0.16
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "thigh_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.68,
+        -0.26,
+        0.16
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "hand_ik.L",
+      "space": "POSE_WORLD_HAND_FRAME",
+      "value": [
+        0.22,
+        -0.58,
+        0.018
+      ],
+      "direction_world": [
+        0.0,
+        -0.906,
+        -0.423
+      ],
+      "normal_world": [
+        -0.41,
+        0.386,
+        -0.827
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "hand_ik.R",
+      "space": "POSE_WORLD_HAND_FRAME",
+      "value": [
+        -0.22,
+        -0.58,
+        0.018
+      ],
+      "direction_world": [
+        0.0,
+        -0.906,
+        -0.423
+      ],
+      "normal_world": [
+        0.41,
+        0.386,
+        -0.827
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "upper_arm_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.28,
+        -0.32,
+        0.22
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "upper_arm_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.28,
+        -0.32,
+        0.22
+      ]
+    },
+    {
+      "actor": "B",
+      "bone": "neck",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -24
+    },
+    {
+      "actor": "B",
+      "bone": "head",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -30
+    },
+    {
+      "actor": "A",
+      "object_role": "root",
+      "space": "OBJECT_WORLD_LOCATION_M",
+      "value": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "torso",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.0,
+        0.43,
+        0.43
+      ],
+      "pitch_x_deg": 67
+    },
+    {
+      "actor": "A",
+      "bone": "foot_ik.L",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        0.44,
+        0.46,
+        0.09
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": 28
+    },
+    {
+      "actor": "A",
+      "bone": "foot_ik.R",
+      "space": "POSE_WORLD_HEAD_ROT_X_DEG",
+      "value": [
+        -0.44,
+        0.46,
+        0.09
+      ],
+      "pitch_x_deg": 0,
+      "yaw_z_deg": -28
+    },
+    {
+      "actor": "A",
+      "bone": "thigh_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        1.0,
+        0.04,
+        0.3
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "thigh_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -1.0,
+        0.04,
+        0.3
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "upper_arm_ik_target.L",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        0.66,
+        -0.06,
+        0.62
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "upper_arm_ik_target.R",
+      "space": "POSE_WORLD_HEAD_M",
+      "value": [
+        -0.66,
+        -0.06,
+        0.62
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "neck",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -32.0
+    },
+    {
+      "actor": "A",
+      "bone": "head",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -36.0
+    },
+    {
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "space": "POSE_RELATIVE_BONE_HEAD_HAND",
+      "value": [
+        0.105,
+        0.1,
+        0.045
+      ],
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.L",
+      "direction_world": [
+        -0.45,
+        -0.8,
+        -0.39
+      ],
+      "normal_world": [
+        -0.8,
+        0.25,
+        -0.54
+      ]
+    },
+    {
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "space": "POSE_RELATIVE_BONE_HEAD_HAND",
+      "value": [
+        -0.105,
+        0.1,
+        0.045
+      ],
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.R",
+      "direction_world": [
+        0.45,
+        -0.8,
+        -0.39
+      ],
+      "normal_world": [
+        0.8,
+        0.25,
+        -0.54
+      ]
+    }
+  ],
+  "styling_controls": [
+    {
+      "actor": "B",
+      "bone": "chest",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -10
+    },
+    {
+      "actor": "A",
+      "bone": "chest",
+      "space": "POSE_LOCAL_REST_AXIS_ROT_X_DEG",
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "angle_deg": -10
+    }
+  ],
+  "head_aim": {
+    "actor": "B",
+    "target_elevation_deg": 2,
+    "max_delta_deg": 60,
+    "reference": "RIG001_forward_-Y_world_rest_to_pose_delta",
+    "objective": "face_forward_clear_of_floor"
+  },
+  "floor_calibration": [
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "L",
+      "adjust_bone": "foot_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "R",
+      "adjust_bone": "foot_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "L",
+      "adjust_bone": "hand_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.024,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "R",
+      "adjust_bone": "hand_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.024,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "L",
+      "adjust_bone": "foot_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "R",
+      "adjust_bone": "foot_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.025,
+      "max_total_shift_m": 0.22,
+      "iterations": 6
+    }
+  ],
+  "final_support_calibration": [
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "L",
+      "adjust_bone": "hand_ik.L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.02,
+      "max_total_shift_m": 0.1,
+      "iterations": 5
+    },
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "R",
+      "adjust_bone": "hand_ik.R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.02,
+      "max_total_shift_m": 0.1,
+      "iterations": 5
+    }
+  ],
+  "pelvic_alignment": {
+    "actor": "A",
+    "target_actor": "B",
+    "region": "pelvis",
+    "target_distance_m": 0.08,
+    "max_forward_shift_m": 0.08,
+    "iterations": 6
+  },
+  "support_assertions": [
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "B",
+      "region": "feet",
+      "side": "R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.024
+    },
+    {
+      "actor": "B",
+      "region": "hands",
+      "side": "R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.024
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "L",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    },
+    {
+      "actor": "A",
+      "region": "feet",
+      "side": "R",
+      "target_z_m": 0.004,
+      "tolerance_m": 0.028
+    }
+  ],
+  "posture_assertions": [
+    {
+      "actor": "A",
+      "kind": "low_wide_hands_feet",
+      "min_hip_z_m": 0.25,
+      "max_hip_z_m": 0.56
+    },
+    {
+      "actor": "B",
+      "kind": "low_wide_hands_feet",
+      "min_hip_z_m": 0.26,
+      "max_hip_z_m": 0.65,
+      "min_head_z_m": 0.2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UFDG-WCHD-V00",
+  "package_timestamp_utc": "20261123T162501Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "54a6ec273728f9e5ed207308ac143e2c2b5ae5e883311a177e768e9d1e5782f0",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "3ed91692fe13032fff4a1a50497b47b09710932c28dfeefbdd039342c62f7ba0",
+    "pose.json": "71949a86cd7aab6f94e8304fb108877e0bb97629802d4689a200c30d3855fcbd",
+    "rig-targets.json": "5c02f67fa6c85f095f4a8f8b86a7c31eb0960d91a448d7b755c642a3c32a5133"
+  }
+}

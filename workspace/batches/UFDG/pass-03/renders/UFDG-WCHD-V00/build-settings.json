@@ -1,0 +1,8 @@
+{
+  "pose_id": "UFDG-WCHD-V00",
+  "output": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\workspace\\batches\\UFDG\\pass-03\\renders\\UFDG-WCHD-V00",
+  "template_file": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\studies\\VP001-v001\\appearance-study.blend",
+  "fallback_template": "C:\\Users\\hyper\\Documents\\GitHub\\spose-remote-library\\pairs\\CPL01\\v001\\template.blend",
+  "save_blend": true,
+  "render_config": null
+}

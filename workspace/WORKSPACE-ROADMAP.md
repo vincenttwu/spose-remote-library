@@ -6,13 +6,13 @@
 **Direction:** Reverse catalog order (`UFDG` -> `UADG` -> `USDG` -> ... -> `DOGG`)  
 **Catalog:** `SRC003/v001` · 28 families · 276 V00 bases  
 **Workspace rendered:** 5/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
-**Updated (UTC):** `2026-11-23T15:43:18Z`
+**Updated (UTC):** `2026-11-23T16:31:00Z`
 
 ## Family Order (Backward Queue)
 
 | Order | Family | V00 Total | Workspace Passes | WS Rendered | WS Promoted | Main Lib Built | Status |
 |---:|---|---:|---:|---:|---:|---:|---|
-| 1 | `UFDG` | 5 | 2 | 5 | 0 | 0 | `pass-02:audited` |
+| 1 | `UFDG` | 5 | 3 | 5 | 0 | 0 | `pass-03:audited` |
 | 2 | `UADG` | 4 | 0 | 0 | 0 | 0 | `queued` |
 | 3 | `USDG` | 5 | 0 | 0 | 0 | 0 | `queued` |
 | 4 | `OFEL` | 20 | 0 | 0 | 0 | 0 | `queued` |
@@ -43,13 +43,13 @@
 
 ## Per-Family Pose Checklist (Backward Order)
 
-### UFDG — 5 V00 poses (workspace passes: `pass-01` (audited), `pass-02` (audited))
+### UFDG — 5 V00 poses (workspace passes: `pass-01` (audited), `pass-02` (audited), `pass-03` (audited))
 
-- [x] `UFDG-FWCH-V00` — Forward child-like floor hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
-- [x] `UFDG-WCHD-V00` — Wide child-like floor hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
-- [x] `UFDG-ELBW-V00` — Forearm-supported low hinge · ws: `pass-02 rendered (0 issues)` · source `PASS`
-- [x] `UFDG-QUAD-V00` — Standard quadruped with rear frog squat · ws: `pass-02 rendered (0 issues)` · source `PASS`
-- [x] `UFDG-FFRG-V00` — Front frog with rear frog squat · ws: `pass-02 rendered (0 issues)` · source `PASS`
+- [x] `UFDG-FWCH-V00` — Forward child-like floor hinge · ws: `pass-03 rendered (1 issues)` · source `PASS`
+- [x] `UFDG-WCHD-V00` — Wide child-like floor hinge · ws: `pass-03 rendered (1 issues)` · source `PASS`
+- [x] `UFDG-ELBW-V00` — Forearm-supported low hinge · ws: `pass-03 rendered (1 issues)` · source `PASS`
+- [x] `UFDG-QUAD-V00` — Standard quadruped with rear frog squat · ws: `pass-03 rendered (0 issues)` · source `PASS`
+- [x] `UFDG-FFRG-V00` — Front frog with rear frog squat · ws: `pass-03 rendered (0 issues)` · source `PASS`
 
 ### UADG — 4 V00 poses (workspace passes: none)
 
