@@ -25,10 +25,15 @@
 *.jpg
 *.jpeg
 
-# Generated feedback/handoff archives (keep small data-only pose packages in incoming/)
+# Generated feedback/handoff archives (keep small data-only pose packages in incoming/ and workspace/)
 *.zip
 !/incoming/*.zip
 !/incoming/**/*.zip
+!/workspace/**/packages/*.zip
+
+# Disposable workspace review images and audit archives
+/workspace/**/review/
+/workspace/**/audit-bundle.zip
 
 # Python & OS artifacts
 **/__pycache__/

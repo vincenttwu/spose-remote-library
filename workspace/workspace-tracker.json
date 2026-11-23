@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "kind": "spose_workspace_backward_tracker",
+  "non_authoritative_notice": "Experimental workspace-only tracker. Does not alter top-level tracking/progress.sqlite or ROADMAP.md.",
+  "direction": "backward_from_roadmap_end",
+  "catalog_reference": {
+    "source_id": "SRC003",
+    "source_revision": "v001",
+    "source_checkpoint": "20261122T013728Z",
+    "catalog_sha256": "a8fa0f89656dbc8505cdf6af64fc707ae377726bf1bfa3ea1bb72585720e10a6",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
+  },
+  "created_utc": "2026-11-23T15:22:24Z",
+  "updated_utc": "2026-11-23T15:22:52Z",
+  "families": {}
+}
