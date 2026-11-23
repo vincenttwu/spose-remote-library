@@ -5,14 +5,14 @@
 
 **Direction:** Reverse catalog order (`UFDG` -> `UADG` -> `USDG` -> ... -> `DOGG`)  
 **Catalog:** `SRC003/v001` · 28 families · 276 V00 bases  
-**Workspace rendered:** 0/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
-**Updated (UTC):** `2026-11-23T15:22:52Z`
+**Workspace rendered:** 5/276 · **Promoted from workspace:** 0 · **Main library built (read-only ref):** 5/276  
+**Updated (UTC):** `2026-11-23T15:33:12Z`
 
 ## Family Order (Backward Queue)
 
 | Order | Family | V00 Total | Workspace Passes | WS Rendered | WS Promoted | Main Lib Built | Status |
 |---:|---|---:|---:|---:|---:|---:|---|
-| 1 | `UFDG` | 5 | 0 | 0 | 0 | 0 | `queued` |
+| 1 | `UFDG` | 5 | 1 | 5 | 0 | 0 | `pass-01:audited` |
 | 2 | `UADG` | 4 | 0 | 0 | 0 | 0 | `queued` |
 | 3 | `USDG` | 5 | 0 | 0 | 0 | 0 | `queued` |
 | 4 | `OFEL` | 20 | 0 | 0 | 0 | 0 | `queued` |
@@ -43,13 +43,13 @@
 
 ## Per-Family Pose Checklist (Backward Order)
 
-### UFDG — 5 V00 poses (workspace passes: none)
+### UFDG — 5 V00 poses (workspace passes: `pass-01` (audited))
 
-- [ ] `UFDG-FWCH-V00` — Forward child-like floor hinge · ws: `not_started` · source `PASS`
-- [ ] `UFDG-WCHD-V00` — Wide child-like floor hinge · ws: `not_started` · source `PASS`
-- [ ] `UFDG-ELBW-V00` — Forearm-supported low hinge · ws: `not_started` · source `PASS`
-- [ ] `UFDG-QUAD-V00` — Standard quadruped with rear frog squat · ws: `not_started` · source `PASS`
-- [ ] `UFDG-FFRG-V00` — Front frog with rear frog squat · ws: `not_started` · source `PASS`
+- [x] `UFDG-FWCH-V00` — Forward child-like floor hinge · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `UFDG-WCHD-V00` — Wide child-like floor hinge · ws: `pass-01 rendered (1 issues)` · source `PASS`
+- [x] `UFDG-ELBW-V00` — Forearm-supported low hinge · ws: `pass-01 rendered (1 issues)` · source `PASS`
+- [x] `UFDG-QUAD-V00` — Standard quadruped with rear frog squat · ws: `pass-01 rendered (0 issues)` · source `PASS`
+- [x] `UFDG-FFRG-V00` — Front frog with rear frog squat · ws: `pass-01 rendered (0 issues)` · source `PASS`
 
 ### UADG — 4 V00 poses (workspace passes: none)
 

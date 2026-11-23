@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pose_id": "UFDG-WCHD-V00",
+  "status": "proposal",
+  "batch_id": "WORKSPACE-UFDG-V00-PASS01",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Wide child-like floor hinge",
+  "source_gate": "PASS",
+  "source_complexity_pose": "4",
+  "specification": "GEOMETRY ROOT — [ACTOR_1] behind [ACTOR_2] in a deep wide-footed frog squat: both feet grounded, knees wide and strongly bent, pelvis oriented toward [ACTOR_2], torso angled forward sufficiently for the specified upper-body arm contact. Keep distinct feet, shins, knees, pelvis and forearm paths; never reinterpret the rear as kneeling.\n\nFRONT BASE WCHD — Front knees clearly wide; trunk lowered between thighs, long forward arms and an elevated pelvic silhouette when achievable. Knee width changes hip opening and range, without mandating an exact hip height.\n\nFLOOR SUPPORT — Both front knees and lower shins support on [FLOOR], knees set wider than hip-width with thighs externally rotated; front palms reach forward on [FLOOR] while the chest lowers between the widened legs.\n\nFAMILY INVARIANT — Front hip hinge, gentle inward lower-back contour and mild anterior pelvic tilt where compatible; rear deep wide-footed squat, both rear feet grounded, never rear kneeling; one continuous floor and no furniture.\n\nV00 CUSTOM BASELINE — Rear forearms reach forward outside the front upper arms; rear palms settle at the outer shoulders and turn inward. Keep the two upper torsos visually close.\n\nFRONT ARM / REAR ARM COMPATIBILITY — Front support remains as named in the base; back-directed arm movement is absent in this variant. Rear forearms reach forward outside the front upper arms; rear palms settle at the outer shoulders and turn inward. Keep the two upper torsos visually close.\n\nSPATIAL CLEARANCE — Front hips can sit above chest within achievable knee and torso range; keep rear squat feet visible, head clear and limb entry paths plausible. No support contact may vanish without the specified load transfer.\n\nCUSTOM SOURCE — Text-only custom extension concept derived from DOGG floor-posture categories and the USDG/UADG custom rear-arm taxonomy; no photo, generated image, physical trial or successful render is asserted.\n\n((UFDG-WCHD-V00))",
+  "approach": "Workspace experimental Pass 01 authoring using rigify_floor_v2; rear deep wide-footed frog squat with outer-shoulder palm placement.",
+  "expected_support": {
+    "A": "both feet grounded wide in deep frog squat (never kneeling)",
+    "B": "both knees/lower shins clearly wider than hip-width on floor; chest lowered between thighs; palms long forward on floor"
+  },
+  "pass_label": "pass-01",
+  "workspace_experimental": true
+}

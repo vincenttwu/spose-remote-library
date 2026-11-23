@@ -13,6 +13,95 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T15:22:24Z",
-  "updated_utc": "2026-11-23T15:22:52Z",
-  "families": {}
+  "updated_utc": "2026-11-23T15:33:12Z",
+  "families": {
+    "UFDG": {
+      "passes": {
+        "pass-01": {
+          "pass_dir": "batches/UFDG/pass-01",
+          "status": "audited",
+          "plan_file": "batches/UFDG/pass-01/plan.json",
+          "audit_md": "batches/UFDG/pass-01/AUDIT.md",
+          "pass_summary": "batches/UFDG/pass-01/pass-summary.json",
+          "audit_bundle_zip": "batches/UFDG/pass-01/audit-bundle.zip",
+          "package_count": 5,
+          "packages": [
+            {
+              "file": "batches/UFDG/pass-01/packages/UFDG-ELBW-V00_20261123T152651Z.zip",
+              "pose_id": "UFDG-ELBW-V00",
+              "sha256": "3fb62d904c14f6e7d97ff105cb21eb0d9bbbe78eb83036986be6f770e2fdf652",
+              "bytes": 3736
+            },
+            {
+              "file": "batches/UFDG/pass-01/packages/UFDG-FFRG-V00_20261123T152651Z.zip",
+              "pose_id": "UFDG-FFRG-V00",
+              "sha256": "5d9f600a56a3cf54598378a5505e14f2278ada243fcdd00d094865e50fb14280",
+              "bytes": 3707
+            },
+            {
+              "file": "batches/UFDG/pass-01/packages/UFDG-FWCH-V00_20261123T152651Z.zip",
+              "pose_id": "UFDG-FWCH-V00",
+              "sha256": "7b99a197d66f2068104b4e7f66c4d10c83153b17f87f243783edc07c8bef6cb2",
+              "bytes": 3641
+            },
+            {
+              "file": "batches/UFDG/pass-01/packages/UFDG-QUAD-V00_20261123T152651Z.zip",
+              "pose_id": "UFDG-QUAD-V00",
+              "sha256": "06d07c816b44fda90df02b73939c012e8b8e4e83437327819a6c38c0c0318a78",
+              "bytes": 3764
+            },
+            {
+              "file": "batches/UFDG/pass-01/packages/UFDG-WCHD-V00_20261123T152651Z.zip",
+              "pose_id": "UFDG-WCHD-V00",
+              "sha256": "f67da7ce7bcf355df01477ab8ba7ccb78126fc6f3523307944ee8fbba41f597c",
+              "bytes": 3650
+            }
+          ],
+          "rendered_count": 5,
+          "renders": {
+            "UFDG-ELBW-V00": {
+              "rendered": true,
+              "issue_count": 1,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-01/renders/UFDG-ELBW-V00/blender-result.json"
+            },
+            "UFDG-FFRG-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-01/renders/UFDG-FFRG-V00/blender-result.json"
+            },
+            "UFDG-FWCH-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-01/renders/UFDG-FWCH-V00/blender-result.json"
+            },
+            "UFDG-QUAD-V00": {
+              "rendered": true,
+              "issue_count": 0,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-01/renders/UFDG-QUAD-V00/blender-result.json"
+            },
+            "UFDG-WCHD-V00": {
+              "rendered": true,
+              "issue_count": 1,
+              "preview_count": 4,
+              "scene_blend_present": true,
+              "result_file": "batches/UFDG/pass-01/renders/UFDG-WCHD-V00/blender-result.json"
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 4.7,
+          "audit_notes": "Independent blind QA audit: 5/5 rendered; P0 fixes needed on WCHD (hand-arm clip + face floor clip), ELBW (floating elbows), FFRG (forearm-knee clip); deepen A squat and refine palms in Pass 02.",
+          "promoted": false,
+          "promotion_ref": null
+        }
+      }
+    }
+  }
 }

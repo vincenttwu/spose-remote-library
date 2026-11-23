@@ -1,0 +1,18 @@
+CMD: C:\Program Files\Blender Foundation\Blender 5.2\blender.exe --background --factory-startup --python-exit-code 1 --python C:\Users\hyper\Documents\GitHub\spose-remote-library\scripts\blender_build.py -- --settings C:\Users\hyper\Documents\GitHub\spose-remote-library\workspace\batches\UFDG\pass-01\renders\UFDG-FWCH-V00\build-settings.json
+EXIT: 0
+
+--- STDOUT ---
+00:00.500  blend            | Read blend: "C:\Users\hyper\Documents\GitHub\spose-remote-library\pairs\CPL01\v001\studies\VP001-v001\appearance-study.blend"
+00:07.860  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\workspace\batches\UFDG\pass-01\renders\UFDG-FWCH-V00\previews\front.png'
+00:08.797  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\workspace\batches\UFDG\pass-01\renders\UFDG-FWCH-V00\previews\side.png'
+00:09.703  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\workspace\batches\UFDG\pass-01\renders\UFDG-FWCH-V00\previews\three-quarter.png'
+00:10.657  render           | Saved: 'C:\Users\hyper\Documents\GitHub\spose-remote-library\workspace\batches\UFDG\pass-01\renders\UFDG-FWCH-V00\previews\qa-regions.png'
+Info: Saved as "scene.blend"
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+scripts disabled for "C:\Users\hyper\Documents\GitHub\spose-remote-library\pairs\CPL01\v001\studies\VP001-v001\appearance-study.blend", skipping 'rig.004_ui.py'
+
+Blender quit
+
+
+--- STDERR ---
+

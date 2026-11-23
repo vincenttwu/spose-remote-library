@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "anchors": [
+    {
+      "id": "pelvis_proximity",
+      "actor": "A",
+      "bone": "hips",
+      "target_actor": "B",
+      "target_bone": "hips",
+      "tolerance_m": 0.45
+    },
+    {
+      "id": "left_rear_palm_to_front_outer_shoulder",
+      "actor": "A",
+      "bone": "hand_ik.L",
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.L",
+      "tolerance_m": 0.16
+    },
+    {
+      "id": "right_rear_palm_to_front_outer_shoulder",
+      "actor": "A",
+      "bone": "hand_ik.R",
+      "target_actor": "B",
+      "target_bone": "DEF-upper_arm.R",
+      "tolerance_m": 0.16
+    }
+  ],
+  "note": "UFDG-WCHD-V00 Pass 01: wide child-like front, rear deep frog squat, palms at B outer shoulders."
+}

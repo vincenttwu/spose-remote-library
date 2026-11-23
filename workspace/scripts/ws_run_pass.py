@@ -67,8 +67,7 @@ def validate_pass_packages(pass_dir: Path) -> list[dict]:
 
     validated = []
     for zpath in ordered_zips:
-        data = pose_common.load_package(zpath, validate_dependencies=True)
-        manifest = data["manifest.json"]
+        manifest, data = pose_common.load_package(zpath, validate_dependencies=True)
         validated.append(
             {
                 "pose_id": manifest["pose_id"],
