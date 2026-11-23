@@ -3,7 +3,7 @@
   "kind": "spose_workspace_roadmap",
   "non_authoritative": true,
   "direction": "backward_from_roadmap_end",
-  "updated_utc": "2026-11-23T18:10:06Z",
+  "updated_utc": "2026-11-23T19:51:55Z",
   "catalog_reference": {
     "source_id": "SRC003",
     "source_revision": "v001",
@@ -14,12 +14,12 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "active_exchange": {
-    "batch_label": "batch-0003",
-    "pass_label": "pass-04",
-    "family": "USDG",
-    "snapshot_dir": "snapshots/batch-0003-pass-04_20261123T180510Z",
-    "feedback_zip": "snapshots/batch-0003-pass-04_20261123T180510Z/spose-workspace-feedback-batch-0003-pass-04_20261123T181004Z.zip",
-    "activated_utc": "2026-11-23T18:10:05Z"
+    "batch_label": "batch-0002",
+    "pass_label": "pass-03",
+    "family": "UADG",
+    "snapshot_dir": "snapshots/batch-0002-pass-03_20261123T194646Z",
+    "feedback_zip": "snapshots/batch-0002-pass-03_20261123T194646Z/spose-workspace-feedback-batch-0002-pass-03_20261123T195152Z.zip",
+    "activated_utc": "2026-11-23T19:51:53Z"
   },
   "summary": {
     "families_total": 28,
@@ -120,8 +120,8 @@
       "pose_name": "Asymmetric front-leg elevated hinge",
       "generation_gate": "PASS",
       "workspace_built": true,
-      "workspace_latest_revision": "r002",
-      "workspace_revision_count": 2,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
       "main_library_built": false
     },
     {
@@ -130,8 +130,8 @@
       "pose_name": "Rear-assisted front-leg hinge",
       "generation_gate": "PASS",
       "workspace_built": true,
-      "workspace_latest_revision": "r002",
-      "workspace_revision_count": 2,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
       "main_library_built": false
     },
     {
@@ -140,8 +140,8 @@
       "pose_name": "Rear elevated-leg hinge",
       "generation_gate": "PASS",
       "workspace_built": true,
-      "workspace_latest_revision": "r002",
-      "workspace_revision_count": 2,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
       "main_library_built": false
     },
     {
@@ -150,8 +150,8 @@
       "pose_name": "Dual-platform asymmetric hinge",
       "generation_gate": "PASS",
       "workspace_built": true,
-      "workspace_latest_revision": "r002",
-      "workspace_revision_count": 2,
+      "workspace_latest_revision": "r003",
+      "workspace_revision_count": 3,
       "main_library_built": false
     },
     {

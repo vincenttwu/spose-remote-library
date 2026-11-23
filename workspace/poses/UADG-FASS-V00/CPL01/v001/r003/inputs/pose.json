@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "pose_id": "UADG-FASS-V00",
+  "status": "proposal",
+  "batch_id": "WORKSPACE-BATCH-0002-PASS-03",
+  "source_checkpoint": "20261122T013728Z",
+  "source_id": "SRC003",
+  "actor_mapping": {
+    "ACTOR_1": "A",
+    "ACTOR_2": "B"
+  },
+  "pose_name": "Rear-assisted front-leg hinge",
+  "source_gate": "PASS",
+  "source_complexity_pose": "4",
+  "specification": "GEOMETRY ROOT — [ACTOR_1] is positioned immediately behind [ACTOR_2] in a close rear-aligned standing hinge. [ACTOR_2] bends forward through the hip joints with mild anterior pelvic tilt, a gentle inward lumbar line, and softly flexed knees; avoid a rounded upper/lower-back silhouette. Both actors retain their assigned body and furniture support contacts.\n\nBASE SUPPORT GEOMETRY — USER-SUPPLIED DESIGN CONSTRAINTS, not image-observed: [ACTOR_2] keeps one leg raised while [ACTOR_1] supports that leg with one arm, producing an asymmetric standing hinge more demanding than USDG. The raised leg may surface-plant, remain suspended, or fold inward according to the variant. FRONT SUPPORT: One foot of [ACTOR_2] stays grounded on [FLOOR]; the opposite leg is lifted and externally supported by [ACTOR_1] at the knee, shin, calf, or ankle depending on the variation. A forward edge or armrest may provide additional front support when specified. REAR SUPPORT: Both feet of [ACTOR_1] stay on [FLOOR]; one forearm or hand supports the elevated leg of [ACTOR_2].\n\nSTRUCTURAL VARIATION — The user-specified baseline keeps one front leg rear-assisted and one foot grounded, with optional forward hand support.\n\nV00 REAR ARM DEFAULT — One rear arm remains dedicated to supporting the lifted front leg; the other rear hand reaches forward to cup a front outer shoulder/upper arm with an inward-facing palm. Baseline rear-arm placement; no additional variation angle.\n\nARM AVAILABILITY — One rear arm remains on the elevated front leg at all times; only the free rear arm performs the named contact. No two-rear-hand chest wrap, face cup plus hip cup, or other impossible simultaneous contact is assigned.\n\nINHERITANCE AND SUPPORT — Preserve the exact named leg/surface support topology and independent balance anchors from the base. Parent: UADG-FASS-V00. No paired inheritance change.\n\nSOURCE BOUNDARY — User-designed text geometry, no source photograph or demonstrated physical pose; geometry and model fidelity remain untested.\n\n((UADG-FASS-V00))",
+  "approach": "Workspace batch-0002 (UADG) Pass 03 calibrated with USDG Pass 04 pelvis-cupping, lower front pelvis, relaxed knees, extended tucked A arms, and FASS cradle polish.",
+  "expected_support": {
+    "A": "both feet flat on floor (relaxed knees ~147 deg); pelvis cupping above B's lower-set hips; LEFT palm cradles smoothly under B's lifted knee/calf; RIGHT extended tucked arm on B.R outer deltoid",
+    "B": "right foot flat on floor (relaxed bent knee ~132 deg); left leg raised forward/outward & cradled by A.L palm; hands braced flat on ~0.72m edge"
+  },
+  "pass_label": "pass-03",
+  "workspace_experimental": true
+}

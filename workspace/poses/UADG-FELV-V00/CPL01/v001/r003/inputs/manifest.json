@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "package_type": "spose_pose_module",
+  "pose_id": "UADG-FELV-V00",
+  "package_timestamp_utc": "20261123T194437Z",
+  "dependencies": {
+    "source_id": "SRC003",
+    "source_checkpoint": "20261122T013728Z",
+    "source_row_sha256": "0f080a50ac00834c4eabb47af9ae6c174a820eef8207e7085572d876a0cb2223",
+    "pair_id": "CPL01",
+    "pair_version": "v001",
+    "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0",
+    "rig_map_id": "RIG001",
+    "rig_map_version": "v001"
+  },
+  "payload_sha256": {
+    "contacts.json": "bb41ea8503a35fb71d2cc6a87de2a3e4fe4e61c59b59e54732c59c0a62aad0bd",
+    "pose.json": "e00392847c0137a2026aa43d63d50e67df5e0c3c1e93f948a79ebf7f7c6e0af5",
+    "rig-targets.json": "4a6b389a429d4ae36b2ddc8099e0509e531ae2c9b4a88a62a59ada87723ee512"
+  }
+}

@@ -13,14 +13,14 @@
     "template_sha256": "154ca2f56e4daf23f85ad788a55aacd4849ecd3a19ab7cf1dbadcf4f2cb229d0"
   },
   "created_utc": "2026-11-23T17:28:48Z",
-  "updated_utc": "2026-11-23T18:10:06Z",
+  "updated_utc": "2026-11-23T19:51:55Z",
   "active_exchange": {
-    "batch_label": "batch-0003",
-    "pass_label": "pass-04",
-    "family": "USDG",
-    "snapshot_dir": "snapshots/batch-0003-pass-04_20261123T180510Z",
-    "feedback_zip": "snapshots/batch-0003-pass-04_20261123T180510Z/spose-workspace-feedback-batch-0003-pass-04_20261123T181004Z.zip",
-    "activated_utc": "2026-11-23T18:10:05Z"
+    "batch_label": "batch-0002",
+    "pass_label": "pass-03",
+    "family": "UADG",
+    "snapshot_dir": "snapshots/batch-0002-pass-03_20261123T194646Z",
+    "feedback_zip": "snapshots/batch-0002-pass-03_20261123T194646Z/spose-workspace-feedback-batch-0002-pass-03_20261123T195152Z.zip",
+    "activated_utc": "2026-11-23T19:51:53Z"
   },
   "batches": {
     "batch-0001": {
@@ -347,6 +347,61 @@
           "audit_notes": "UADG Pass 02 blind QA: 6.4/10 (+1.9 vs Pass 01). All Pass 01 P0s resolved (RELV 7.0, DUAL 7.0, FELV 6.0, FASS 5.5). Targeted Pass 03 recommended for softer standing knees, closer A torso lean, shoulder fingertip clearance, and FASS cradle-hand polish.",
           "promoted": false,
           "promotion_ref": null
+        },
+        "pass-03": {
+          "pass_label": "pass-03",
+          "status": "audited",
+          "plan_file": "batches/BATCH-0002-PASS-03.json",
+          "snapshot_dir": "snapshots/batch-0002-pass-03_20261123T194646Z",
+          "run_utc": "2026-11-23T19:46:46Z",
+          "batch_summary": "snapshots/batch-0002-pass-03_20261123T194646Z/batch-summary.json",
+          "audit_md": "snapshots/batch-0002-pass-03_20261123T194646Z/AUDIT.md",
+          "feedback_zip": "snapshots/batch-0002-pass-03_20261123T194646Z/spose-workspace-feedback-batch-0002-pass-03_20261123T195152Z.zip",
+          "pose_count": 4,
+          "rendered_count": 4,
+          "pose_revisions": {
+            "UADG-FELV-V00": {
+              "revision": "r003",
+              "revision_path": "poses/UADG-FELV-V00/CPL01/v001/r003",
+              "package": "UADG-FELV-V00_20261123T194437Z.zip",
+              "package_sha256": "bfa9817b1da757c79d5bc924f8d7da4a7cb8848c35114c5b5e0a12d909f9e676",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "UADG-FASS-V00": {
+              "revision": "r003",
+              "revision_path": "poses/UADG-FASS-V00/CPL01/v001/r003",
+              "package": "UADG-FASS-V00_20261123T194437Z.zip",
+              "package_sha256": "9a5c3b262527a20b65c6406b905e18ce70ded38acdec14ec91f7f1d886aa7633",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "UADG-RELV-V00": {
+              "revision": "r003",
+              "revision_path": "poses/UADG-RELV-V00/CPL01/v001/r003",
+              "package": "UADG-RELV-V00_20261123T194437Z.zip",
+              "package_sha256": "9a312ba955a3c334d0da063163e32344b764e5acac4a35d70f9173d92f90263c",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            },
+            "UADG-DUAL-V00": {
+              "revision": "r003",
+              "revision_path": "poses/UADG-DUAL-V00/CPL01/v001/r003",
+              "package": "UADG-DUAL-V00_20261123T194437Z.zip",
+              "package_sha256": "6c363c8cc3695c7c705c4907795cc50470d436bd054caadb5d43012140160809",
+              "rendered": true,
+              "issue_count": 0,
+              "reused_existing_package": false
+            }
+          },
+          "audit_completed": true,
+          "audit_score": 8.78,
+          "audit_notes": "Blind QA 8.78/10 (+2.38 vs Pass 02, 0 P0 / 0 P1 / 0 JSON issues): RELV 8.9, DUAL 8.9, FELV 8.8, FASS 8.5 (+3.0). All 4/4 promotion-ready with lower-set front pelvis cupping, relaxed knees, extended tucked A arms, and clean FASS leg cradle.",
+          "promoted": false,
+          "promotion_ref": null
         }
       }
     },
@@ -625,8 +680,8 @@
       "pose_id": "UADG-DUAL-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r002",
-      "revision_count": 2,
+      "latest_revision": "r003",
+      "revision_count": 3,
       "built": true,
       "revisions": {
         "r001": {
@@ -648,6 +703,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/UADG-DUAL-V00/CPL01/v001/r002/blender-result.json"
+        },
+        "r003": {
+          "revision": "r003",
+          "path": "poses/UADG-DUAL-V00/CPL01/v001/r003",
+          "package_timestamp_utc": "20261123T194437Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/UADG-DUAL-V00/CPL01/v001/r003/blender-result.json"
         }
       }
     },
@@ -655,8 +720,8 @@
       "pose_id": "UADG-FASS-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r002",
-      "revision_count": 2,
+      "latest_revision": "r003",
+      "revision_count": 3,
       "built": true,
       "revisions": {
         "r001": {
@@ -678,6 +743,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/UADG-FASS-V00/CPL01/v001/r002/blender-result.json"
+        },
+        "r003": {
+          "revision": "r003",
+          "path": "poses/UADG-FASS-V00/CPL01/v001/r003",
+          "package_timestamp_utc": "20261123T194437Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/UADG-FASS-V00/CPL01/v001/r003/blender-result.json"
         }
       }
     },
@@ -685,8 +760,8 @@
       "pose_id": "UADG-FELV-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r002",
-      "revision_count": 2,
+      "latest_revision": "r003",
+      "revision_count": 3,
       "built": true,
       "revisions": {
         "r001": {
@@ -708,6 +783,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/UADG-FELV-V00/CPL01/v001/r002/blender-result.json"
+        },
+        "r003": {
+          "revision": "r003",
+          "path": "poses/UADG-FELV-V00/CPL01/v001/r003",
+          "package_timestamp_utc": "20261123T194437Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/UADG-FELV-V00/CPL01/v001/r003/blender-result.json"
         }
       }
     },
@@ -715,8 +800,8 @@
       "pose_id": "UADG-RELV-V00",
       "pair_id": "CPL01",
       "pair_version": "v001",
-      "latest_revision": "r002",
-      "revision_count": 2,
+      "latest_revision": "r003",
+      "revision_count": 3,
       "built": true,
       "revisions": {
         "r001": {
@@ -738,6 +823,16 @@
           "preview_count": 4,
           "scene_blend_present": true,
           "result_file": "poses/UADG-RELV-V00/CPL01/v001/r002/blender-result.json"
+        },
+        "r003": {
+          "revision": "r003",
+          "path": "poses/UADG-RELV-V00/CPL01/v001/r003",
+          "package_timestamp_utc": "20261123T194437Z",
+          "rendered": true,
+          "issue_count": 0,
+          "preview_count": 4,
+          "scene_blend_present": true,
+          "result_file": "poses/UADG-RELV-V00/CPL01/v001/r003/blender-result.json"
         }
       }
     },

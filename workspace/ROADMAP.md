@@ -6,16 +6,16 @@
 **Direction:** Reverse catalog order (`UFDG` -> `UADG` -> `USDG` -> `OFEL` -> ... -> `DOGG`)  
 **Catalog:** `SRC003/v001` · 28 families · 276 V00 bases  
 **Workspace built:** 14/276 across 3 sequential batches · **Promoted:** 0 · **Main library built (read-only ref):** 5/276  
-**Active workspace exchange (`review/` & `upload/`):** `batch-0003` / `pass-04` (`snapshots/batch-0003-pass-04_20261123T180510Z`)  
+**Active workspace exchange (`review/` & `upload/`):** `batch-0002` / `pass-03` (`snapshots/batch-0002-pass-03_20261123T194646Z`)  
 **Next sequential batch:** `batch-0004` (`OFEL`: OFEL-C01-V00, OFEL-C02-V00, OFEL-C03-V00, OFEL-C04-V00, OFEL-C05-V00)  
-**Updated (UTC):** `2026-11-23T18:10:06Z`
+**Updated (UTC):** `2026-11-23T19:51:55Z`
 
 ## Sequential Workspace Batches
 
 | Batch | Family | Poses | Passes | Latest Pass | Latest Score | Status | Latest Snapshot |
 |---|---|---:|---:|---|---:|---|---|
 | `batch-0001` | `UFDG` | 5 | 3 | `pass-03` | 8.10/10 | `audited` | `snapshots/batch-0001-pass-03_20261123T162610Z` |
-| `batch-0002` | `UADG` | 4 | 2 | `pass-02` | 6.40/10 | `audited` | `snapshots/batch-0002-pass-02_20261123T164540Z` |
+| `batch-0002` | `UADG` | 4 | 3 | `pass-03` | 8.78/10 | `audited` | `snapshots/batch-0002-pass-03_20261123T194646Z` |
 | `batch-0003` | `USDG` | 5 | 4 | `pass-04` | 8.70/10 | `audited` | `snapshots/batch-0003-pass-04_20261123T180510Z` |
 
 ## Family Queue (Backward Order)
@@ -63,10 +63,10 @@
 
 ### UADG — 4 V00 poses
 
-- [x] `UADG-FELV-V00` — Asymmetric front-leg elevated hinge · ws: `poses/UADG-FELV-V00/CPL01/v001/r002` (0 issues) · source `PASS`
-- [x] `UADG-FASS-V00` — Rear-assisted front-leg hinge · ws: `poses/UADG-FASS-V00/CPL01/v001/r002` (0 issues) · source `PASS`
-- [x] `UADG-RELV-V00` — Rear elevated-leg hinge · ws: `poses/UADG-RELV-V00/CPL01/v001/r002` (0 issues) · source `PASS`
-- [x] `UADG-DUAL-V00` — Dual-platform asymmetric hinge · ws: `poses/UADG-DUAL-V00/CPL01/v001/r002` (0 issues) · source `PASS`
+- [x] `UADG-FELV-V00` — Asymmetric front-leg elevated hinge · ws: `poses/UADG-FELV-V00/CPL01/v001/r003` (0 issues) · source `PASS`
+- [x] `UADG-FASS-V00` — Rear-assisted front-leg hinge · ws: `poses/UADG-FASS-V00/CPL01/v001/r003` (0 issues) · source `PASS`
+- [x] `UADG-RELV-V00` — Rear elevated-leg hinge · ws: `poses/UADG-RELV-V00/CPL01/v001/r003` (0 issues) · source `PASS`
+- [x] `UADG-DUAL-V00` — Dual-platform asymmetric hinge · ws: `poses/UADG-DUAL-V00/CPL01/v001/r003` (0 issues) · source `PASS`
 
 ### USDG — 5 V00 poses
 
