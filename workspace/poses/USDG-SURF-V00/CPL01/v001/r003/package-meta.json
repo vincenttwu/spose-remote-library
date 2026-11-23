@@ -1,0 +1,10 @@
+{
+  "pose_id": "USDG-SURF-V00",
+  "revision": "r003",
+  "package": "USDG-SURF-V00_20261123T174650Z.zip",
+  "package_sha256": "889b2b85fed21785edf8291ceee94374130a44d1a13b3ccaaf65ebe83a5803bc",
+  "package_timestamp_utc": "20261123T174650Z",
+  "batch_label": "batch-0003",
+  "pass_label": "pass-03",
+  "imported_utc": "2026-11-23T17:47:05Z"
+}
